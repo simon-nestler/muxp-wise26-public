@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 560" role="img" aria-labelledby="t d">
+  <title id="t">The conflict case: two devices edit the same record offline; at sync, two states meet and one truth is needed</title>
+  <desc id="d">Schema of a sync conflict. On the left, one shared record. Two arrows diverge to Device A and Device B. In a shaded zone labeled offline, each device makes its own edit, producing state A and state B. Both arrows converge on the right into a highlighted sync node marked with a question mark and the caption: two states, one truth needed.</desc>
+  <style>
+    text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill: #031121; }
+    .h { font-size: 26px; font-weight: 700; }
+    .lbl { font-size: 22px; font-weight: 600; }
+    .meta { font-size: 18px; fill: #5a6472; }
+    .box { fill: #ffffff; stroke: #5a6472; stroke-width: 2; }
+    .state { fill: #e5effb; stroke: #5a6472; stroke-width: 1.5; }
+    .flow { stroke: #031121; stroke-width: 2.5; fill: none; }
+  </style>
+  <rect width="1200" height="560" fill="#ffffff"/>
+
+  <!-- offline zone -->
+  <rect x="330" y="60" width="500" height="440" fill="#f3f3f3"/>
+  <line x1="330" y1="60" x2="330" y2="500" stroke="#c7cdd4" stroke-width="2" stroke-dasharray="8 6"/>
+  <line x1="830" y1="60" x2="830" y2="500" stroke="#c7cdd4" stroke-width="2" stroke-dasharray="8 6"/>
+  <text x="580" y="95" class="meta" text-anchor="middle">offline – no connection between the devices</text>
+
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#031121"/>
+    </marker>
+  </defs>
+
+  <!-- shared record -->
+  <rect x="60" y="240" width="200" height="80" rx="8" class="box"/>
+  <text x="160" y="275" class="lbl" text-anchor="middle">one record</text>
+  <text x="160" y="303" class="meta" text-anchor="middle">shared state</text>
+
+  <!-- diverge -->
+  <path class="flow" d="M 260 265 C 320 220, 350 190, 400 175" marker-end="url(#arrow)"/>
+  <path class="flow" d="M 260 295 C 320 340, 350 370, 400 385" marker-end="url(#arrow)"/>
+
+  <!-- device A -->
+  <rect x="405" y="130" width="230" height="90" rx="8" class="box"/>
+  <text x="520" y="168" class="lbl" text-anchor="middle">Device A</text>
+  <text x="520" y="196" class="meta" text-anchor="middle">edits the record</text>
+  <rect x="665" y="140" width="130" height="70" rx="8" class="state"/>
+  <text x="730" y="182" class="lbl" text-anchor="middle">state A</text>
+  <path class="flow" d="M 635 175 L 660 175" marker-end="url(#arrow)"/>
+
+  <!-- device B -->
+  <rect x="405" y="340" width="230" height="90" rx="8" class="box"/>
+  <text x="520" y="378" class="lbl" text-anchor="middle">Device B</text>
+  <text x="520" y="406" class="meta" text-anchor="middle">edits the record</text>
+  <rect x="665" y="350" width="130" height="70" rx="8" class="state"/>
+  <text x="730" y="392" class="lbl" text-anchor="middle">state B</text>
+  <path class="flow" d="M 635 385 L 660 385" marker-end="url(#arrow)"/>
+
+  <!-- converge -->
+  <path class="flow" d="M 795 175 C 880 200, 920 235, 965 262" marker-end="url(#arrow)"/>
+  <path class="flow" d="M 795 385 C 880 360, 920 325, 965 298" marker-end="url(#arrow)"/>
+
+  <!-- sync node -->
+  <circle cx="1020" cy="280" r="52" fill="#fcd430" stroke="#031121" stroke-width="2.5"/>
+  <text x="1020" y="296" text-anchor="middle" style="font-size: 44px; font-weight: 700;">?</text>
+  <text x="1020" y="370" class="h" text-anchor="middle">sync</text>
+  <text x="1020" y="400" class="meta" text-anchor="middle">two states,</text>
+  <text x="1020" y="424" class="meta" text-anchor="middle">one truth needed</text>
+</svg>

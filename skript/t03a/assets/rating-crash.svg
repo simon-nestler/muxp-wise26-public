@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 560" role="img" aria-labelledby="t d">
+  <title id="t">Version rating of a mobile app in spring 2026: stable at 3.24 stars, then a fall to 1.54 stars within weeks of a redesign release</title>
+  <desc id="d">Schematic line chart. The vertical axis shows the version rating from 1 to 5 stars, the horizontal axis the weeks from March to May 2026. The line runs flat at 3.24 stars, drops steeply after a dashed release marker, and settles at 1.54 stars. A yellow chip highlights the loss of 1.70 stars.</desc>
+  <style>
+    text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill: #031121; }
+    .h { font-size: 26px; font-weight: 700; }
+    .q { font-size: 18px; fill: #5a6472; }
+    .ax { font-size: 20px; fill: #5a6472; }
+    .v { font-size: 22px; font-weight: 700; }
+    .grid { stroke: #c7cdd4; stroke-width: 1; }
+  </style>
+  <rect width="1200" height="560" fill="#ffffff"/>
+
+  <text class="h" x="40" y="46">One app&#8217;s version rating &#183; spring 2026</text>
+  <text class="q" x="40" y="76">Version rating, not cumulative &#183; scale 1 to 5 stars &#183; app name withheld</text>
+
+  <!-- grid -->
+  <line class="grid" x1="100" y1="100"   x2="1140" y2="100"/>
+  <line class="grid" x1="100" y1="192.5" x2="1140" y2="192.5"/>
+  <line class="grid" x1="100" y1="285"   x2="1140" y2="285"/>
+  <line class="grid" x1="100" y1="377.5" x2="1140" y2="377.5"/>
+  <line class="grid" x1="100" y1="470"   x2="1140" y2="470"/>
+  <text class="ax" x="88" y="107"   text-anchor="end">5 &#9733;</text>
+  <text class="ax" x="88" y="200"   text-anchor="end">4 &#9733;</text>
+  <text class="ax" x="88" y="292"   text-anchor="end">3 &#9733;</text>
+  <text class="ax" x="88" y="385"   text-anchor="end">2 &#9733;</text>
+  <text class="ax" x="88" y="477"   text-anchor="end">1 &#9733;</text>
+  <text class="ax" x="220" y="505" text-anchor="middle">March</text>
+  <text class="ax" x="560" y="505" text-anchor="middle">April</text>
+  <text class="ax" x="940" y="505" text-anchor="middle">May 2026</text>
+
+  <!-- release marker -->
+  <line x1="520" y1="100" x2="520" y2="470" stroke="#5a6472" stroke-width="1.5" stroke-dasharray="5 7"/>
+  <text class="q" x="532" y="126">the redesign ships</text>
+
+  <!-- rating line -->
+  <path d="M100,263 H520 C570,263 590,420 680,420 H1140" fill="none" stroke="#1a2f6e" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="100" cy="263" r="7" fill="#1a2f6e"/>
+  <circle cx="1140" cy="420" r="7" fill="#1a2f6e"/>
+  <text class="v" x="112" y="240">3.24</text>
+  <text class="v" x="1128" y="452" text-anchor="end">1.54</text>
+
+  <!-- delta chip -->
+  <rect x="760" y="296" width="164" height="46" rx="8" fill="#fcd430"/>
+  <text x="842" y="327" text-anchor="middle" font-size="22" font-weight="700" fill="#031121">&#8722;1.70 &#9733;</text>
+
+  <text class="q" x="40" y="540">Schematic &#8211; curve shape illustrative; endpoints 3.24 &#8594; 1.54 from MWM version-rating data, April 2026.</text>
+</svg>

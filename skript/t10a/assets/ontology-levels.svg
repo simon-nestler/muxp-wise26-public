@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 560" role="img" aria-labelledby="t d">
+  <title id="t">Gray et al. (CHI 2024): three ontology levels – two designs share the low level and differ at the strategy level</title>
+  <desc id="d">Schema of the three-level dark-patterns ontology. Three horizontal bands: high-level strategy, meso-level pattern, low-level implementation. Two design columns share an identical low-level implementation – the same countdown widget – and an identical meso-level urgency pattern, but differ at the strategy level: honest inventory (true stock, persuasion) versus manufactured panic (timer resets per visitor, manipulation). The strategy-level difference is highlighted.</desc>
+  <style>
+    text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill: #031121; }
+    .band { font-size: 21px; font-weight: 700; fill: #5a6472; }
+    .bandsub { font-size: 16px; fill: #5a6472; }
+    .box { fill: #1a2f6e; }
+    .boxtext { font-size: 21px; font-weight: 700; fill: #ffffff; }
+    .boxsub { font-size: 16px; fill: #dfe5ff; }
+    .accent { fill: #fcd430; }
+    .accenttext { font-size: 21px; font-weight: 700; fill: #031121; }
+    .accentsub { font-size: 16px; fill: #4a4630; }
+    .same { font-size: 17px; font-weight: 700; fill: #5a6472; }
+    .line { stroke: #c7cdd4; stroke-width: 1.5; }
+    .link { stroke: #5a6472; stroke-width: 2; fill: none; }
+    .hint { font-size: 17px; fill: #5a6472; }
+  </style>
+  <rect width="1200" height="560" fill="#ffffff"/>
+
+  <!-- Band separators -->
+  <line class="line" x1="40" y1="180" x2="1160" y2="180"/>
+  <line class="line" x1="40" y1="330" x2="1160" y2="330"/>
+
+  <!-- Band labels -->
+  <text class="band" x="40" y="66">High-level strategy</text>
+  <text class="bandsub" x="40" y="92">why the design does it</text>
+  <text class="band" x="40" y="216">Meso-level pattern</text>
+  <text class="bandsub" x="40" y="242">what the design does</text>
+  <text class="band" x="40" y="366">Low-level implementation</text>
+  <text class="bandsub" x="40" y="392">how it is built on screen</text>
+
+  <!-- Strategy level: two boxes, the difference -->
+  <rect class="box" x="360" y="42" width="360" height="96"/>
+  <text class="boxtext" x="380" y="82">Honest inventory</text>
+  <text class="boxsub" x="380" y="110">true stock · persuasion</text>
+
+  <rect class="accent" x="770" y="42" width="390" height="96"/>
+  <text class="accenttext" x="790" y="82">Manufactured panic</text>
+  <text class="accentsub" x="790" y="110">timer resets per visitor · manipulation</text>
+
+  <!-- Meso level: one shared pattern -->
+  <rect class="box" x="360" y="205" width="800" height="80"/>
+  <text class="boxtext" x="380" y="240">Urgency / scarcity display</text>
+  <text class="boxsub" x="380" y="266">same pattern family in both designs</text>
+
+  <!-- Low level: one shared implementation -->
+  <rect class="box" x="360" y="355" width="800" height="80"/>
+  <text class="boxtext" x="380" y="390">The same countdown widget</text>
+  <text class="boxsub" x="380" y="416">&#8220;Offer ends in 2:59&#8221; &#8211; pixel-identical in both designs</text>
+
+  <!-- Links -->
+  <path class="link" d="M 540 205 L 540 138"/>
+  <path class="link" d="M 965 205 L 965 138"/>
+  <path class="link" d="M 760 355 L 760 285"/>
+
+  <text class="same" x="40" y="470">Identical at the low and meso level &#183; different at the strategy level</text>
+  <text class="hint" x="40" y="500">You did not judge differently &#8211; you judged different things: the vote splits along the level you looked at.</text>
+  <text class="hint" x="40" y="530">Levels: Gray, Santos, Bielova, Mildner &#8211; An Ontology of Dark Patterns Knowledge, CHI 2024.</text>
+</svg>

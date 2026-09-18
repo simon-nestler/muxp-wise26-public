@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 560" role="img" aria-labelledby="t d">
+  <title id="t">The map of evidence kinds: the for side finds announcements, investments and capability demos; the against side finds usage data, retention and revenue – below, the question: who profits from which prediction?</title>
+  <desc id="d">Two columns. The left column, headed "what the for side finds", lists announcements, investments and capability demos; beneath it, in grey: whoever sells agents needs substitution. The right column, headed "what the against side finds", lists usage data, retention and revenue; beneath it: whoever sells app-market data needs continuity. A yellow band at the bottom carries the question: who profits from which prediction?</desc>
+  <style>
+    text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill: #031121; }
+    .colh { font-size: 23px; font-weight: 700; fill: #ffffff; }
+    .item { font-size: 21px; }
+    .sub { font-size: 17px; fill: #5a6472; }
+    .q { font-size: 24px; font-weight: 700; fill: #031121; }
+    .box { fill: #ffffff; stroke: #c7cdd4; stroke-width: 1.5; }
+  </style>
+  <rect width="1200" height="560" fill="#ffffff"/>
+
+  <!-- Left column: the for side -->
+  <rect x="70" y="60" width="500" height="58" rx="10" fill="#031121"/>
+  <text class="colh" x="94" y="97">what the "for" side finds</text>
+  <rect class="box" x="70" y="140" width="500" height="48" rx="8"/>
+  <text class="item" x="94" y="171">Announcements</text>
+  <rect class="box" x="70" y="202" width="500" height="48" rx="8"/>
+  <text class="item" x="94" y="233">Investments</text>
+  <rect class="box" x="70" y="264" width="500" height="48" rx="8"/>
+  <text class="item" x="94" y="295">Capability demos</text>
+  <text class="sub" x="72" y="352">whoever sells agents needs substitution</text>
+
+  <!-- Right column: the against side -->
+  <rect x="630" y="60" width="500" height="58" rx="10" fill="#031121"/>
+  <text class="colh" x="654" y="97">what the "against" side finds</text>
+  <rect class="box" x="630" y="140" width="500" height="48" rx="8"/>
+  <text class="item" x="654" y="171">Usage data</text>
+  <rect class="box" x="630" y="202" width="500" height="48" rx="8"/>
+  <text class="item" x="654" y="233">Retention</text>
+  <rect class="box" x="630" y="264" width="500" height="48" rx="8"/>
+  <text class="item" x="654" y="295">Revenue</text>
+  <text class="sub" x="632" y="352">whoever sells app-market data needs continuity</text>
+
+  <!-- The question -->
+  <rect x="70" y="420" width="1060" height="66" rx="12" fill="#FCD430"/>
+  <text class="q" x="600" y="462" text-anchor="middle">Who profits from which prediction?</text>
+</svg>

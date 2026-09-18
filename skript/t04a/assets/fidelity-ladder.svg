@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 560" role="img" aria-labelledby="t d">
+  <title id="t">The fidelity ladder: sketch, wireframe, click dummy, coded prototype, production – and what each rung lies about</title>
+  <desc id="d">Five ascending steps from sketch to production. Above each prototype rung a note names what it lies about: the sketch about timing and gestures, the wireframe about real content and visual weight, the click dummy about data and performance, the coded prototype about the distance to production. The production step is grayed out and marked as not a prototype.</desc>
+  <style>
+    text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill: #031121; }
+    .step-label { font-size: 22px; font-weight: 700; fill: #ffffff; }
+    .step { fill: #1a2f6e; }
+    .lie-head { font-size: 17px; fill: #5a6472; }
+    .lie { font-size: 19px; font-weight: 600; fill: #031121; }
+    .tick { stroke: #fcd430; stroke-width: 5; }
+    .prod { fill: #e5effb; stroke: #c7cdd4; stroke-width: 2; stroke-dasharray: 8 6; }
+    .prod-label { font-size: 22px; font-weight: 700; fill: #5a6472; }
+    .axis { stroke: #c7cdd4; stroke-width: 1.5; }
+    .caption { font-size: 18px; fill: #5a6472; }
+  </style>
+  <rect width="1200" height="560" fill="#ffffff"/>
+
+  <!-- baseline -->
+  <line class="axis" x1="40" y1="500" x2="1160" y2="500"/>
+
+  <!-- Sketch -->
+  <rect class="step" x="40" y="400" width="205" height="100"/>
+  <text class="step-label" x="52" y="432">Sketch</text>
+  <line class="tick" x1="52" y1="328" x2="92" y2="328"/>
+  <text class="lie-head" x="52" y="350">lies about</text>
+  <text class="lie" x="52" y="374">timing &amp; gestures</text>
+
+  <!-- Wireframe -->
+  <rect class="step" x="265" y="345" width="205" height="155"/>
+  <text class="step-label" x="277" y="377">Wireframe</text>
+  <line class="tick" x1="277" y1="249" x2="317" y2="249"/>
+  <text class="lie-head" x="277" y="271">lies about</text>
+  <text class="lie" x="277" y="295">real content &amp;</text>
+  <text class="lie" x="277" y="319">visual weight</text>
+
+  <!-- Click dummy -->
+  <rect class="step" x="490" y="290" width="205" height="210"/>
+  <text class="step-label" x="502" y="322">Click dummy</text>
+  <line class="tick" x1="502" y1="218" x2="542" y2="218"/>
+  <text class="lie-head" x="502" y="240">lies about</text>
+  <text class="lie" x="502" y="264">data &amp; performance</text>
+
+  <!-- Coded prototype -->
+  <rect class="step" x="715" y="235" width="205" height="265"/>
+  <text class="step-label" x="727" y="267">Coded prototype</text>
+  <line class="tick" x1="727" y1="139" x2="767" y2="139"/>
+  <text class="lie-head" x="727" y="161">lies about</text>
+  <text class="lie" x="727" y="185">the distance to</text>
+  <text class="lie" x="727" y="209">production</text>
+
+  <!-- Production, grayed -->
+  <rect class="prod" x="940" y="180" width="220" height="320"/>
+  <text class="prod-label" x="952" y="212">(production)</text>
+  <text class="caption" x="952" y="240">not a prototype</text>
+
+  <!-- caption -->
+  <text class="caption" x="40" y="540">Every rung is a measuring instrument – pick the cheapest one that answers your question.</text>
+</svg>

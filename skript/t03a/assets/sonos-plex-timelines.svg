@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 620" role="img" aria-labelledby="t d">
+  <title id="t">Two timelines: Sonos ships an app rewrite without feature parity in May 2024, the old app is switched off, the CEO departs in January 2025; Plex ships a TV-app redesign in 2025, protest follows, Plex rolls back and keeps its users</title>
+  <desc id="d">Schematic with two horizontal timelines. Top, Sonos: rewrite ships without feature parity in May 2024, months of protest, the old app is switched off with no way back shown as a break in the line, the CEO departs in January 2025. Bottom, Plex: TV-app redesign ships in 2025, months of protest, a gold rollback node with an arrow curving back, then face lost but users kept.</desc>
+  <style>
+    text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill: #031121; }
+    .h { font-size: 26px; font-weight: 700; }
+    .q { font-size: 18px; fill: #5a6472; }
+    .lane { font-size: 22px; font-weight: 700; }
+    .n1 { font-size: 19px; font-weight: 600; text-anchor: middle; }
+    .n2 { font-size: 18px; fill: #5a6472; text-anchor: middle; }
+  </style>
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#8a5f00"/>
+    </marker>
+  </defs>
+  <rect width="1200" height="620" fill="#ffffff"/>
+
+  <text class="h" x="40" y="46">Two protests, two exits</text>
+  <text class="q" x="40" y="76">Sonos, May 2024 &#8211; January 2025 &#183; Plex, 2025/26 &#183; schematic</text>
+
+  <!-- Sonos lane -->
+  <text class="lane" x="40" y="152">Sonos</text>
+  <line x1="140" y1="210" x2="842" y2="210" stroke="#c7cdd4" stroke-width="3"/>
+  <line x1="892" y1="210" x2="1120" y2="210" stroke="#c7cdd4" stroke-width="3"/>
+  <line x1="850" y1="196" x2="870" y2="224" stroke="#05111f" stroke-width="3"/>
+  <line x1="866" y1="196" x2="886" y2="224" stroke="#05111f" stroke-width="3"/>
+  <circle cx="200" cy="210" r="9" fill="#1a2f6e"/>
+  <circle cx="480" cy="210" r="9" fill="#1a2f6e"/>
+  <circle cx="760" cy="210" r="9" fill="#1a2f6e"/>
+  <circle cx="1040" cy="210" r="11" fill="#05111f"/>
+  <text class="n1" x="200" y="252">May 2024</text>
+  <text class="n2" x="200" y="276">rewrite ships without feature parity</text>
+  <text class="n1" x="480" y="252">months of protest</text>
+  <text class="n2" x="480" y="276">alarms, queues, accessibility missing</text>
+  <text class="n1" x="760" y="252">old app switched off</text>
+  <text class="n2" x="760" y="276">no way back</text>
+  <text class="n1" x="1040" y="252">January 2025</text>
+  <text class="n2" x="1040" y="276">the CEO departs</text>
+
+  <!-- Plex lane -->
+  <text class="lane" x="40" y="402">Plex</text>
+  <line x1="140" y1="460" x2="1120" y2="460" stroke="#c7cdd4" stroke-width="3"/>
+  <circle cx="200" cy="460" r="9" fill="#1a2f6e"/>
+  <circle cx="480" cy="460" r="9" fill="#1a2f6e"/>
+  <path d="M760,444 C720,388 620,388 585,436" fill="none" stroke="#8a5f00" stroke-width="4" marker-end="url(#arr)"/>
+  <circle cx="760" cy="460" r="11" fill="#fcd430" stroke="#8a5f00" stroke-width="2.5"/>
+  <circle cx="1040" cy="460" r="9" fill="#1a2f6e"/>
+  <text class="n1" x="200" y="502">2025</text>
+  <text class="n2" x="200" y="526">TV-app redesign ships</text>
+  <text class="n1" x="480" y="502">months of protest</text>
+  <text class="n1" x="760" y="502">rollback</text>
+  <text class="n2" x="760" y="526">the bridge still stands</text>
+  <text class="n1" x="1040" y="502">face lost</text>
+  <text class="n2" x="1040" y="526">users kept</text>
+
+  <text class="q" x="40" y="600">Same design pressure, same protest &#8211; the difference was whether the road back still existed. Reversibility is a severity factor at organizational scale.</text>
+</svg>

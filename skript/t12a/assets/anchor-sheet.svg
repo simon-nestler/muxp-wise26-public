@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 560" role="img" aria-labelledby="t d">
+  <title id="t">The anchor sheet: four looks – trace visible, anatomy complete, moderation active, the hardest question – with note lines; formative, it goes to the defender</title>
+  <desc id="d">Schema of the anchor sheet handout. A head row holds fields for defender, round and observer. Below, four numbered rows: 1 trace visible (decisions, discards, prices heard), 2 anatomy complete (claim, evidence, limit, price – which link was missing), 3 moderation active (acknowledge and sort, strongest reading, park and return), 4 the hardest question (how was the most uncomfortable objection handled – highlighted in yellow as the row where defenses tip or shine). Each row has ruled note lines. A footer names the real grading anchors behind the sheet.</desc>
+  <style>
+    text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill: #031121; }
+    .h { font-size: 28px; font-weight: 700; }
+    .meta { font-size: 20px; fill: #5a6472; }
+    .rowh { font-size: 22px; font-weight: 700; fill: #ffffff; }
+    .rowh-dark { font-size: 22px; font-weight: 700; fill: #031121; }
+    .sub { font-size: 15px; fill: #dfe5ff; }
+    .sub-dark { font-size: 15px; fill: #4a4630; }
+    .hint { font-size: 16px; fill: #5a6472; }
+    .line { stroke: #c7cdd4; stroke-width: 1.5; }
+    .field { stroke: #5a6472; stroke-width: 1.5; fill: none; }
+  </style>
+  <rect width="1200" height="560" fill="#ffffff"/>
+
+  <!-- Head -->
+  <text class="h" x="40" y="52">Anchor sheet</text>
+  <text class="meta" x="250" y="52">formative – it goes to the defender, not to the examiner</text>
+  <text class="meta" x="40" y="96">Defender</text>
+  <rect class="field" x="140" y="76" width="220" height="30"/>
+  <text class="meta" x="400" y="96">Round</text>
+  <rect class="field" x="475" y="76" width="70" height="30"/>
+  <text class="meta" x="585" y="96">Observer</text>
+  <rect class="field" x="685" y="76" width="220" height="30"/>
+
+  <!-- Row 1: trace -->
+  <rect x="40" y="130" width="380" height="85" fill="#1a2f6e"/>
+  <text class="rowh" x="56" y="165">1 · Trace visible?</text>
+  <text class="sub" x="56" y="192">decisions, discards, prices heard?</text>
+  <line class="line" x1="450" y1="170" x2="1160" y2="170"/>
+  <line class="line" x1="450" y1="205" x2="1160" y2="205"/>
+
+  <!-- Row 2: anatomy -->
+  <rect x="40" y="225" width="380" height="85" fill="#1a2f6e"/>
+  <text class="rowh" x="56" y="260">2 · Anatomy complete?</text>
+  <text class="sub" x="56" y="287">claim · evidence · limit · price – which link missing?</text>
+  <line class="line" x1="450" y1="265" x2="1160" y2="265"/>
+  <line class="line" x1="450" y1="300" x2="1160" y2="300"/>
+
+  <!-- Row 3: moderation -->
+  <rect x="40" y="320" width="380" height="85" fill="#1a2f6e"/>
+  <text class="rowh" x="56" y="355">3 · Moderation active?</text>
+  <text class="sub" x="56" y="382">acknowledge/sort · strongest reading · park-and-return</text>
+  <line class="line" x1="450" y1="360" x2="1160" y2="360"/>
+  <line class="line" x1="450" y1="395" x2="1160" y2="395"/>
+
+  <!-- Row 4: hardest question, highlighted -->
+  <rect x="40" y="415" width="380" height="85" fill="#fcd430"/>
+  <text class="rowh-dark" x="56" y="450">4 · The hardest question?</text>
+  <text class="sub-dark" x="56" y="477">the most uncomfortable objection – tip or shine?</text>
+  <line class="line" x1="450" y1="455" x2="1160" y2="455"/>
+  <line class="line" x1="450" y1="490" x2="1160" y2="490"/>
+
+  <!-- Footer -->
+  <text class="hint" x="40" y="535">Real anchors behind the sheet: severity rubric (T03B) · context rubric (T06B) · audit element (T06) · renunciation sentence (T08B) · triple filing (T10B)</text>
+</svg>

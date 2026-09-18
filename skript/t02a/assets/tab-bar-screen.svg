@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 560" role="img" aria-labelledby="t d">
+  <title id="t">Schematic phone screen with a persistent bottom bar of five icon-and-label destinations</title>
+  <desc id="d">Left: a schematic smartphone with placeholder content and a bar at the bottom edge holding five destinations, each an icon with a text label; the first destination is active. Right: the same bar enlarged, with the recognition features listed underneath: persistent, at the bottom edge, three to five top destinations, icon and label paired.</desc>
+  <style>
+    text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill: #031121; }
+    .h { font-size: 26px; font-weight: 700; }
+    .q { font-size: 20px; fill: #5a6472; }
+    .lbl { font-size: 11px; fill: #5a6472; text-anchor: middle; }
+    .lbl.on { fill: #1a2f6e; font-weight: 700; }
+    .lbl2 { font-size: 18px; fill: #5a6472; text-anchor: middle; }
+    .lbl2.on { fill: #1a2f6e; font-weight: 700; }
+    .ph { fill: none; stroke: #031121; stroke-width: 3; }
+    .blk { fill: #e6e9ee; }
+    .ico { fill: #5a6472; }
+    .ico.on { fill: #1a2f6e; }
+    .sep { stroke: #c7cdd4; stroke-width: 2; }
+  </style>
+  <rect width="1200" height="560" fill="#ffffff"/>
+
+  <!-- Phone -->
+  <rect class="ph" x="95" y="30" width="280" height="500" rx="28"/>
+  <rect class="blk" x="119" y="66" width="232" height="26" rx="6"/>
+  <rect class="blk" x="119" y="108" width="232" height="120" rx="8"/>
+  <rect class="blk" x="119" y="244" width="110" height="88" rx="8"/>
+  <rect class="blk" x="241" y="244" width="110" height="88" rx="8"/>
+  <rect class="blk" x="119" y="348" width="232" height="22" rx="6"/>
+  <rect class="blk" x="119" y="382" width="180" height="22" rx="6"/>
+
+  <!-- Bottom bar on the phone -->
+  <line class="sep" x1="98" y1="448" x2="372" y2="448"/>
+  <g>
+    <rect x="121" y="446" width="44" height="4" fill="#fcd430"/>
+    <circle class="ico on" cx="143" cy="474" r="9"/><text class="lbl on" x="143" y="502">Home</text>
+    <circle class="ico" cx="199" cy="474" r="9"/><text class="lbl" x="199" y="502">Search</text>
+    <circle class="ico" cx="255" cy="474" r="9"/><text class="lbl" x="255" y="502">Create</text>
+    <circle class="ico" cx="311" cy="474" r="9"/><text class="lbl" x="311" y="502">Inbox</text>
+    <circle class="ico" cx="360" cy="474" r="9"/><text class="lbl" x="360" y="502">Profile</text>
+  </g>
+
+  <!-- Enlarged bar -->
+  <text class="h" x="470" y="150">The bar in question, enlarged</text>
+  <rect x="470" y="190" width="660" height="120" rx="14" fill="#ffffff" stroke="#c7cdd4" stroke-width="2"/>
+  <g>
+    <rect x="500" y="190" width="72" height="6" fill="#fcd430"/>
+    <circle class="ico on" cx="536" cy="238" r="16"/><text class="lbl2 on" x="536" y="288">Home</text>
+    <circle class="ico" cx="668" cy="238" r="16"/><text class="lbl2" x="668" y="288">Search</text>
+    <circle class="ico" cx="800" cy="238" r="16"/><text class="lbl2" x="800" y="288">Create</text>
+    <circle class="ico" cx="932" cy="238" r="16"/><text class="lbl2" x="932" y="288">Inbox</text>
+    <circle class="ico" cx="1064" cy="238" r="16"/><text class="lbl2" x="1064" y="288">Profile</text>
+  </g>
+  <text class="q" x="470" y="360">persistent · at the bottom edge · 3–5 top destinations · icon + label paired</text>
+
+  <text class="q" x="95" y="556">Schematic rebuild – no real app depicted</text>
+</svg>

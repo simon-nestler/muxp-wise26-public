@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 560" role="img" aria-labelledby="t d">
+  <title id="t">Fishbowl setup: an inner circle of five chairs – the 2030 optimist, the skeptic with veto, the regulator, the designer and one free chair – around the thirteen cards to be sorted; the outer ring joins via the free chair</title>
+  <desc id="d">Schema of the closing fishbowl. A dashed outer ring of participants surrounds an inner circle of five chairs: the 2030 optimist, the skeptic (with veto: at least three cards must land in "more open"), the regulator, the designer, and one free chair, highlighted in yellow at the top. In the centre lie three cards labelled settled, shifted, and more open than before. Whoever in the outer ring wants to speak takes the free chair, speaks, and returns.</desc>
+  <style>
+    text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill: #031121; }
+    .role { font-size: 20px; font-weight: 700; }
+    .sub { font-size: 16px; fill: #5a6472; }
+    .card { fill: #ffffff; stroke: #5a6472; stroke-width: 1.5; }
+    .cardtext { font-size: 16px; }
+    .chair { fill: #031121; }
+    .dot { fill: #5a6472; }
+  </style>
+  <rect width="1200" height="560" fill="#ffffff"/>
+
+  <!-- Outer ring -->
+  <ellipse cx="600" cy="290" rx="470" ry="235" fill="none" stroke="#c7cdd4" stroke-width="2" stroke-dasharray="4 8"/>
+  <circle class="dot" cx="1042" cy="370" r="7"/>
+  <circle class="dot" cx="902" cy="470" r="7"/>
+  <circle class="dot" cx="600" cy="525" r="7"/>
+  <circle class="dot" cx="298" cy="470" r="7"/>
+  <circle class="dot" cx="158" cy="370" r="7"/>
+  <circle class="dot" cx="158" cy="210" r="7"/>
+  <circle class="dot" cx="298" cy="110" r="7"/>
+  <circle class="dot" cx="902" cy="110" r="7"/>
+  <circle class="dot" cx="1042" cy="210" r="7"/>
+  <text class="sub" x="640" y="533">outer ring</text>
+
+  <!-- Free chair (top, yellow) -->
+  <text class="role" x="600" y="34" text-anchor="middle">one free chair – take it, speak, return</text>
+  <line x1="600" y1="44" x2="600" y2="72" stroke="#5a6472" stroke-width="2"/>
+  <circle cx="600" cy="115" r="34" fill="#FCD430" stroke="#031121" stroke-width="2"/>
+
+  <!-- Inner circle chairs -->
+  <circle class="chair" cx="766" cy="236" r="34"/>
+  <text class="role" x="812" y="236">the skeptic</text>
+  <text class="sub" x="812" y="260">veto: three cards must land in "more open"</text>
+
+  <circle class="chair" cx="703" cy="432" r="34"/>
+  <text class="role" x="745" y="470">the regulator</text>
+
+  <circle class="chair" cx="497" cy="432" r="34"/>
+  <text class="role" x="455" y="470" text-anchor="end">the designer</text>
+
+  <circle class="chair" cx="434" cy="236" r="34"/>
+  <text class="role" x="388" y="236" text-anchor="end">the 2030 optimist</text>
+
+  <!-- The cards in the centre -->
+  <text class="sub" x="600" y="196" text-anchor="middle">the thirteen cards</text>
+  <rect class="card" x="510" y="212" width="180" height="40" rx="6"/>
+  <text class="cardtext" x="600" y="238" text-anchor="middle">settled</text>
+  <rect class="card" x="510" y="262" width="180" height="40" rx="6"/>
+  <text class="cardtext" x="600" y="288" text-anchor="middle">shifted</text>
+  <rect class="card" x="510" y="312" width="180" height="40" rx="6"/>
+  <text class="cardtext" x="600" y="338" text-anchor="middle">more open than before</text>
+  <text class="sub" x="600" y="388" text-anchor="middle">negotiated are the cards – not the persons</text>
+</svg>

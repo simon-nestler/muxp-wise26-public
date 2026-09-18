@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 560" role="img" aria-labelledby="t d">
+  <title id="t">The hearing setup: fishbowl with four camps – inner circle two per camp, outer ring of observers with a mandate, rotating student chair with three duties</title>
+  <desc id="d">Left: two concentric circles. The outer ring holds observer seats with the mandate to note every unsourced claim on both sides. The inner circle holds eight seats, two per camp: Commission at the top, Defense on the right, child-protection NGO at the bottom, creative industry on the left. A yellow seat between Commission and Defense marks the rotating student chair. Right: the chair's three duties – keep time, demand the follow-up question, refuse to summarize – with the rule that the chair moderates and never judges, and the fishbowl swap after fifteen minutes.</desc>
+  <style>
+    text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill: #031121; }
+    .camp { font-size: 21px; font-weight: 700; }
+    .label { font-size: 18px; fill: #5a6472; }
+    .head { font-size: 26px; font-weight: 700; }
+    .duty { font-size: 21px; }
+    .dutyn { font-size: 21px; font-weight: 700; }
+    .rule { font-size: 20px; font-weight: 700; }
+    .hint { font-size: 18px; fill: #5a6472; }
+    .seat { fill: #1a2f6e; }
+    .obs { fill: #9aa1aa; }
+  </style>
+  <rect width="1200" height="560" fill="#ffffff"/>
+
+  <!-- Outer ring -->
+  <circle cx="390" cy="285" r="220" fill="#e5effb"/>
+  <circle cx="390" cy="285" r="150" fill="#ffffff"/>
+  <circle cx="390" cy="285" r="150" fill="none" stroke="#c7cdd4" stroke-width="2" stroke-dasharray="6 6"/>
+  <circle cx="390" cy="285" r="220" fill="none" stroke="#c7cdd4" stroke-width="2"/>
+
+  <!-- Observer seats on the outer ring -->
+  <circle class="obs" cx="390" cy="100" r="9"/>
+  <circle class="obs" cx="520" cy="132" r="9"/>
+  <circle class="obs" cx="575" cy="240" r="9"/>
+  <circle class="obs" cx="545" cy="390" r="9"/>
+  <circle class="obs" cx="440" cy="465" r="9"/>
+  <circle class="obs" cx="310" cy="458" r="9"/>
+  <circle class="obs" cx="222" cy="380" r="9"/>
+  <circle class="obs" cx="205" cy="245" r="9"/>
+  <circle class="obs" cx="265" cy="135" r="9"/>
+
+  <!-- Inner seats: 2 per camp -->
+  <circle class="seat" cx="355" cy="170" r="12"/>
+  <circle class="seat" cx="425" cy="170" r="12"/>
+  <text class="camp" x="390" y="215" text-anchor="middle">Commission</text>
+
+  <circle class="seat" cx="505" cy="250" r="12"/>
+  <circle class="seat" cx="505" cy="320" r="12"/>
+  <text class="camp" x="465" y="292" text-anchor="middle">Defense</text>
+
+  <circle class="seat" cx="355" cy="400" r="12"/>
+  <circle class="seat" cx="425" cy="400" r="12"/>
+  <text class="camp" x="390" y="372" text-anchor="middle">NGO</text>
+
+  <circle class="seat" cx="275" cy="250" r="12"/>
+  <circle class="seat" cx="275" cy="320" r="12"/>
+  <text class="camp" x="316" y="292" text-anchor="middle">Creative</text>
+  <text class="camp" x="316" y="316" text-anchor="middle">industry</text>
+
+  <!-- Chair, yellow, on the inner circle -->
+  <circle cx="497" cy="178" r="15" fill="#fcd430" stroke="#031121" stroke-width="2"/>
+  <text class="label" x="527" y="168">Chair –</text>
+  <text class="label" x="527" y="190">a student, rotating</text>
+
+  <!-- Captions -->
+  <text class="label" x="60" y="60">Outer ring: observers with a mandate –</text>
+  <text class="label" x="60" y="84">note every unsourced claim, both sides</text>
+  <text class="label" x="255" y="540">Inner circle: 2 per camp</text>
+
+  <!-- Right panel: the chair's duties -->
+  <text class="head" x="740" y="120">The chair's three duties</text>
+  <text class="dutyn" x="740" y="180">1</text><text class="duty" x="775" y="180">keep time</text>
+  <text class="dutyn" x="740" y="230">2</text><text class="duty" x="775" y="230">demand the follow-up question</text>
+  <text class="dutyn" x="740" y="280">3</text><text class="duty" x="775" y="280">refuse to summarize</text>
+  <line x1="740" y1="315" x2="1140" y2="315" stroke="#c7cdd4" stroke-width="2"/>
+  <text class="rule" x="740" y="355">The chair moderates – never judges.</text>
+  <text class="hint" x="740" y="420">Fishbowl swap after 15:00 –</text>
+  <text class="hint" x="740" y="444">fresh voices, same roles.</text>
+</svg>

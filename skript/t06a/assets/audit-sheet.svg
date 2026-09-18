@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 560" role="img" aria-labelledby="t d">
+  <title id="t">The audit sheet: head with UI number, auditor and round; four columns – finding, anchor, severity, evidence</title>
+  <desc id="d">Schema of the audit sheet handout. A head row holds fields for UI number, auditor and round. Below, a table with four columns: finding with location, anchor (grid line or author question), severity (T03 rubric), evidence. The evidence column is highlighted as mandatory. Three empty rows follow.</desc>
+  <style>
+    text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill: #031121; }
+    .h { font-size: 28px; font-weight: 700; }
+    .meta { font-size: 20px; fill: #5a6472; }
+    .colh { font-size: 21px; font-weight: 700; fill: #ffffff; }
+    .colh-dark { font-size: 21px; font-weight: 700; fill: #031121; }
+    .sub { font-size: 16px; fill: #dfe5ff; }
+    .sub-dark { font-size: 16px; fill: #4a4630; }
+    .hint { font-size: 17px; fill: #5a6472; }
+    .line { stroke: #c7cdd4; stroke-width: 1.5; }
+    .field { stroke: #5a6472; stroke-width: 1.5; fill: none; }
+  </style>
+  <rect width="1200" height="560" fill="#ffffff"/>
+
+  <!-- Head -->
+  <text class="h" x="40" y="52">Audit sheet</text>
+  <text class="meta" x="40" y="92">UI no.</text>
+  <rect class="field" x="110" y="72" width="120" height="30"/>
+  <text class="meta" x="270" y="92">Auditor</text>
+  <rect class="field" x="350" y="72" width="220" height="30"/>
+  <text class="meta" x="610" y="92">Round</text>
+  <rect class="field" x="680" y="72" width="70" height="30"/>
+  <text class="meta" x="770" y="92">1 or 2 – every UI gets two independent audits</text>
+
+  <!-- Column headers -->
+  <g>
+    <rect x="40"  y="130" width="300" height="70" fill="#1a2f6e"/>
+    <rect x="340" y="130" width="300" height="70" fill="#1a2f6e"/>
+    <rect x="640" y="130" width="220" height="70" fill="#1a2f6e"/>
+    <rect x="860" y="130" width="300" height="70" fill="#fcd430"/>
+    <text class="colh" x="56" y="160">Finding</text>
+    <text class="sub"  x="56" y="186">what + where (screen, element)</text>
+    <text class="colh" x="356" y="160">Anchor</text>
+    <text class="sub"  x="356" y="186">grid line 1–4 or author question</text>
+    <text class="colh" x="656" y="160">Severity</text>
+    <text class="sub"  x="656" y="186">T03 rubric</text>
+    <text class="colh-dark" x="876" y="160">Evidence – mandatory</text>
+    <text class="sub-dark"  x="876" y="186">observable, reproducible</text>
+  </g>
+
+  <!-- Rows -->
+  <line class="line" x1="40" y1="200" x2="1160" y2="200"/>
+  <line class="line" x1="40" y1="290" x2="1160" y2="290"/>
+  <line class="line" x1="40" y1="380" x2="1160" y2="380"/>
+  <line class="line" x1="40" y1="470" x2="1160" y2="470"/>
+  <line class="line" x1="340" y1="200" x2="340" y2="470"/>
+  <line class="line" x1="640" y1="200" x2="640" y2="470"/>
+  <line class="line" x1="860" y1="200" x2="860" y2="470"/>
+  <line class="line" x1="40"  y1="200" x2="40"  y2="470"/>
+  <line class="line" x1="1160" y1="200" x2="1160" y2="470"/>
+
+  <text class="hint" x="56" y="240">…</text>
+  <text class="hint" x="356" y="240">…</text>
+  <text class="hint" x="656" y="240">…</text>
+  <text class="hint" x="876" y="240">…</text>
+
+  <text class="hint" x="40" y="520">"Feels busy" is not evidence. "The CTA competes with the header for the same contrast" is.</text>
+  <text class="hint" x="40" y="546">A finding without an anchor does not count – however right it feels.</text>
+</svg>

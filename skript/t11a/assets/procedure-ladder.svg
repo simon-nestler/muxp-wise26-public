@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" role="img" aria-labelledby="t d">
+  <title id="t">The DSA procedure ladder: preliminary findings, TikTok's reply, Commission decision, courts – we simulate the hearing stage</title>
+  <desc id="d">Four stages from left to right: preliminary findings issued 06.02.2026; TikTok's reply, marked in yellow as the hearing stage the course simulates; the Commission decision, still open; and the courts in parentheses as possible review. A status line notes that the case is pending as of September 2026.</desc>
+  <style>
+    text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill: #031121; }
+    .stage { font-size: 24px; font-weight: 700; fill: #ffffff; }
+    .stage-dark { font-size: 24px; font-weight: 700; fill: #031121; }
+    .sub { font-size: 18px; fill: #dfe5ff; }
+    .sub-dark { font-size: 18px; fill: #4a4630; }
+    .tag { font-size: 19px; font-weight: 700; fill: #031121; }
+    .hint { font-size: 18px; fill: #5a6472; }
+    .arrow { stroke: #5a6472; stroke-width: 3; fill: none; }
+  </style>
+  <rect width="1200" height="420" fill="#ffffff"/>
+
+  <!-- Stage 1 -->
+  <rect x="40" y="120" width="250" height="110" rx="6" fill="#1a2f6e"/>
+  <text class="stage" x="64" y="165">1 · Preliminary</text>
+  <text class="stage" x="64" y="195">findings</text>
+  <text class="sub" x="64" y="220">issued 06.02.2026</text>
+
+  <!-- Arrow 1 -->
+  <line class="arrow" x1="290" y1="175" x2="330" y2="175"/>
+  <path d="M330 175 l-12 -7 v14 z" fill="#5a6472"/>
+
+  <!-- Stage 2: the hearing stage, highlighted -->
+  <rect x="334" y="120" width="250" height="110" rx="6" fill="#fcd430"/>
+  <text class="stage-dark" x="358" y="165">2 · TikTok's reply</text>
+  <text class="sub-dark" x="358" y="195">the hearing stage</text>
+  <text class="sub-dark" x="358" y="220">pending</text>
+  <path class="arrow" d="M459 260 v-18"/>
+  <path d="M459 236 l-7 12 h14 z" fill="#5a6472"/>
+  <text class="tag" x="352" y="292">we simulate this stage:</text>
+  <text class="hint" x="352" y="318">arguments under evidence rules – no verdict</text>
+
+  <!-- Arrow 2 -->
+  <line class="arrow" x1="584" y1="175" x2="624" y2="175"/>
+  <path d="M624 175 l-12 -7 v14 z" fill="#5a6472"/>
+
+  <!-- Stage 3 -->
+  <rect x="628" y="120" width="250" height="110" rx="6" fill="#1a2f6e"/>
+  <text class="stage" x="652" y="165">3 · Commission</text>
+  <text class="stage" x="652" y="195">decision</text>
+  <text class="sub" x="652" y="220">open</text>
+
+  <!-- Arrow 3 -->
+  <line class="arrow" x1="878" y1="175" x2="918" y2="175"/>
+  <path d="M918 175 l-12 -7 v14 z" fill="#5a6472"/>
+
+  <!-- Stage 4 -->
+  <rect x="922" y="120" width="238" height="110" rx="6" fill="#ffffff" stroke="#5a6472" stroke-width="2"/>
+  <text x="946" y="165" font-size="24" font-weight="700" fill="#031121">4 · (Courts)</text>
+  <text class="hint" x="946" y="195">possible review –</text>
+  <text class="hint" x="946" y="220">not our stage</text>
+
+  <!-- Status line -->
+  <text class="hint" x="40" y="380">Status 09/2026: pending – the semester runs while the case moves. Check the Commission's own page, dated, before each session.</text>
+</svg>

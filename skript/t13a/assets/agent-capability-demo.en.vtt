@@ -1,0 +1,251 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:03.878 --> 00:00:06.548
+I'm a research lead of Operator in OpenAI.
+
+00:00:06.548 --> 00:00:08.425
+And what is Operator?
+
+00:00:08.425 --> 00:00:11.761
+Operator is a research preview of an agent
+
+00:00:11.761 --> 00:00:15.098
+that uses browsers to, help user to do things.
+
+00:00:15.598 --> 00:00:20.353
+So I have a two year old kid who likes pasta.
+
+00:00:20.353 --> 00:00:24.983
+So I, make linguini with clams,
+so I ask it to buy the groceries for it.
+
+00:00:25.442 --> 00:00:27.902
+So I will use the Instacart app.
+
+00:00:29.279 --> 00:00:33.074
+Operator can actually basically
+use any website without...
+
+00:00:33.074 --> 00:00:35.785
+And it is not particularly optimized
+for Instacart.
+
+00:00:35.785 --> 00:00:37.287
+But the reason why I’m using this app
+is that it provides the,
+
+00:00:37.287 --> 00:00:38.788
+But the reason why I’m using this app
+is that it provides the,
+
+00:00:39.039 --> 00:00:42.459
+detailed instruction
+of how this website can be best utilized,
+
+00:00:42.459 --> 00:00:45.462
+just like the tutorial
+that humans can benefit from.
+
+00:00:45.628 --> 00:00:48.882
+So I'll use Instacart tab and ask it to solve tasks
+
+00:00:50.050 --> 00:00:56.765
+could you find a recipe of linguine with clams,
+
+00:00:57.474 --> 00:01:00.477
+from Allrecipes website
+
+00:01:00.685 --> 00:01:04.189
+and add all the ingredients
+
+00:01:04.189 --> 00:01:08.193
+to the grocery cart,
+
+00:01:08.193 --> 00:01:10.528
+or Instacart.
+
+00:01:10.528 --> 00:01:13.281
+I think I already have,
+
+00:01:14.908 --> 00:01:17.827
+some ingredients like butter
+
+00:01:17.827 --> 00:01:20.789
+vegetable oil,
+
+00:01:23.958 --> 00:01:26.252
+and black pepper.
+
+00:01:28.004 --> 00:01:32.467
+So you don't need to add them to the cart.
+
+00:01:33.593 --> 00:01:38.598
+So it says there I'll find recipe
+and then add everything in the,
+
+00:01:38.598 --> 00:01:41.601
+ingredients to the cart.
+
+00:01:41.851 --> 00:01:44.270
+Okay, it says that, it’ll confirm
+the ingredients
+
+00:01:44.270 --> 00:01:47.524
+and store with me
+before adding them to the cart.
+
+00:01:47.565 --> 00:01:51.152
+So let's start by, finding the recipe.
+
+00:01:51.528 --> 00:01:52.779
+I am not doing anything,
+
+00:01:52.779 --> 00:01:53.863
+from now on.
+
+00:01:53.863 --> 00:01:56.950
+Operator is just doing
+and I am just watching what it’s doing.
+
+00:01:56.950 --> 00:01:59.119
+What is interesting with Operator
+is that its,
+
+00:01:59.119 --> 00:02:01.788
+it is using browser
+that I built for the human,
+
+00:02:01.788 --> 00:02:03.540
+and it is using the, seeing the exactly
+same script that I am seeing right now
+
+00:02:03.540 --> 00:02:06.000
+and it is using the, seeing the exactly
+same script that I am seeing right now
+
+00:02:06.000 --> 00:02:10.421
+and using the keyboard typing and mouse
+clicking to control the browser.
+
+00:02:10.421 --> 00:02:12.048
+Just like a human would do.
+
+00:02:12.048 --> 00:02:14.926
+This is different from other agents
+that uses,
+
+00:02:14.926 --> 00:02:17.262
+API or programing based interface,
+which programmers might understand,
+
+00:02:17.262 --> 00:02:19.681
+API or programing based interface,
+which programmers might understand,
+
+00:02:19.681 --> 00:02:22.767
+but no programmer users cannot understand
+it really well.
+
+00:02:23.059 --> 00:02:25.854
+So Operator, because it is using the,
+
+00:02:27.105 --> 00:02:28.690
+this natural human interface
+
+00:02:28.690 --> 00:02:32.026
+it’s very easy to follow by just looking at what it's doing in the screen.
+
+00:02:32.694 --> 00:02:34.821
+Can you follow its progress? 
+
+00:02:34.946 --> 00:02:39.868
+Yes! So one way to follow its progress
+
+00:02:40.118 --> 00:02:43.121
+is I can zoom in to see the screen better.
+
+00:02:43.454 --> 00:02:47.667
+And Operator is powered by the, text
+based, chain of thought reasonings.
+
+00:02:47.667 --> 00:02:48.668
+And Operator is powered by the, text
+based, chain of thought reasonings.
+
+00:02:48.668 --> 00:02:51.921
+So whenever it is doing things, it, says,
+
+00:02:53.173 --> 00:02:55.425
+it makes plans of how things can be done.
+
+00:02:55.425 --> 00:02:58.761
+And this can be followed
+through this, list of the tasks.
+
+00:02:59.012 --> 00:03:02.015
+And it says I found the recipe. And,
+
+00:03:02.557 --> 00:03:05.518
+which store would you prefer to use?
+
+00:03:05.518 --> 00:03:09.480
+So I ask, use Gus’s.
+
+00:03:13.735 --> 00:03:14.903
+So often
+
+00:03:14.903 --> 00:03:17.197
+it asks clarifying question
+whenever it is needed,
+
+00:03:17.197 --> 00:03:17.906
+it has clarifying question
+whenever it is needed,
+
+00:03:17.906 --> 00:03:20.450
+is needed in the process
+of solving the task.
+
+00:03:20.450 --> 00:03:23.703
+There are cases the Operator has to, make sensitive 
+
+00:03:23.703 --> 00:03:27.248
+actions like things like logging in or buying things.
+
+00:03:27.457 --> 00:03:31.294
+In this case, 
+we built Operator to be safe in this situation.
+
+00:03:31.544 --> 00:03:33.796
+So Operator is designed to ask, us
+to take control,
+
+00:03:33.796 --> 00:03:35.548
+So Operator is designed to ask, us
+to take control,
+
+00:03:35.548 --> 00:03:38.927
+to log in by ourselves
+or whenever it needed, checking it.
+
+00:03:39.552 --> 00:03:42.055
+It gives us the control
+so that I can double check
+
+00:03:42.055 --> 00:03:45.600
+or whether the list is correct
+and then checking it by myself.
+
+00:03:45.934 --> 00:03:48.019
+Amazing. Thank you so much.
+I appreciate you showing it to us.
+
+00:03:48.019 --> 00:03:49.395
+Amazing. Thank you so much.
+I appreciate you showing it to us.
+
+00:03:49.395 --> 00:03:50.355
+Thank you so much.
+

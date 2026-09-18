@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 560" role="img" aria-labelledby="t d">
+  <title id="t">Re-created schematic: what the newsroom sent versus what the AI-summarized lockscreen notification showed, early 2025</title>
+  <desc id="d">Left: three notification cards as sent by a newsroom, the last reading "Ceasefire talks continue – no agreement yet". An arrow through a box labeled "on-device AI summary" leads right to a single lockscreen card reading "Ceasefire agreed", marked as summarized – a claim the newsroom never sent. A footer marks the graphic as re-created, not an original screenshot.</desc>
+  <style>
+    text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill: #031121; }
+    .h { font-size: 24px; font-weight: 700; }
+    .s { font-size: 17px; fill: #5a6472; }
+    .app { font-size: 15px; font-weight: 700; fill: #5a6472; letter-spacing: 0.04em; }
+    .msg { font-size: 19px; }
+    .msg-b { font-size: 19px; font-weight: 700; }
+    .tag { font-size: 15px; fill: #5a6472; font-style: italic; }
+    .card { fill: #ffffff; stroke: #c7cdd4; stroke-width: 1.5; }
+    .filter { fill: #e2eefc; stroke: #1a2f6e; stroke-width: 2; }
+    .warn { font-size: 16px; font-weight: 700; fill: #8a5f00; }
+  </style>
+  <rect width="1200" height="560" fill="#ffffff"/>
+
+  <text class="h" x="50" y="52">What the newsroom sent</text>
+  <text class="s" x="50" y="80">three separate notifications, in the sender's words</text>
+
+  <g>
+    <rect class="card" x="50" y="104" width="380" height="72" rx="14"/>
+    <text class="app" x="72" y="132">NEWS · 07:12</text>
+    <text class="msg" x="72" y="160">Talks resume after night session</text>
+
+    <rect class="card" x="50" y="192" width="380" height="72" rx="14"/>
+    <text class="app" x="72" y="220">NEWS · 08:05</text>
+    <text class="msg" x="72" y="248">Delegations meet for third round</text>
+
+    <rect class="card" x="50" y="280" width="380" height="72" rx="14"/>
+    <text class="app" x="72" y="308">NEWS · 09:41</text>
+    <text class="msg-b" x="72" y="336">Ceasefire talks continue –</text>
+    <text class="msg-b" x="72" y="336" dy="24">no agreement yet</text>
+  </g>
+
+  <g>
+    <rect class="filter" x="480" y="180" width="200" height="110" rx="16"/>
+    <text class="msg-b" x="580" y="228" text-anchor="middle">on-device</text>
+    <text class="msg-b" x="580" y="256" text-anchor="middle">AI summary</text>
+    <line x1="434" y1="235" x2="474" y2="235" stroke="#1a2f6e" stroke-width="3"/>
+    <line x1="684" y1="235" x2="724" y2="235" stroke="#1a2f6e" stroke-width="3"/>
+    <path d="M 724 227 L 740 235 L 724 243 Z" fill="#1a2f6e"/>
+  </g>
+
+  <text class="h" x="760" y="52">What the lockscreen showed</text>
+  <text class="s" x="760" y="80">one card, in the filter's words</text>
+
+  <g>
+    <rect class="card" x="760" y="150" width="390" height="130" rx="18"/>
+    <text class="app" x="784" y="182">NEWS · SUMMARIZED · 09:42</text>
+    <text class="msg-b" x="784" y="216">Ceasefire agreed</text>
+    <rect x="784" y="226" width="168" height="6" rx="3" fill="#fcd430"/>
+    <text class="tag" x="784" y="258">3 notifications summarized</text>
+  </g>
+  <text class="warn" x="760" y="322">A claim the newsroom never sent.</text>
+
+  <text class="s" x="50" y="440">Structure of the early-2025 incident: Apple Intelligence summarized BBC news notifications and</text>
+  <text class="s" x="50" y="466">produced headlines the BBC never wrote. The BBC complained; Apple paused the feature for news</text>
+  <text class="s" x="50" y="492">apps, then reactivated it with iOS 26 (Sept. 2025) – labeled and marked as potentially inaccurate.</text>
+  <text class="s" x="50" y="532" font-style="italic">Re-created schematic with invented example text – not an original screenshot. Sources: BBC, 9to5Mac (2025).</text>
+</svg>

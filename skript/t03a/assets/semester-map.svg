@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 851" role="img" aria-labelledby="t d">
+  <title id="t">The semester at a glance: 13 topics, one 90-minute lecture each, two anchors, five exercise double sessions U1 to U5 plus backup date U6, three seminar-paper milestones, week 14 with defense slots</title>
+  <desc id="d">Highlighted (yellow frame, tag TODAY): field 2. Thirteen numbered topic cells in three rows, read left to right: 1 Claims and their sources; 2 Patterns as a language; 3 Severity, formula and rubric; 4 The fidelity decision; 5 Building with the machine; 6 Anchor I, the audit lab; 7 Friction by design; 8 Notifications, designing against the filter; 9 Offline states and sync conflicts, droppable first; 10 Dark patterns, naming and judging; 11 Anchor II, the Brussels hearing; 12 Defending your design, droppable second; 13 Apps and the agent thesis. Topics 6 and 11 are dark anchors. Blue tags below the rows mark the exercise double sessions, each merging two topics: U1 topics 1 and 2, U2 3 and 4, U3 5 and 6, U4 7 and 8, U5 9 and 10, U6 11 and 12 as backup date. A dashed cell marks week 14, the defense-slot session. Yellow tags mark the milestones: exposé in week 5, interim state in week 10, colloquium in the exam period.</desc>
+  <style>
+    text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill: #031121; }
+    .num { font-size: 24px; font-weight: 700; }
+    .numw { font-size: 24px; font-weight: 700; fill: #ffffff; }
+    .tt { font-size: 18px; }
+    .ttw { font-size: 18px; fill: #dbe6f5; }
+    .utag { font-size: 18px; font-weight: 700; }
+    .mtag { font-size: 18px; font-weight: 700; }
+    .leg { font-size: 20px; fill: #5a6472; }
+    .foot { font-size: 20px; fill: #5a6472; }
+    .drop { font-size: 15px; font-style: italic; fill: #5a6472; }
+    .chip { font-size: 14px; font-weight: 700; letter-spacing: .06em; fill: #031121; }
+  </style>
+  <rect width="1200" height="851" fill="#ffffff"/>
+  <rect x="40" y="95" width="176" height="125" rx="10" fill="#e2eefc"/>
+  <text class="num" x="60" y="129">1</text>
+  <text class="tt" x="60" y="159">Claims and</text>
+  <text class="tt" x="60" y="182">their sources</text>
+  <rect x="228" y="95" width="176" height="125" rx="10" fill="#e2eefc"/>
+  <text class="num" x="248" y="129">2</text>
+  <text class="tt" x="248" y="159">Patterns as</text>
+  <text class="tt" x="248" y="182">a language</text>
+  <rect x="416" y="95" width="176" height="125" rx="10" fill="#e2eefc"/>
+  <text class="num" x="436" y="129">3</text>
+  <text class="tt" x="436" y="159">Severity:</text>
+  <text class="tt" x="436" y="182">formula</text>
+  <text class="tt" x="436" y="205">and rubric</text>
+  <rect x="411" y="90" width="186" height="135" rx="13" fill="none" stroke="#fcd430" stroke-width="6"/>
+  <rect x="513" y="107" width="71" height="26" rx="13" fill="#fcd430"/>
+  <text class="chip" x="548" y="125" text-anchor="middle">TODAY</text>
+  <rect x="604" y="95" width="176" height="125" rx="10" fill="#e2eefc"/>
+  <text class="num" x="624" y="129">4</text>
+  <text class="tt" x="624" y="159">The fidelity</text>
+  <text class="tt" x="624" y="182">decision</text>
+  <rect x="792" y="95" width="176" height="125" rx="10" fill="#e2eefc"/>
+  <text class="num" x="812" y="129">5</text>
+  <text class="tt" x="812" y="159">Building with</text>
+  <text class="tt" x="812" y="182">the machine</text>
+  <rect x="980" y="95" width="176" height="125" rx="10" fill="#1a2f6e"/>
+  <text class="numw" x="1000" y="129">6</text>
+  <text class="ttw" x="1000" y="159">Anchor I:</text>
+  <text class="ttw" x="1000" y="182">the audit lab</text>
+  <rect x="40" y="330" width="176" height="125" rx="10" fill="#e2eefc"/>
+  <text class="num" x="60" y="364">7</text>
+  <text class="tt" x="60" y="394">Friction</text>
+  <text class="tt" x="60" y="417">by design</text>
+  <rect x="228" y="330" width="176" height="125" rx="10" fill="#e2eefc"/>
+  <text class="num" x="248" y="364">8</text>
+  <text class="tt" x="248" y="394">Notifications:</text>
+  <text class="tt" x="248" y="417">designing against</text>
+  <text class="tt" x="248" y="440">the filter</text>
+  <rect x="416" y="330" width="176" height="125" rx="10" fill="#e2eefc"/>
+  <text class="num" x="436" y="364">9</text>
+  <text class="tt" x="436" y="386">Offline states</text>
+  <text class="tt" x="436" y="409">and sync</text>
+  <text class="tt" x="436" y="432">conflicts</text>
+  <text class="drop" x="436" y="449">droppable · 1st</text>
+  <rect x="604" y="330" width="176" height="125" rx="10" fill="#e2eefc"/>
+  <text class="num" x="624" y="364">10</text>
+  <text class="tt" x="624" y="394">Dark patterns:</text>
+  <text class="tt" x="624" y="417">naming and</text>
+  <text class="tt" x="624" y="440">judging</text>
+  <rect x="792" y="330" width="176" height="125" rx="10" fill="#1a2f6e"/>
+  <text class="numw" x="812" y="364">11</text>
+  <text class="ttw" x="812" y="394">Anchor II:</text>
+  <text class="ttw" x="812" y="417">the Brussels</text>
+  <text class="ttw" x="812" y="440">hearing</text>
+  <rect x="980" y="330" width="176" height="125" rx="10" fill="#e2eefc"/>
+  <text class="num" x="1000" y="364">12</text>
+  <text class="tt" x="1000" y="394">Defending your</text>
+  <text class="tt" x="1000" y="417">design</text>
+  <text class="drop" x="1000" y="449">droppable · 2nd</text>
+  <rect x="40" y="525" width="176" height="125" rx="10" fill="#e2eefc"/>
+  <text class="num" x="60" y="559">13</text>
+  <text class="tt" x="60" y="589">Apps and the</text>
+  <text class="tt" x="60" y="612">agent thesis</text>
+  <rect x="228" y="525" width="176" height="125" rx="10" fill="none" stroke="#5a6472" stroke-width="2" stroke-dasharray="8 6"/>
+  <text class="tt" x="248" y="582">Week 14:</text>
+  <text class="tt" x="248" y="605">defense slots</text>
+  <rect x="40" y="232" width="364" height="32" rx="6" fill="#7fb6f6"/>
+  <text class="utag" x="222" y="254" text-anchor="middle">U1 · Exercise 1</text>
+  <rect x="416" y="232" width="364" height="32" rx="6" fill="#7fb6f6"/>
+  <text class="utag" x="598" y="254" text-anchor="middle">U2 · Exercise 2</text>
+  <rect x="792" y="232" width="364" height="32" rx="6" fill="#7fb6f6"/>
+  <text class="utag" x="974" y="254" text-anchor="middle">U3 · Exercise 3</text>
+  <rect x="40" y="467" width="364" height="32" rx="6" fill="#7fb6f6"/>
+  <text class="utag" x="222" y="489" text-anchor="middle">U4 · Exercise 4</text>
+  <rect x="416" y="467" width="364" height="32" rx="6" fill="#7fb6f6"/>
+  <text class="utag" x="598" y="489" text-anchor="middle">U5 · Exercise 5</text>
+  <rect x="792" y="467" width="364" height="32" rx="6" fill="#7fb6f6"/>
+  <text class="utag" x="974" y="489" text-anchor="middle">U6 · Backup date</text>
+  <rect x="792" y="48" width="200" height="34" rx="6" fill="#fcd430"/>
+  <text class="mtag" x="810" y="71">Exposé · week 5</text>
+  <rect x="604" y="282" width="260" height="34" rx="6" fill="#fcd430"/>
+  <text class="mtag" x="622" y="305">Interim state · week 10</text>
+  <rect x="442" y="539" width="300" height="34" rx="6" fill="#fcd430"/>
+  <text class="mtag" x="460" y="562">Colloquium · exam period</text>
+  <line x1="40" y1="716" x2="1160" y2="716" stroke="#c7cdd4" stroke-width="1"/>
+  <rect x="40" y="733" width="26" height="26" rx="5" fill="#e2eefc"/>
+  <text class="leg" x="78" y="753">lecture topic · one 90-minute session</text>
+  <rect x="640" y="733" width="26" height="26" rx="5" fill="#1a2f6e"/>
+  <text class="leg" x="678" y="753">anchor topic: workshop / simulation</text>
+  <rect x="40" y="773" width="26" height="26" rx="5" fill="#7fb6f6"/>
+  <text class="leg" x="78" y="793">exercise double session, one sheet each</text>
+  <rect x="640" y="773" width="26" height="26" rx="5" fill="#fcd430"/>
+  <text class="leg" x="678" y="793">seminar-paper milestone</text>
+  <text class="foot" x="40" y="833">Schema, MUXP · 13 topics in 14 weeks, one lecture per week, 6 exercise double sessions, WS 2026/27</text>
+</svg>

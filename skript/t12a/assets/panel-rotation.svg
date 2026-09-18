@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" role="img" aria-labelledby="t d">
+  <title id="t">Panel setup and rotation: four roles, one ~12-minute cycle (5 defend, 5 questions and feedback, 2 swap), rounds with rotating roles</title>
+  <desc id="d">Top row: four role boxes – defender (5 minutes, one slide: the core argument), two questioners (drawing from pool and fear stack, at least one fear question), moderator (acknowledge, sort, park and return), observers (one anchor sheet per defense). Below: a timeline bar for one cycle of about 12 minutes, split into the defense (5 minutes), follow-up questions and feedback along the anchors (5 minutes) and swap (2 minutes). Bottom: roles rotate after every round, two rounds today.</desc>
+  <style>
+    text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill: #031121; }
+    .h { font-size: 24px; font-weight: 700; fill: #ffffff; }
+    .h-dark { font-size: 24px; font-weight: 700; fill: #031121; }
+    .sub { font-size: 16px; fill: #dfe5ff; }
+    .sub-dark { font-size: 16px; fill: #5a6472; }
+    .seg { font-size: 19px; font-weight: 700; fill: #ffffff; }
+    .seg-dark { font-size: 19px; font-weight: 700; fill: #031121; }
+    .seg-sub { font-size: 15px; fill: #dfe5ff; }
+    .seg-sub-dark { font-size: 15px; fill: #5a6472; }
+    .label { font-size: 18px; font-weight: 700; fill: #031121; }
+    .hint { font-size: 17px; fill: #5a6472; }
+    .chip { font-size: 15px; font-weight: 700; fill: #031121; }
+    .frame { stroke: #5a6472; stroke-width: 1.5; fill: #ffffff; }
+    .rot { stroke: #5a6472; stroke-width: 3; fill: none; }
+    .arrow { fill: #5a6472; }
+  </style>
+  <rect width="1200" height="520" fill="#ffffff"/>
+
+  <text class="label" x="40" y="48">One panel – four roles</text>
+
+  <!-- Defender -->
+  <rect x="40" y="70" width="260" height="140" fill="#1a2f6e"/>
+  <text class="h" x="58" y="108">Defender</text>
+  <text class="sub" x="58" y="140">5 minutes · one slide –</text>
+  <text class="sub" x="58" y="164">the core argument</text>
+
+  <!-- Questioners -->
+  <rect x="330" y="70" width="260" height="140" fill="#1a2f6e"/>
+  <text class="h" x="348" y="108">2 questioners</text>
+  <text class="sub" x="348" y="140">draw from the pool +</text>
+  <rect x="348" y="152" width="150" height="28" fill="#fcd430"/>
+  <text class="chip" x="358" y="172">fear stack</text>
+  <text class="sub" x="508" y="172">≥ 1</text>
+
+  <!-- Moderator -->
+  <rect x="620" y="70" width="260" height="140" fill="#1a2f6e"/>
+  <text class="h" x="638" y="108">Moderator</text>
+  <text class="sub" x="638" y="140">acknowledge · sort ·</text>
+  <text class="sub" x="638" y="164">park-and-return</text>
+
+  <!-- Observers -->
+  <rect class="frame" x="910" y="70" width="250" height="140"/>
+  <text class="h-dark" x="928" y="108">Observers</text>
+  <text class="sub-dark" x="928" y="140">one anchor sheet</text>
+  <text class="sub-dark" x="928" y="164">per defense</text>
+
+  <text class="label" x="40" y="290">One cycle · ~12 minutes</text>
+
+  <!-- Cycle bar: 5 / 5 / 2 minutes -> 467 / 467 / 186 px -->
+  <rect x="40" y="310" width="467" height="70" fill="#1a2f6e"/>
+  <text class="seg" x="58" y="340">Defense</text>
+  <text class="seg-sub" x="58" y="366">5:00</text>
+
+  <rect x="507" y="310" width="467" height="70" fill="#dfe5ff"/>
+  <text class="seg-dark" x="525" y="340">Questions + feedback</text>
+  <text class="seg-sub-dark" x="525" y="366">along the anchors · 5:00</text>
+
+  <rect class="frame" x="974" y="310" width="186" height="70"/>
+  <text class="seg-dark" x="992" y="340">Swap</text>
+  <text class="seg-sub-dark" x="992" y="366">2:00</text>
+
+  <!-- Rotation -->
+  <path class="rot" d="M 70 455 A 22 22 0 1 1 92 477"/>
+  <polygon class="arrow" points="92,463 92,491 110,477"/>
+  <text class="hint" x="130" y="470">roles rotate after every round · 2 rounds today – half of each panel defends; the rest in the week-14 defense session</text>
+</svg>

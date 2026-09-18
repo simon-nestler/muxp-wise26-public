@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 480" role="img" aria-labelledby="t d">
+  <title id="t">The three checks, in order: question or disguised solution – prototype-answerable at all – which rung, at what price; the result is a recommendation card returned to the author</title>
+  <desc id="d">A foreign design question passes three numbered checks from left to right. Check 1: is it a question or a disguised solution – if not, rewrite it as a question. Check 2: can a prototype answer it at all – if not, it needs other evidence. Check 3: which rung, at what price – the blind spot goes on the card. The result is one recommendation card returned to its author.</desc>
+  <style>
+    text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill: #031121; }
+    .box { fill: #e5effb; stroke: #1a2f6e; stroke-width: 2; }
+    .in { fill: #ffffff; stroke: #1a2f6e; stroke-width: 2; }
+    .num { fill: #fcd430; }
+    .numtext { font-size: 22px; font-weight: 700; fill: #031121; text-anchor: middle; }
+    .head { font-size: 21px; font-weight: 700; }
+    .line { font-size: 19px; }
+    .cure { font-size: 17px; fill: #5a6472; }
+    .arrow { stroke: #5a6472; stroke-width: 2.5; fill: none; }
+    .ahead { fill: #5a6472; }
+    .card { fill: #ffffff; stroke: #1a2f6e; stroke-width: 2; }
+    .accent { fill: #fcd430; }
+  </style>
+  <rect width="1200" height="480" fill="#ffffff"/>
+
+  <!-- input -->
+  <rect class="in" x="30" y="170" width="200" height="120" rx="10"/>
+  <text class="head" x="55" y="220">A foreign</text>
+  <text class="head" x="55" y="248">design question</text>
+  <line class="arrow" x1="230" y1="230" x2="282" y2="230"/>
+  <polygon class="ahead" points="282,224 294,230 282,236"/>
+
+  <!-- check 1 -->
+  <rect class="box" x="294" y="160" width="240" height="140" rx="10"/>
+  <circle class="num" cx="324" cy="192" r="17"/>
+  <text class="numtext" x="324" y="200">1</text>
+  <text class="line" x="352" y="199">A question – or a</text>
+  <text class="line" x="310" y="232">disguised solution?</text>
+  <line class="arrow" x1="414" y1="300" x2="414" y2="336"/>
+  <text class="cure" x="310" y="362">if not: rewrite it</text>
+  <text class="cure" x="310" y="384">as a question</text>
+  <line class="arrow" x1="534" y1="230" x2="586" y2="230"/>
+  <polygon class="ahead" points="586,224 598,230 586,236"/>
+
+  <!-- check 2 -->
+  <rect class="box" x="598" y="160" width="240" height="140" rx="10"/>
+  <circle class="num" cx="628" cy="192" r="17"/>
+  <text class="numtext" x="628" y="200">2</text>
+  <text class="line" x="656" y="199">Can a prototype</text>
+  <text class="line" x="614" y="232">answer it at all?</text>
+  <line class="arrow" x1="718" y1="300" x2="718" y2="336"/>
+  <text class="cure" x="614" y="362">if not: it needs other</text>
+  <text class="cure" x="614" y="384">evidence than a prototype</text>
+  <line class="arrow" x1="838" y1="230" x2="890" y2="230"/>
+  <polygon class="ahead" points="890,224 902,230 890,236"/>
+
+  <!-- check 3 -->
+  <rect class="box" x="902" y="160" width="240" height="140" rx="10"/>
+  <circle class="num" cx="932" cy="192" r="17"/>
+  <text class="numtext" x="932" y="200">3</text>
+  <text class="line" x="960" y="199">Which rung,</text>
+  <text class="line" x="918" y="232">at what price?</text>
+  <line class="arrow" x1="1022" y1="300" x2="1022" y2="336"/>
+  <polygon class="ahead" points="1016,336 1022,348 1028,336"/>
+
+  <!-- result card -->
+  <rect class="card" x="902" y="356" width="240" height="94" rx="8"/>
+  <rect class="accent" x="902" y="356" width="10" height="94"/>
+  <text class="head" x="930" y="394">One recommendation card</text>
+  <text class="line" x="930" y="424">back to its author</text>
+
+  <!-- order note -->
+  <text class="cure" x="30" y="60">Three checks per question – in this order. The blind spot of the chosen rung goes on the card.</text>
+</svg>

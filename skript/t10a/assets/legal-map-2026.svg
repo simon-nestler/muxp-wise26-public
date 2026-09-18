@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 560" role="img" aria-labelledby="t d">
+  <title id="t">The legal map, 2026: four layers in force – DSA Art. 25, UCPD, GDPR with EDPB guidelines, Data Act Art. 6 – and the Digital Fairness Act under construction</title>
+  <desc id="d">Schema of the European legal layers against dark patterns, dated August 2026. Four solid bars for law in force: DSA Article 25, platform interfaces, in force since 17 February 2024. UCPD, unfair commercial practices, economy-wide. GDPR with the EDPB deceptive-design guidelines, consent flows. Data Act Article 6, data-access interfaces, applicable since 12 September 2025. On top, a dashed bar for the Digital Fairness Act: proposal expected Q4 2026, during this semester, highlighted in yellow.</desc>
+  <style>
+    text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill: #031121; }
+    .h { font-size: 24px; font-weight: 700; }
+    .bar { fill: #1a2f6e; }
+    .name { font-size: 22px; font-weight: 700; fill: #ffffff; }
+    .scope { font-size: 17px; fill: #dfe5ff; }
+    .date { font-size: 17px; font-weight: 700; fill: #ffffff; text-anchor: end; }
+    .coming { fill: none; stroke: #5a6472; stroke-width: 2; stroke-dasharray: 8 6; }
+    .comingname { font-size: 22px; font-weight: 700; fill: #031121; }
+    .comingscope { font-size: 17px; fill: #5a6472; }
+    .tag { fill: #fcd430; }
+    .tagtext { font-size: 16px; font-weight: 700; fill: #031121; }
+    .hint { font-size: 17px; fill: #5a6472; }
+  </style>
+  <rect width="1200" height="560" fill="#ffffff"/>
+
+  <text class="h" x="40" y="48">Coming</text>
+
+  <!-- Digital Fairness Act: under construction -->
+  <rect class="coming" x="40" y="66" width="1120" height="72"/>
+  <text class="comingname" x="60" y="98">Digital Fairness Act</text>
+  <text class="comingscope" x="60" y="124">fairness by design, economy-wide &#8211; consultation closed 2025</text>
+  <rect class="tag" x="800" y="86" width="336" height="32"/>
+  <text class="tagtext" x="814" y="107">proposal expected Q4 2026 &#8211; this semester</text>
+
+  <text class="h" x="40" y="188">In force</text>
+
+  <!-- DSA -->
+  <rect class="bar" x="40" y="206" width="1120" height="68"/>
+  <text class="name" x="60" y="236">DSA Art. 25</text>
+  <text class="scope" x="60" y="260">manipulative interface design on platforms</text>
+  <text class="date" x="1140" y="244">in force since 17.02.2024</text>
+
+  <!-- UCPD -->
+  <rect class="bar" x="40" y="282" width="1120" height="68"/>
+  <text class="name" x="60" y="312">UCPD</text>
+  <text class="scope" x="60" y="336">unfair commercial practices &#8211; economy-wide, beyond platforms</text>
+
+  <!-- GDPR -->
+  <rect class="bar" x="40" y="358" width="1120" height="68"/>
+  <text class="name" x="60" y="388">GDPR + EDPB guidelines</text>
+  <text class="scope" x="60" y="412">deceptive design in consent flows (Guidelines 03/2022)</text>
+
+  <!-- Data Act -->
+  <rect class="bar" x="40" y="434" width="1120" height="68"/>
+  <text class="name" x="60" y="464">Data Act Art. 6</text>
+  <text class="scope" x="60" y="488">dark patterns banned in data-access interfaces</text>
+  <text class="date" x="1140" y="472">applicable since 12.09.2025</text>
+
+  <text class="hint" x="40" y="536">Status: Aug. 2026 &#183; This map may gain a footnote while you write your seminar paper.</text>
+</svg>

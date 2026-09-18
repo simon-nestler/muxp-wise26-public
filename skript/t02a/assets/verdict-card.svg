@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 560" role="img" aria-labelledby="t d">
+  <title id="t">The verdict card: case, verdict as innovation or error, and the mandatory price</title>
+  <desc id="d">A card with three fields. Field one: the case, one line. Field two: the verdict, a choice between innovation and error. Field three, highlighted: the price of the verdict, one sentence – the mandatory part. A note beside the card says that a verdict without a price is not counted.</desc>
+  <style>
+    text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill: #031121; }
+    .head { font-size: 24px; font-weight: 700; fill: #ffffff; }
+    .lab { font-size: 22px; font-weight: 700; }
+    .opt { font-size: 20px; }
+    .ann { font-size: 20px; fill: #5a6472; }
+    .rule { stroke: #c7cdd4; stroke-width: 2; }
+    .box { fill: none; stroke: #031121; stroke-width: 2.5; }
+  </style>
+  <rect width="1200" height="560" fill="#ffffff"/>
+
+  <!-- Card -->
+  <rect x="240" y="50" width="600" height="460" rx="16" fill="#ffffff" stroke="#031121" stroke-width="3"/>
+  <path d="M 240 66 A 16 16 0 0 1 256 50 L 824 50 A 16 16 0 0 1 840 66 L 840 106 L 240 106 Z" fill="#1a2f6e"/>
+  <text class="head" x="276" y="86">Verdict card · one per case</text>
+
+  <!-- Case -->
+  <text class="lab" x="276" y="156">Case</text>
+  <line class="rule" x1="276" y1="186" x2="804" y2="186"/>
+
+  <!-- Verdict -->
+  <text class="lab" x="276" y="240">Verdict</text>
+  <rect class="box" x="276" y="258" width="26" height="26"/><text class="opt" x="316" y="278">innovation</text>
+  <rect class="box" x="480" y="258" width="26" height="26"/><text class="opt" x="520" y="278">error</text>
+
+  <!-- Price: the mandatory part -->
+  <rect x="264" y="318" width="552" height="150" rx="10" fill="none" stroke="#fcd430" stroke-width="5"/>
+  <text class="lab" x="284" y="356">The price of the verdict</text>
+  <line class="rule" x1="284" y1="396" x2="796" y2="396"/>
+  <line class="rule" x1="284" y1="436" x2="796" y2="436"/>
+
+  <!-- Annotation -->
+  <text class="ann" x="880" y="356">← the mandatory part:</text>
+  <text class="ann" x="880" y="386">a verdict without a price</text>
+  <text class="ann" x="880" y="416">is not counted</text>
+
+  <text class="ann" x="240" y="548">one sentence per field · groups of four · 25 minutes</text>
+</svg>

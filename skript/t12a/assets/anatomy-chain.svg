@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" role="img" aria-labelledby="t d">
+  <title id="t">The anatomy of a defense: claim, evidence, limit, price – and the question type that tests each link</title>
+  <desc id="d">Four linked boxes in a chain: claim (one sentence, your design decision), evidence (source, test, audit finding, protocol line), limit (where it does not hold – the blind spot, Topic 4) and price (what it cost – the discarded alternative, Topic 5, highlighted in yellow). Under the last three boxes, the follow-up question that tests each link: how would you notice you were wrong (evidence), what if X changes (limit), why not otherwise (price).</desc>
+  <style>
+    text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill: #031121; }
+    .h { font-size: 27px; font-weight: 700; fill: #ffffff; }
+    .h-dark { font-size: 27px; font-weight: 700; fill: #031121; }
+    .sub { font-size: 17px; fill: #dfe5ff; }
+    .sub-dark { font-size: 17px; fill: #4a4630; }
+    .hint { font-size: 17px; fill: #5a6472; }
+    .hint-b { font-size: 17px; font-weight: 700; fill: #5a6472; }
+    .arrow { fill: #5a6472; }
+  </style>
+  <rect width="1200" height="400" fill="#ffffff"/>
+
+  <!-- Claim -->
+  <rect x="40" y="110" width="250" height="150" fill="#1a2f6e"/>
+  <text class="h" x="60" y="155">Claim</text>
+  <text class="sub" x="60" y="192">one sentence –</text>
+  <text class="sub" x="60" y="218">your design decision</text>
+
+  <!-- Evidence -->
+  <rect x="330" y="110" width="250" height="150" fill="#1a2f6e"/>
+  <text class="h" x="350" y="155">Evidence</text>
+  <text class="sub" x="350" y="192">why: source · test ·</text>
+  <text class="sub" x="350" y="218">audit finding · protocol line</text>
+
+  <!-- Limit -->
+  <rect x="620" y="110" width="250" height="150" fill="#1a2f6e"/>
+  <text class="h" x="640" y="155">Limit</text>
+  <text class="sub" x="640" y="192">where it does not hold –</text>
+  <text class="sub" x="640" y="218">the blind spot (Topic 4)</text>
+
+  <!-- Price -->
+  <rect x="910" y="110" width="250" height="150" fill="#fcd430"/>
+  <text class="h-dark" x="930" y="155">Price</text>
+  <text class="sub-dark" x="930" y="192">what it cost – the discarded</text>
+  <text class="sub-dark" x="930" y="218">alternative (Topic 5)</text>
+
+  <!-- Arrows -->
+  <polygon class="arrow" points="292,175 292,195 322,185"/>
+  <polygon class="arrow" points="582,175 582,195 612,185"/>
+  <polygon class="arrow" points="872,175 872,195 902,185"/>
+
+  <!-- Tested-by hints -->
+  <text class="hint-b" x="350" y="310">tested by:</text>
+  <text class="hint" x="350" y="336">"How would you notice</text>
+  <text class="hint" x="350" y="360">you were wrong?"</text>
+
+  <text class="hint-b" x="640" y="310">tested by:</text>
+  <text class="hint" x="640" y="336">"What if X changes?"</text>
+
+  <text class="hint-b" x="930" y="310">tested by:</text>
+  <text class="hint" x="930" y="336">"Why not otherwise?"</text>
+
+  <text class="hint" x="60" y="336">four links – every follow-up</text>
+  <text class="hint" x="60" y="360">question sorts into one</text>
+</svg>

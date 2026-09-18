@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" role="img" aria-labelledby="t d">
+  <title id="t">The anatomy of a source chain: primary source, secondary use, aggregator – every step strips context</title>
+  <desc id="d">Three stations connected by arrows. Station one, primary source: who measured, with year, method and population – example App Annie 2019, US smartphone users. Station two, secondary use: who repackaged. Station three, aggregator: who ranks on Google – example: people use 9 apps a day, no year, no population. Yellow tags on the arrows mark the context lost at each step.</desc>
+  <style>
+    text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill: #031121; }
+    .st { font-size: 30px; font-weight: 700; }
+    .stw { font-size: 30px; font-weight: 700; fill: #ffffff; }
+    .sub { font-size: 21px; fill: #5a6472; }
+    .subw { font-size: 21px; fill: #dbe6f5; }
+    .ex { font-size: 20px; fill: #5a6472; font-style: italic; }
+    .loss { font-size: 19px; font-weight: 700; }
+    .foot { font-size: 24px; font-weight: 700; }
+    .arrow { stroke: #5a6472; stroke-width: 3; fill: none; }
+  </style>
+  <rect width="1200" height="520" fill="#ffffff"/>
+  <defs>
+    <marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#5a6472"/>
+    </marker>
+  </defs>
+
+  <!-- Station 1: primary source -->
+  <rect x="40" y="120" width="320" height="150" rx="10" fill="#1a2f6e"/>
+  <text class="stw" x="70" y="180">Primary source</text>
+  <text class="subw" x="70" y="215">who measured?</text>
+  <text class="subw" x="70" y="245">year · method · population</text>
+  <text class="ex" x="70" y="310">"US smartphone users,</text>
+  <text class="ex" x="70" y="336">2019, App Annie"</text>
+
+  <!-- Arrow 1 with loss tag -->
+  <line class="arrow" x1="368" y1="195" x2="432" y2="195" marker-end="url(#ah)"/>
+  <rect x="330" y="60" width="140" height="36" rx="6" fill="#fcd430"/>
+  <text class="loss" x="352" y="84">– method</text>
+
+  <!-- Station 2: secondary use -->
+  <rect x="440" y="120" width="320" height="150" rx="10" fill="#7fb6f6"/>
+  <text class="st" x="470" y="180">Secondary use</text>
+  <text class="sub" x="470" y="215">who repackaged?</text>
+  <text class="ex" x="470" y="310">a "mobile trends" post,</text>
+  <text class="ex" x="470" y="336">no method in sight</text>
+
+  <!-- Arrow 2 with loss tag -->
+  <line class="arrow" x1="768" y1="195" x2="832" y2="195" marker-end="url(#ah)"/>
+  <rect x="700" y="60" width="230" height="36" rx="6" fill="#fcd430"/>
+  <text class="loss" x="722" y="84">– year, population</text>
+
+  <!-- Station 3: aggregator -->
+  <rect x="840" y="120" width="320" height="150" rx="10" fill="#e2eefc"/>
+  <text class="st" x="870" y="180">Aggregator</text>
+  <text class="sub" x="870" y="215">who ranks on Google?</text>
+  <text class="ex" x="870" y="310">"people use 9 apps a day"</text>
+  <text class="ex" x="870" y="336">no year, no population</text>
+
+  <line x1="40" y1="400" x2="1160" y2="400" stroke="#c7cdd4" stroke-width="1"/>
+  <text class="foot" x="40" y="450">Every step strips context: year, method, population.</text>
+  <text class="sub" x="40" y="490">Schema, MUXP Topic 1 · example chain of the 80-apps statistic, as established Aug. 2026</text>
+</svg>

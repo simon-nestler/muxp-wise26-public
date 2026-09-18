@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1260 560" role="img" aria-labelledby="t d">
+  <title id="t">Schema: the three sources of friction, checked in this order</title>
+  <desc id="d">A check chain in three numbered steps, read left to right. Step one: does it serve the user? Security and error prevention. If yes: keep it, and justify it. Step two: does it serve the organization? Data hunger, newsletter boxes, account walls. If yes: trust debt. Step three, reached only when neither applies: nobody thought about it. Verdict: remove it. A footer line says: assume value first, interest second, neglect last, and demand evidence at each step.</desc>
+  <style>
+    text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill: #031121; }
+    .h { font-size: 26px; font-weight: 700; }
+    .l { font-size: 21px; }
+    .s { font-size: 19px; fill: #5a6472; }
+    .box { fill: #ffffff; stroke: #c7cdd4; stroke-width: 2; }
+    .fill { fill: #e5effb; stroke: #c7cdd4; stroke-width: 2; }
+    .num { fill: #1a2f6e; }
+    .numt { font-size: 22px; font-weight: 700; fill: #ffffff; text-anchor: middle; }
+    .path { fill: none; stroke: #3391ff; stroke-width: 3; stroke-dasharray: 8 6; marker-end: url(#arrow); }
+    .verdict { font-size: 21px; font-weight: 700; }
+    .no { font-size: 19px; font-weight: 700; fill: #3391ff; }
+  </style>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3391ff"/></marker>
+  </defs>
+  <rect width="1260" height="560" fill="#ffffff"/>
+
+  <text class="h" x="60" y="70">Check in this order</text>
+  <rect x="60" y="84" width="120" height="6" fill="#FCD430"/>
+
+  <!-- Step 1 -->
+  <rect class="fill" x="60" y="130" width="340" height="200"/>
+  <circle class="num" cx="60" cy="130" r="20"/><text class="numt" x="60" y="138">1</text>
+  <text class="h" x="90" y="180">Does it serve</text>
+  <text class="h" x="90" y="212">the user?</text>
+  <text class="s" x="90" y="250">security,</text>
+  <text class="s" x="90" y="278">error prevention</text>
+  <text class="verdict" x="90" y="380">yes: keep – and justify</text>
+  <line x1="90" y1="390" x2="330" y2="390" stroke="#c7cdd4" stroke-width="2"/>
+
+  <!-- Arrow 1 -> 2 -->
+  <path class="path" d="M 400 230 L 470 230"/>
+  <text class="no" x="410" y="215">if not</text>
+
+  <!-- Step 2 -->
+  <rect class="fill" x="480" y="130" width="340" height="200"/>
+  <circle class="num" cx="480" cy="130" r="20"/><text class="numt" x="480" y="138">2</text>
+  <text class="h" x="510" y="180">Does it serve</text>
+  <text class="h" x="510" y="212">the organization?</text>
+  <text class="s" x="510" y="250">data hunger, newsletter</text>
+  <text class="s" x="510" y="278">boxes, account walls</text>
+  <text class="verdict" x="510" y="380">yes: trust debt</text>
+  <line x1="510" y1="390" x2="750" y2="390" stroke="#c7cdd4" stroke-width="2"/>
+
+  <!-- Arrow 2 -> 3 -->
+  <path class="path" d="M 820 230 L 890 230"/>
+  <text class="no" x="830" y="215">if not</text>
+
+  <!-- Step 3 -->
+  <rect class="box" x="900" y="130" width="300" height="200"/>
+  <circle class="num" cx="900" cy="130" r="20"/><text class="numt" x="900" y="138">3</text>
+  <text class="h" x="930" y="180">Nobody thought</text>
+  <text class="h" x="930" y="212">about it</text>
+  <text class="s" x="930" y="250">when neither</text>
+  <text class="s" x="930" y="278">applies</text>
+  <text class="verdict" x="930" y="380">verdict: remove</text>
+  <line x1="930" y1="390" x2="1170" y2="390" stroke="#c7cdd4" stroke-width="2"/>
+
+  <!-- Footer -->
+  <text class="l" x="60" y="490">Assume value first, interest second, neglect last – and demand evidence at each step.</text>
+</svg>

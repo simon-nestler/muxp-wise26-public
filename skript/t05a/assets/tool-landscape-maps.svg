@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 560" role="img" aria-labelledby="t d">
+  <title id="t">Prompt-to-UI tool landscape, early 2025 next to August 2026</title>
+  <desc id="d">Two panels. Left, early 2025: design-file output by Galileo AI and Uizard; running-code output by v0, Lovable, and Bolt. Right, August 2026: Galileo AI has become Stitch under Google, Uizard belongs to Miro, Figma Make is generally available with Code Layers since Config 2026; v0, Lovable, and Bolt remain the prompt-to-code standard. Changed entries are highlighted in yellow.</desc>
+  <style>
+    text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill: #031121; }
+    .h { font-size: 28px; font-weight: 700; }
+    .q { font-size: 17px; fill: #5a6472; }
+    .r { font-size: 16px; fill: #5a6472; font-weight: 700; letter-spacing: 0.06em; }
+    .n { font-size: 20px; font-weight: 700; text-anchor: middle; }
+    .s { font-size: 13px; fill: #5a6472; text-anchor: middle; }
+    .box { fill: #ffffff; stroke: #1a2f6e; stroke-width: 2; }
+    .box.akzent { fill: #fcd430; }
+    .div { stroke: #c7cdd4; stroke-width: 1.5; }
+  </style>
+  <rect width="1200" height="560" fill="#ffffff"/>
+
+  <!-- Left panel: early 2025 -->
+  <text class="h" x="40" y="48">Early 2025</text>
+  <text class="q" x="40" y="76">prompt-to-UI tools</text>
+
+  <text class="r" x="40" y="126">OUTPUT: DESIGN FILE</text>
+  <rect class="box" x="40" y="140" width="160" height="80" rx="8"/>
+  <text class="n" x="120" y="186">Galileo AI</text>
+  <rect class="box" x="220" y="140" width="160" height="80" rx="8"/>
+  <text class="n" x="300" y="186">Uizard</text>
+
+  <text class="r" x="40" y="286">OUTPUT: RUNNING CODE</text>
+  <rect class="box" x="40" y="300" width="150" height="66" rx="8"/>
+  <text class="n" x="115" y="340">v0</text>
+  <rect class="box" x="210" y="300" width="150" height="66" rx="8"/>
+  <text class="n" x="285" y="340">Lovable</text>
+  <rect class="box" x="380" y="300" width="150" height="66" rx="8"/>
+  <text class="n" x="455" y="340">Bolt</text>
+
+  <line class="div" x1="600" y1="30" x2="600" y2="470"/>
+
+  <!-- Right panel: August 2026 -->
+  <text class="h" x="640" y="48">August 2026</text>
+  <text class="q" x="640" y="76">prompt-to-UI tools</text>
+
+  <text class="r" x="640" y="126">OUTPUT: DESIGN FILE</text>
+  <rect class="box akzent" x="640" y="140" width="160" height="80" rx="8"/>
+  <text class="n" x="720" y="172">Stitch</text>
+  <text class="s" x="720" y="194">Google</text>
+  <text class="s" x="720" y="211">formerly Galileo AI</text>
+  <rect class="box akzent" x="820" y="140" width="160" height="80" rx="8"/>
+  <text class="n" x="900" y="172">Uizard</text>
+  <text class="s" x="900" y="194">Miro</text>
+  <text class="s" x="900" y="211">since 2024</text>
+  <rect class="box akzent" x="1000" y="140" width="170" height="80" rx="8"/>
+  <text class="n" x="1085" y="166">Figma Make</text>
+  <text class="s" x="1085" y="188">GA mid-2025</text>
+  <text class="s" x="1085" y="205">Code Layers, Config 2026</text>
+
+  <text class="r" x="640" y="286">OUTPUT: RUNNING CODE</text>
+  <rect class="box" x="640" y="300" width="150" height="66" rx="8"/>
+  <text class="n" x="715" y="340">v0</text>
+  <rect class="box" x="810" y="300" width="150" height="66" rx="8"/>
+  <text class="n" x="885" y="340">Lovable</text>
+  <rect class="box" x="980" y="300" width="150" height="66" rx="8"/>
+  <text class="n" x="1055" y="340">Bolt</text>
+  <text class="q" x="640" y="396">the prompt-to-code standard</text>
+
+  <!-- Legend -->
+  <rect x="640" y="428" width="18" height="18" fill="#fcd430" stroke="#1a2f6e" stroke-width="1.5"/>
+  <text class="q" x="668" y="443">changed since early 2025</text>
+
+  <text class="q" x="40" y="510">Half-life warning: this map is the most perishable thing shown this semester.</text>
+  <text class="q" x="40" y="540">Sources: Banani (2026) · Silicon Canals / Crunchbase (2024) · The Decoder / CMSWire (June 2026) · status: Aug. 2026</text>
+</svg>

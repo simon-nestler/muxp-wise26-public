@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 560" role="img" aria-labelledby="t d">
+  <title id="t">The weekly rhythm: one 90-minute lecture per week, a bridge task, and an exercise double session after every two topics</title>
+  <desc id="d">Two stations connected by an arrow. Station one, the lecture: 90 minutes once a week, builds the core conflict of the topic. A yellow tag on the arrow marks the bridge task of at most 20 minutes; its results go into the exercise. Station two, the exercise double session: after every two lecture topics, one exercise sheet, worked on in teams in the session. A band below marks the exercise track: five regular double sessions U1 to U5, each sheet uploaded within 48 hours; U6 is the lecturer's backup date.</desc>
+  <style>
+    text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill: #031121; }
+    .st { font-size: 30px; font-weight: 700; }
+    .stw { font-size: 30px; font-weight: 700; fill: #ffffff; }
+    .sub { font-size: 21px; fill: #3d4652; }
+    .subw { font-size: 21px; fill: #dbe6f5; }
+    .tag { font-size: 19px; font-weight: 700; }
+    .band { font-size: 26px; font-weight: 700; }
+    .bandsub { font-size: 21px; fill: #5a6472; }
+    .foot { font-size: 21px; fill: #5a6472; }
+    .arrow { stroke: #5a6472; stroke-width: 3; fill: none; }
+  </style>
+  <rect width="1200" height="560" fill="#ffffff"/>
+  <defs>
+    <marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#5a6472"/>
+    </marker>
+  </defs>
+
+  <!-- Station 1: lecture -->
+  <rect x="40" y="130" width="440" height="170" rx="10" fill="#1a2f6e"/>
+  <text class="stw" x="72" y="190">Lecture · every week</text>
+  <text class="subw" x="72" y="228">90 minutes</text>
+  <text class="subw" x="72" y="258">builds the core conflict</text>
+
+  <!-- Bridge tag over arrow -->
+  <line class="arrow" x1="488" y1="215" x2="712" y2="215" marker-end="url(#ah)"/>
+  <rect x="465" y="60" width="270" height="40" rx="6" fill="#fcd430"/>
+  <text class="tag" x="487" y="86">Bridge task · ≤ 20 min</text>
+  <line x1="600" y1="100" x2="600" y2="200" stroke="#5a6472" stroke-width="2"/>
+
+  <!-- Station 2: exercise -->
+  <rect x="720" y="130" width="440" height="170" rx="10" fill="#7fb6f6"/>
+  <text class="st" x="752" y="190">Exercise · double session</text>
+  <text class="sub" x="752" y="228">after every two topics</text>
+  <text class="sub" x="752" y="258">one sheet, worked in teams</text>
+
+  <!-- Exercise track band -->
+  <rect x="40" y="360" width="1120" height="100" rx="10" fill="#e2eefc"/>
+  <text class="band" x="72" y="404">Exercise track: U1–U5 · five double sessions · U6 backup date</text>
+  <text class="bandsub" x="72" y="440">bridge results go into the sheet · upload within 48 h after the session</text>
+
+  <text class="foot" x="40" y="520">Schema, MUXP session 0 · no second lecture session · dates and rooms follow the WS 2026/27 timetable</text>
+</svg>

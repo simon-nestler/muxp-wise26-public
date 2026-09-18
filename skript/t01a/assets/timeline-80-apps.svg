@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 440" role="img" aria-labelledby="t d">
+  <title id="t">Timeline of the 80-apps statistic: measured once in 2019, recycled every year since, amplified by models in 2026</title>
+  <desc id="d">A horizontal time axis from 2019 to 2026. A large dark node at 2019 marks the App Annie and eMarketer measurement, nine of eighty apps. Small gray nodes from 2020 to 2025 mark yearly recycling with a fresh date. A yellow node at 2026 marks aggregators ranking and models citing them. Caption: typical finding of the source hunt, no newer primary measurement found as of August 2026.</desc>
+  <style>
+    text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill: #031121; }
+    .yr { font-size: 22px; fill: #5a6472; text-anchor: middle; }
+    .lab { font-size: 24px; font-weight: 700; }
+    .sub { font-size: 20px; fill: #5a6472; }
+    .mid { font-size: 20px; fill: #5a6472; font-style: italic; text-anchor: middle; }
+    .foot { font-size: 20px; fill: #5a6472; }
+  </style>
+  <rect width="1200" height="440" fill="#ffffff"/>
+
+  <line x1="60" y1="270" x2="1150" y2="270" stroke="#c7cdd4" stroke-width="3"/>
+
+  <!-- 2019: the measurement -->
+  <circle cx="100" cy="270" r="18" fill="#1a2f6e"/>
+  <text class="yr" x="100" y="320">2019</text>
+  <text class="lab" x="60" y="120">App Annie / eMarketer</text>
+  <text class="sub" x="60" y="152">the measurement:</text>
+  <text class="sub" x="60" y="180">"9 of 80 apps", US users</text>
+  <line x1="100" y1="200" x2="100" y2="246" stroke="#c7cdd4" stroke-width="2"/>
+
+  <!-- 2020-2025: recycling -->
+  <circle cx="250" cy="270" r="9" fill="#c7cdd4"/><text class="yr" x="250" y="320">2020</text>
+  <circle cx="400" cy="270" r="9" fill="#c7cdd4"/><text class="yr" x="400" y="320">2021</text>
+  <circle cx="550" cy="270" r="9" fill="#c7cdd4"/><text class="yr" x="550" y="320">2022</text>
+  <circle cx="700" cy="270" r="9" fill="#c7cdd4"/><text class="yr" x="700" y="320">2023</text>
+  <circle cx="850" cy="270" r="9" fill="#c7cdd4"/><text class="yr" x="850" y="320">2024</text>
+  <circle cx="1000" cy="270" r="9" fill="#c7cdd4"/><text class="yr" x="1000" y="320">2025</text>
+  <text class="mid" x="625" y="228">recycled with a fresh date, every year</text>
+
+  <!-- 2026: the engine -->
+  <circle cx="1110" cy="270" r="18" fill="#fcd430" stroke="#031121" stroke-width="3"/>
+  <text class="yr" x="1110" y="320">2026</text>
+  <text class="lab" x="820" y="120">aggregators rank,</text>
+  <text class="lab" x="820" y="150">models cite them</text>
+  <text class="sub" x="820" y="182">the loop gets an engine</text>
+  <line x1="1110" y1="200" x2="1110" y2="246" stroke="#c7cdd4" stroke-width="2"/>
+
+  <text class="foot" x="60" y="410">Typical finding of the source hunt · no newer primary measurement found (as of Aug. 2026) · completed live at the wall</text>
+</svg>

@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1260 620" role="img" aria-labelledby="t d">
+  <title id="t">Schema: the protection map – four directions a deliberate friction can protect</title>
+  <desc id="d">A friction point sits in the center. Four arrows point outward to four fields. Top left: protects the user from themselves, example deletion confirmation. Top right: protects their assets, example transfer check. Bottom left: protects third parties, example age gate. Bottom right, drawn with a dashed border and marked with a yellow flag: protects the organization from liability, example cookie wall – this direction habitually wears the costume of the other three.</desc>
+  <style>
+    text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill: #031121; }
+    .h { font-size: 24px; font-weight: 700; }
+    .l { font-size: 20px; }
+    .s { font-size: 18px; fill: #5a6472; }
+    .box { fill: #e5effb; stroke: #c7cdd4; stroke-width: 2; }
+    .boxq { fill: #ffffff; stroke: #8a5f00; stroke-width: 2.5; stroke-dasharray: 9 6; }
+    .center { fill: #031121; }
+    .centert { font-size: 22px; font-weight: 700; fill: #ffffff; text-anchor: middle; }
+    .path { fill: none; stroke: #3391ff; stroke-width: 3; marker-end: url(#arrow); }
+    .warn { font-size: 18px; font-weight: 700; fill: #8a5f00; }
+  </style>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3391ff"/></marker>
+  </defs>
+  <rect width="1260" height="620" fill="#ffffff"/>
+
+  <!-- Center -->
+  <rect class="center" x="510" y="270" width="240" height="80" rx="8"/>
+  <text class="centert" x="630" y="318">the friction point</text>
+
+  <!-- Arrows -->
+  <path class="path" d="M 540 280 L 440 200"/>
+  <path class="path" d="M 720 280 L 820 200"/>
+  <path class="path" d="M 540 340 L 440 420"/>
+  <path class="path" d="M 720 340 L 820 420"/>
+
+  <!-- Top left: user from themselves -->
+  <rect class="box" x="70" y="60" width="360" height="130"/>
+  <text class="h" x="95" y="105">protects the user</text>
+  <text class="h" x="95" y="135">from themselves</text>
+  <text class="s" x="95" y="170">deletion confirmation</text>
+
+  <!-- Top right: their assets -->
+  <rect class="box" x="830" y="60" width="360" height="130"/>
+  <text class="h" x="855" y="105">protects</text>
+  <text class="h" x="855" y="135">their assets</text>
+  <text class="s" x="855" y="170">transfer check</text>
+
+  <!-- Bottom left: third parties -->
+  <rect class="box" x="70" y="430" width="360" height="130"/>
+  <text class="h" x="95" y="475">protects</text>
+  <text class="h" x="95" y="505">third parties</text>
+  <text class="s" x="95" y="540">age gate</text>
+
+  <!-- Bottom right: the organization -->
+  <rect class="boxq" x="830" y="430" width="360" height="130"/>
+  <rect x="830" y="430" width="10" height="130" fill="#FCD430"/>
+  <text class="h" x="865" y="475">protects the org</text>
+  <text class="h" x="865" y="505">from liability</text>
+  <text class="s" x="865" y="540">cookie wall</text>
+  <text class="warn" x="830" y="595">habitually wears the costume of the other three</text>
+
+  <!-- Key sentence -->
+  <text class="l" x="70" y="40">Whom does the friction protect? The line runs along interest direction – not effort.</text>
+</svg>
