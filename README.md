@@ -23,9 +23,9 @@ Videos are not included; the lecture notes link to the original source instead.
 
 ## Exercise sheets
 
-- [Exercise Sheet 01 · Evidence patterns](blaetter/u01-evidence-patterns.pdf)
-- [Exercise Sheet 02 · Severity fidelity](blaetter/u02-severity-fidelity.pdf)
-- [Exercise Sheet 03 · Machine audit](blaetter/u03-machine-audit.pdf)
+- [Exercise Sheet 01 · Claims and their sources · Patterns as a language](blaetter/u01-evidence-patterns.pdf)
+- [Exercise Sheet 02 · Severity: formula and rubric · The fidelity decision](blaetter/u02-severity-fidelity.pdf)
+- [Exercise Sheet 03 · Building with the machine · Anchor I: The audit lab](blaetter/u03-machine-audit.pdf)
 - [Exercise Sheet 04 · Friction by design · Notifications: designing against the filter](blaetter/u04-friction-notifications.pdf)
 - [Exercise Sheet 05 · Offline states and sync conflicts · Dark patterns: naming and judging](blaetter/u05-offline-darkpatterns.pdf)
 - [Exercise Sheet 06 · The Brussels hearing · Defending your design](blaetter/u06-hearing-defense.pdf)
