@@ -1,10 +1,10 @@
 # Mobile UX Prototyping · Winter term 2026/27
 
-Öffentliche Materialien der Lehrveranstaltung Mobile UX Prototyping (User Experience Design (M.Sc.)), Technische Hochschule Ingolstadt, Prof. Dr. Simon Nestler.
+Public materials for Mobile UX Prototyping (User Experience Design (M.Sc.)), Technische Hochschule Ingolstadt, Prof. Dr. Simon Nestler.
 
-Videos sind nicht enthalten; an ihrer Stelle steht im Skript ein Link auf die Originalquelle.
+Videos are not included; the lecture notes link to the original source instead.
 
-## Skript
+## Lecture notes
 
 - [T00 · Organization](skript/t00/)
 - [T01 · Claims and their sources](skript/t01a/)
@@ -21,20 +21,20 @@ Videos sind nicht enthalten; an ihrer Stelle steht im Skript ein Link auf die Or
 - [T12 · Defending your design](skript/t12a/)
 - [T13 · Apps and the agent thesis](skript/t13a/)
 
-## Übungs- und Praktikumsblätter
+## Exercise sheets
 
-- [u01-evidence-patterns](blaetter/u01-evidence-patterns.pdf)
-- [u02-severity-fidelity](blaetter/u02-severity-fidelity.pdf)
-- [u03-machine-audit](blaetter/u03-machine-audit.pdf)
-- [u04-friction-notifications](blaetter/u04-friction-notifications.pdf)
-- [u05-offline-darkpatterns](blaetter/u05-offline-darkpatterns.pdf)
-- [u06-hearing-defense](blaetter/u06-hearing-defense.pdf)
+- [Exercise Sheet 01 · Evidence patterns](blaetter/u01-evidence-patterns.pdf)
+- [Exercise Sheet 02 · Severity fidelity](blaetter/u02-severity-fidelity.pdf)
+- [Exercise Sheet 03 · Machine audit](blaetter/u03-machine-audit.pdf)
+- [Exercise Sheet 04 · Friction by design · Notifications: designing against the filter](blaetter/u04-friction-notifications.pdf)
+- [Exercise Sheet 05 · Offline states and sync conflicts · Dark patterns: naming and judging](blaetter/u05-offline-darkpatterns.pdf)
+- [Exercise Sheet 06 · The Brussels hearing · Defending your design](blaetter/u06-hearing-defense.pdf)
 
-## Probeklausur
+## Mock exam
 
-- [mock-colloquium](probeklausur/mock-colloquium.pdf)
-- [self-assessment](probeklausur/self-assessment.pdf)
+- [Mock Colloquium](probeklausur/mock-colloquium.pdf)
+- [Self-Assessment – Seminar Paper and Presentation](probeklausur/self-assessment.pdf)
 
-## Lern-Skills
+## Learning skills
 
-- [Skills für Claude und andere KI-Assistenten](lern-skills/)
+- [Skills for Claude and other AI assistants](lern-skills/)
