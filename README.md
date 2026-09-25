@@ -6,20 +6,20 @@ Videos are not included; the lecture notes link to the original source instead.
 
 ## Lecture notes
 
-- [T00 · Organization](skript/t00/)
-- [T01 · Claims and their sources](skript/t01a/)
-- [T02 · Patterns as a language](skript/t02a/)
-- [T03 · Severity: formula and rubric](skript/t03a/)
-- [T04 · The fidelity decision](skript/t04a/)
-- [T05 · Building with the machine](skript/t05a/)
-- [T06 · Anchor I: The audit lab](skript/t06a/)
-- [T07 · Friction by design](skript/t07a/)
-- [T08 · Notifications – designing against the filter](skript/t08a/)
-- [T09 · Offline states and sync conflicts](skript/t09a/)
-- [T10 · Dark patterns: naming and judging](skript/t10a/)
-- [T11 · Anchor II: The Brussels hearing](skript/t11a/)
-- [T12 · Defending your design](skript/t12a/)
-- [T13 · Apps and the agent thesis](skript/t13a/)
+- [Topic 00 · Organization](skript/t00/)
+- [Topic 01 · Claims and their sources](skript/t01a/)
+- [Topic 02 · Patterns as a language](skript/t02a/)
+- [Topic 03 · Severity: formula and rubric](skript/t03a/)
+- [Topic 04 · The fidelity decision](skript/t04a/)
+- [Topic 05 · Building with the machine](skript/t05a/)
+- [Topic 06 · Anchor I: The audit lab](skript/t06a/)
+- [Topic 07 · Friction by design](skript/t07a/)
+- [Topic 08 · Notifications – designing against the filter](skript/t08a/)
+- [Topic 09 · Offline states and sync conflicts](skript/t09a/)
+- [Topic 10 · Dark patterns: naming and judging](skript/t10a/)
+- [Topic 11 · Anchor II: The Brussels hearing](skript/t11a/)
+- [Topic 12 · Defending your design](skript/t12a/)
+- [Topic 13 · Apps and the agent thesis](skript/t13a/)
 
 ## Exercise sheets
 
