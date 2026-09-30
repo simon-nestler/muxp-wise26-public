@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 560" role="img" aria-labelledby="t d">
+  <title id="t">How a beacon worked in 2014: a transmitter on the shelf, a phone that greets the customer on arrival</title>
+  <desc id="d">Schematic of the 2014 beacon idea. On the left, a shop shelf with a small round transmitter on it, sending three arcs of signal. On the right, a phone showing a welcome card: "Welcome to the handbag floor. Tap to see what is here", with an offer below it. Between them an arrow. A line at the bottom states the promise of the time: the shop notices the phone before the customer notices the shop – and the caption names the two products, shopBeacon and PayPal Beacon, without claiming when they were discontinued.</desc>
+  <style>
+    text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill: #031121; }
+    .h    { font-size: 24px; font-weight: 700; }
+    .lab  { font-size: 19px; }
+    .sub  { font-size: 17px; fill: #5a6472; }
+    .quelle { font-size: 15px; fill: #5a6472; }
+    .regal { fill: none; stroke: #5a6472; stroke-width: 2.4; }
+    .ware  { fill: #c7cdd4; }
+    .puck  { fill: #fcd430; stroke: #031121; stroke-width: 2; }
+    .welle { fill: none; stroke: #5a6472; stroke-width: 2.2; }
+    .phone { fill: #ffffff; stroke: #031121; stroke-width: 3; }
+    .karte { fill: #ffffff; stroke: #c7cdd4; stroke-width: 1.5; }
+    .band  { fill: #031121; }
+    .bandt { font-size: 20px; font-weight: 700; fill: #ffffff; }
+    .pfeil { fill: none; stroke: #031121; stroke-width: 2.6; }
+  </style>
+  <rect width="1200" height="560" fill="#ffffff"/>
+
+  <text class="h" x="70" y="52">The shelf knows you are there</text>
+
+  <!-- ══ Regal mit Sender ══ -->
+  <g transform="translate(70,100)">
+    <rect class="regal" x="0" y="0" width="300" height="300" rx="4"/>
+    <line class="regal" x1="0" y1="100" x2="300" y2="100"/>
+    <line class="regal" x1="0" y1="200" x2="300" y2="200"/>
+    <g class="ware">
+      <rect x="24"  y="40" width="56" height="56" rx="6"/>
+      <rect x="100" y="52" width="48" height="44" rx="6"/>
+      <rect x="170" y="36" width="60" height="60" rx="6"/>
+      <rect x="30"  y="150" width="52" height="48" rx="6"/>
+      <rect x="104" y="140" width="64" height="58" rx="6"/>
+      <rect x="192" y="152" width="46" height="46" rx="6"/>
+      <rect x="40"  y="248" width="60" height="50" rx="6"/>
+      <rect x="130" y="240" width="54" height="58" rx="6"/>
+    </g>
+    <circle class="puck" cx="262" cy="272" r="18"/>
+    <g class="welle">
+      <path d="M286 254 a 34 34 0 0 1 0 36"/>
+      <path d="M300 242 a 54 54 0 0 1 0 60"/>
+      <path d="M314 230 a 74 74 0 0 1 0 84"/>
+    </g>
+    <text class="sub" x="176" y="326">transmitter on the shelf</text>
+  </g>
+
+  <path class="pfeil" d="M500 250 H 590" marker-end="url(#sp)"/>
+  <defs>
+    <marker id="sp" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#031121"/>
+    </marker>
+  </defs>
+
+  <!-- ══ Telefon mit Begrüßung ══ -->
+  <g transform="translate(620,80)">
+    <rect class="phone" x="0" y="0" width="240" height="380" rx="26"/>
+    <rect x="86" y="14" width="68" height="8" rx="4" fill="#c7cdd4"/>
+
+    <rect class="karte" x="20" y="60" width="200" height="128" rx="10"/>
+    <text class="lab" x="36" y="96">Welcome to the</text>
+    <text class="lab" x="36" y="122">handbag floor</text>
+    <text class="sub" x="36" y="156">Tap to see what is</text>
+    <text class="sub" x="36" y="178">here right now</text>
+
+    <rect class="karte" x="20" y="206" width="200" height="86" rx="10"/>
+    <rect class="ware" x="36" y="222" width="54" height="54" rx="6"/>
+    <text class="sub" x="104" y="246">offer of the day,</text>
+    <text class="sub" x="104" y="268">two floors up</text>
+
+    <rect class="band" x="20" y="312" width="200" height="44" rx="10"/>
+    <text class="bandt" x="120" y="340" text-anchor="middle">Show me</text>
+  </g>
+
+  <text class="lab" x="920" y="150">The customer has not</text>
+  <text class="lab" x="920" y="176">asked for anything.</text>
+  <text class="sub" x="920" y="214">Standing in front of the</text>
+  <text class="sub" x="920" y="236">shelf is the whole input.</text>
+
+  <line x1="70" y1="500" x2="1130" y2="500" stroke="#c7cdd4" stroke-width="1.5"/>
+  <text class="quelle" x="70" y="526">The two products of that wave were shopBeacon and PayPal Beacon · drawn for this course, 30 September 2026, after the description in the 2025/26 slide set</text>
+</svg>

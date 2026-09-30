@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 560" role="img" aria-labelledby="t d">
+  <title id="t">April 2010: Nokia leads the smartphone market with 37.55 per cent, ahead of Apple with 33.14 and BlackBerry with 15.9</title>
+  <desc id="d">A horizontal bar chart of twelve vendors for April 2010. Nokia leads with 37.55 per cent, highlighted in yellow, followed by Apple with 33.14, BlackBerry with 15.9, Sony with 8.25 and Samsung with 2.5. The remaining seven – T-Mobile 0.94, Other 0.67, Nintendo 0.3, Motorola 0.27, LG 0.21, Google 0.18 and HTC 0.08 – are barely visible at this scale. Four years later Nokia sold its phone business to Microsoft, and Samsung and Google, two of the smallest bars here, had taken the market.</desc>
+  <style>
+    text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill: #031121; }
+    .kopf { font-size: 26px; font-weight: 700; }
+    .sub  { font-size: 18px; fill: #5a6472; }
+    .lab  { font-size: 20px; }
+    .val  { font-size: 19px; fill: #5a6472; }
+    .bar  { fill: #5a6472; }
+    .bar-top { fill: #fcd430; stroke: #031121; stroke-width: 1.5; }
+    .quelle { font-size: 15px; fill: #5a6472; }
+  </style>
+  <rect width="1200" height="560" fill="#ffffff"/>
+
+  <text class="kopf" x="70" y="52">April 2010</text>
+  <text class="sub"  x="240" y="52">smartphone market share by vendor</text>
+
+  <text class="lab" x="236" y="112" text-anchor="end">Nokia</text>
+  <rect class="bar-top" x="250" y="96" width="780.0" height="22" rx="2"/>
+  <text class="val" x="1042.0" y="112">37.55 %</text>
+  <text class="lab" x="236" y="146" text-anchor="end">Apple</text>
+  <rect class="bar" x="250" y="130" width="688.4" height="22" rx="2"/>
+  <text class="val" x="950.4" y="146">33.14 %</text>
+  <text class="lab" x="236" y="180" text-anchor="end">BlackBerry</text>
+  <rect class="bar" x="250" y="164" width="330.3" height="22" rx="2"/>
+  <text class="val" x="592.3" y="180">15.9 %</text>
+  <text class="lab" x="236" y="214" text-anchor="end">Sony</text>
+  <rect class="bar" x="250" y="198" width="171.4" height="22" rx="2"/>
+  <text class="val" x="433.4" y="214">8.25 %</text>
+  <text class="lab" x="236" y="248" text-anchor="end">Samsung</text>
+  <rect class="bar" x="250" y="232" width="51.9" height="22" rx="2"/>
+  <text class="val" x="313.9" y="248">2.5 %</text>
+  <text class="lab" x="236" y="282" text-anchor="end">T-Mobile</text>
+  <rect class="bar" x="250" y="266" width="19.5" height="22" rx="2"/>
+  <text class="val" x="281.5" y="282">0.94 %</text>
+  <text class="lab" x="236" y="316" text-anchor="end">Other</text>
+  <rect class="bar" x="250" y="300" width="13.9" height="22" rx="2"/>
+  <text class="val" x="275.9" y="316">0.67 %</text>
+  <text class="lab" x="236" y="350" text-anchor="end">Nintendo</text>
+  <rect class="bar" x="250" y="334" width="6.2" height="22" rx="2"/>
+  <text class="val" x="268.2" y="350">0.3 %</text>
+  <text class="lab" x="236" y="384" text-anchor="end">Motorola</text>
+  <rect class="bar" x="250" y="368" width="5.6" height="22" rx="2"/>
+  <text class="val" x="267.6" y="384">0.27 %</text>
+  <text class="lab" x="236" y="418" text-anchor="end">LG</text>
+  <rect class="bar" x="250" y="402" width="4.4" height="22" rx="2"/>
+  <text class="val" x="266.4" y="418">0.21 %</text>
+  <text class="lab" x="236" y="452" text-anchor="end">Google</text>
+  <rect class="bar" x="250" y="436" width="3.7" height="22" rx="2"/>
+  <text class="val" x="265.7" y="452">0.18 %</text>
+  <text class="lab" x="236" y="486" text-anchor="end">HTC</text>
+  <rect class="bar" x="250" y="470" width="2.0" height="22" rx="2"/>
+  <text class="val" x="264.0" y="486">0.08 %</text>
+
+  <line x1="70" y1="518" x2="1130" y2="518" stroke="#c7cdd4" stroke-width="1.5"/>
+  <text class="quelle" x="70" y="542">Data: StatCounter, via Global Stats, “Smartphone Market Share by Vendor (2010–2023)”, published 2 July 2023 · drawn for this course, 30 September 2026</text>
+</svg>
