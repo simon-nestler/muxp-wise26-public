@@ -32,7 +32,7 @@ Videos are not included; the lecture notes link to the original source instead.
 
 ## Mock exam
 
-- [Mock Colloquium](probeklausur/mock-colloquium.pdf)
+- [Mock Final Presentation](probeklausur/mock-colloquium.pdf)
 - [Self-Assessment – Seminar Paper and Presentation](probeklausur/self-assessment.pdf)
 
 ## Learning skills

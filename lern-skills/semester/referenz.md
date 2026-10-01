@@ -17,7 +17,7 @@
 | 9 | Offline states and sync conflicts | The sync engine is production-ready in 2026 – the UX of the conflict case is unresearched. | 8 |
 | 10 | Dark patterns: naming and judging | Between persuading and manipulating runs a line that carries €120-million fines – and that nobody can draw sharply. | 9 |
 | 11 | Anchor II: The Brussels hearing | Infinite scroll and autoplay are either good engagement design or a legal violation – being fought over right now. | 9, 7, 5 |
-| 12 | Defending your design | In the colloquium I examine the trace that building left in your thinking: your decisions, your discards, and what they cost. | 6, 2 |
+| 12 | Defending your design | In the final presentation I examine the trace that building left in your thinking: your decisions, your discards, and what they cost. | 6, 2 |
 | 13 | Apps and the agent thesis | The claim that AI agents will replace apps is unsupported – and could still be true. | 5, 4 |
 
 Learning objectives (short form): LO1 fidelity decision · LO2 iterative building with declared AI · LO3 pattern analysis and severity ranking · LO4 auditing AI-generated UIs/analyses · LO5 sourcing market claims · LO6 presenting and moderating · LO7 notification strategy (Column 2) · LO8 offline/conflict UX (Column 2) · LO9 dark patterns and regulation (Column 2). Column 2 = taught seriously, supported by the bonus track, not directly examined.
@@ -52,4 +52,4 @@ Semester plan (as of 15.09.2026): 14 weeks, week 14 holds the defense slots. Top
 
 ## Module conventions
 
-Exam: seminar paper (3,000–6,000 words) + 30-min colloquium; the question pool is open in the learning platform. Bonus: exercise sheets U1–U5, upload within 48 h (U6 is a backup date and counts only if it replaces a cancelled regular exercise). Mandatory SA elements: exposé (question, rung, justification, blind spot) · discarded-alternatives chapter · peer audit with written responses · declaration lines throughout.
+Exam: seminar paper (3,000–6,000 words) + 30-minute presentation; the question pool is open in the learning platform. Regular, required exercises: U1–U5, upload within 48 h, no bonus (U6 is a backup date with no fixed slot, counts only if it replaces a cancelled regular exercise). Mandatory SA elements: exposé (question, rung, justification, blind spot) · discarded-alternatives chapter · peer audit with written responses · declaration lines throughout.
