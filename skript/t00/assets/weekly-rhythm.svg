@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 560" role="img" aria-labelledby="t d">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 500" role="img" aria-labelledby="t d">
   <title id="t">The weekly rhythm: one 90-minute lecture per week, a bridge task, and an exercise double session after every two topics</title>
   <desc id="d">Two stations connected by an arrow. Station one, the lecture: 90 minutes once a week, builds the core conflict of the topic. A yellow tag on the arrow marks the bridge task of at most 20 minutes; its results go into the exercise. Station two, the exercise double session: after every two lecture topics, one exercise sheet, worked on in teams in the session. A band below marks the exercise track: five regular double sessions U1 to U5, each sheet uploaded within 48 hours; U6 is the lecturer's backup date.</desc>
   <style>
@@ -10,10 +10,9 @@
     .tag { font-size: 19px; font-weight: 700; }
     .band { font-size: 26px; font-weight: 700; }
     .bandsub { font-size: 21px; fill: #5a6472; }
-    .foot { font-size: 21px; fill: #5a6472; }
     .arrow { stroke: #5a6472; stroke-width: 3; fill: none; }
   </style>
-  <rect width="1200" height="560" fill="#ffffff"/>
+  <rect width="1200" height="500" fill="#ffffff"/>
   <defs>
     <marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
       <path d="M 0 0 L 10 5 L 0 10 z" fill="#5a6472"/>
@@ -43,5 +42,4 @@
   <text class="band" x="72" y="404">Exercise track: U1–U5 · five double sessions · U6 backup date</text>
   <text class="bandsub" x="72" y="440">bridge results go into the sheet · upload within 48 h after the session</text>
 
-  <text class="foot" x="40" y="520">Schema, MUXP session 0 · no second lecture session · dates and rooms follow the WS 2026/27 timetable</text>
 </svg>
