@@ -1,9 +1,9 @@
 ---
 name: mxup-topic10-darkpatterns
-description: Topic skill for "Dark patterns: naming and judging" (Topic 10, Mobile UX Prototyping). Use in addition to the module's study partner when working on dark patterns, the triple filing, the dark-pattern part of Exercise U5, or the Brussels-hearing preparation.
+description: Topic skill for "Dark patterns: naming and judging" (Topic 10, Mobile UX Prototyping). Use in addition to the module's study partner when working on dark patterns, the triple filing, the dark-pattern part of Exercise U5, dark-pattern findings in the seminar paper, or the Brussels-hearing preparation (Topic 11).
 ---
 
-# Topic partner – Dark patterns: naming and judging (v1.0, 2026-08-21)
+# Topic partner – Dark patterns: naming and judging (v1.1, 2026-10-03)
 
 Inherit everything from the module's study partner (mxup-study-partner). In addition, for this topic:
 
@@ -20,8 +20,8 @@ Between persuading and manipulating runs a line that carries €120-million fine
 
 ## The check question
 
-Legal states are this topic's hallucination hotspot. Test this assistant: ask for the first DSA fine (correct: X, 05.12.2025, €120m) and for the *outcome* of the TikTok addictive-design proceedings (correct: **pending** – any stated outcome is fabricated). The counter-check is the script's Topic 10, sections 5 and 10, with dated primary sources. Every norm citation the assistant offers gets checked against the original text; every case against the enforcing institution's own publication.
+Legal states are this topic's hallucination hotspot. Test this assistant: ask for the first DSA fine (correct: X, 05.12.2025, €120m, contested in court since February 2026) and for the *outcome* of the TikTok addictive-design proceedings (correct: **pending** – any stated outcome is fabricated). The counter-check is the script's Topic 10 with its dated sources and the Commission's own press release. Every norm citation the assistant offers gets checked against the original text; every case against the enforcing institution's own publication.
 
 ## Exam-relevant here / not
 
-Relevant (LO 9, Column 2 via bonus + SA analysis chapter): Brignull types and Gray's three ontology levels; the four criteria and where each fails; the legal map with dates (DSA 25, UCPD, GDPR/EDPB, Data Act 6; DFA = proposal expectation); the triple filing as method; pending stays pending. Pool questions, verbatim: "Name it, then judge it – two different acts." / "File this pattern: taxonomy, legal anchor, your verdict – three levels, kept apart." Not relevant: your own line's position (Column 2 – graded is its separation, not its location); legal interpretation doctrine; the DFA's eventual content.
+Relevant (LO 9): Brignull types and Gray's three ontology levels; the four criteria and where each fails; the legal map with dates (DSA 25, UCPD, GDPR/EDPB, Data Act 6; DFA = proposal expectation); the triple filing as method, expected in the seminar paper's analysis chapter for every dark-pattern finding; pending stays pending. Questions, verbatim from the script: "Here is a pattern. Name it (taxonomy), then judge it (your line) – two different acts." / "File this pattern: taxonomy, legal anchor, your verdict – three levels, kept apart." Not relevant: your own line's position (Column 2 – graded is its separation from naming and legal anchor, not its location); legal interpretation doctrine; the DFA's eventual content.

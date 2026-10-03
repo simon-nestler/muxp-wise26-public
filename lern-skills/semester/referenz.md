@@ -1,4 +1,4 @@
-# Reference – Mobile UX Prototyping (companion to the study partner, v1.1, 2026-09-18)
+# Reference – Mobile UX Prototyping (companion to the study partner, v1.2, 2026-10-03)
 
 *Everything here also stands in the course script; the script remains the binding source. This file exists so the assistant works with the module's definitions instead of its own.*
 
@@ -14,17 +14,28 @@
 | 6 | Anchor I: The audit lab | The generated UI passes every first glance and fails the concrete context. | 4, 3 |
 | 7 | Friction by design | The same company that defends friction as protection ran an install flow that 65 % of users abandoned, until one simplification cut the drop-offs by 60 %. | 3, 9 |
 | 8 | Notifications: designing against the filter | Your notification competes against an AI filter that summarizes, throttles, or silences it. | 7 |
-| 9 | Offline states and sync conflicts | The sync engine is production-ready in 2026 – the UX of the conflict case is unresearched. | 8 |
+| 9 | Offline states and sync conflicts *(no in-class session this term – self-study from the script)* | The sync engine is production-ready in 2026 – the UX of the conflict case is unresearched. | 8 |
 | 10 | Dark patterns: naming and judging | Between persuading and manipulating runs a line that carries €120-million fines – and that nobody can draw sharply. | 9 |
 | 11 | Anchor II: The Brussels hearing | Infinite scroll and autoplay are either good engagement design or a legal violation – being fought over right now. | 9, 7, 5 |
-| 12 | Defending your design | In the final presentation I examine the trace that building left in your thinking: your decisions, your discards, and what they cost. | 6, 2 |
+| 12 | Defending your design *(no in-class session this term – self-study from the script)* | In the final presentation I examine the trace that building left in your thinking: your decisions, your discards, and what they cost. | 6, 2 |
 | 13 | Apps and the agent thesis | The claim that AI agents will replace apps is unsupported – and could still be true. | 5, 4 |
 
-Learning objectives (short form): LO1 fidelity decision · LO2 iterative building with declared AI · LO3 pattern analysis and severity ranking · LO4 auditing AI-generated UIs/analyses · LO5 sourcing market claims · LO6 presenting and moderating · LO7 notification strategy (Column 2) · LO8 offline/conflict UX (Column 2) · LO9 dark patterns and regulation (Column 2). Column 2 = taught seriously, supported by the bonus track, not directly examined.
+Learning objectives (short form): LO1 fidelity decision · LO2 iterative building with declared AI · LO3 pattern analysis and severity ranking · LO4 auditing AI-generated UIs/analyses · LO5 sourcing market claims · LO6 presenting and moderating · LO7 notification strategy (Column 2) · LO8 offline/conflict UX (Column 2) · LO9 dark patterns and regulation (Column 2). Column 2 = taught with the same care, trained in the regular exercises, not examined in the presentation. Every topic's closing section names the exam-relevant objectives.
 
-Session structure (as of 17./18.09.2026): **one 90-minute lecture per topic**, plus six exercise double sessions U1–U6, each covering two topics (U1 = Topic 01+Topic 02 · U2 = Topic 03+Topic 04 · U3 = Topic 05+Topic 06 · U4 = Topic 07+Topic 08 · U5 = Topic 09+Topic 10 · U6 = Topic 11+Topic 12). Every lecture ends with a **bridge task of twenty minutes at most: voluntary, posted on the topic's Padlet** – no submission, no deadline, no penalty; each session and each sheet names the material it works with when the Padlet stays empty. Exercise teams have **three people, four only if the numbers do not divide**. In the Topic 12 panels and in sheet U6, one run is **5 minutes defense + 5 minutes questions and anchor feedback + 2 minutes team change**.
+Session structure: **one 90-minute lecture per topic**, plus exercise double sessions, each covering two topics: U1 = Topics 1+2 · U2 = Topics 3+4 · U3 = Topics 5+6 · U4 = Topics 7+8 · U5 = Topics 9+10 are the regular, required exercises (each person uploads their own pdf with the declaration line within 48 hours; no bonus points). U6 (Topics 11+12) is a backup date without a fixed slot, used only if it replaces a cancelled regular exercise. Topic 13 ends with an ungraded final task (the dated prediction). Every lecture ends with a **bridge task: voluntary, posted on the topic's Padlet** – no submission, no deadline, no penalty. Exercise teams have **three people, four only if the numbers do not divide**.
 
-Semester plan (as of 15.09.2026): 14 weeks, week 14 holds the defense slots. Topics 9 and 12 are droppable. If holidays cost one week, Topic 9 becomes self-study from the script; if they cost two, Topic 12 does too. An extra week becomes an open Q&A session.
+Semester plan: 14 weeks are planned, and two topics are droppable. This term both drop: **Topics 9 and 12 have no in-class session**; their material is fully covered in the script, and the topic skill for Topic 9 and the skill `defense-rehearsal` support the self-study. The offline part of Exercise U5 is prepared from the script.
+
+## Exam structure
+
+No written exam. The module is examined by a **seminar paper plus a presentation**, the presentation staged in three graded parts:
+
+- **Part A** and **Part B:** two 15-minute checkpoints, in your team with the lecturer, not in front of the class – 20 points each. Part A runs within Exercise U2, Part B within Exercise U4.
+- **Part C**, the final presentation: 15 to 20 minutes per team in front of the whole exercise group, plus a discussion the team moderates – about 30 minutes per team, 30 points.
+- **Part D**, the seminar paper: about 5,000 words that record your decisions – 30 points.
+- **Uploads**, same rule for A, B and C: Friday, 23 October (A) · Friday, 20 November (B) · Friday, 18 December (C) – both exercise groups, regardless of their own presentation date.
+
+Milestones of the project: design question from Topic 4 · **exposé** at the end of week 5, after Topic 5 (half a page: design question, rung, justification, blind spot, plus declaration line) · **interim state** at the end of the Topic 10 week, including the mandatory section *Discarded alternatives*. The **question pool** for the final presentation is open in the learning platform and grows until its freeze date; the **anchor sheet** (trace visible · anatomy complete · moderation active · hardest objection handled) is there too. There is **no rehearsal session** in the timetable: teams rehearse on their own, outside lectures and exercises, with the mock final presentation and the self-assessment sheet from the learning platform.
 
 ## Definitions as used in this module
 
@@ -52,4 +63,4 @@ Semester plan (as of 15.09.2026): 14 weeks, week 14 holds the defense slots. Top
 
 ## Module conventions
 
-Exam: seminar paper (3,000–6,000 words) + 30-minute presentation; the question pool is open in the learning platform. Regular, required exercises: U1–U5, upload within 48 h, no bonus (U6 is a backup date with no fixed slot, counts only if it replaces a cancelled regular exercise). Mandatory SA elements: exposé (question, rung, justification, blind spot) · discarded-alternatives chapter · peer audit with written responses · declaration lines throughout.
+Mandatory seminar-paper elements: exposé (question, rung, justification, blind spot) · discarded-alternatives chapter fed by the iteration protocols · peer audit with written responses to every finding · declaration four-liner under every AI-assisted part. The self-assessment sheet lists the grading anchors of the paper (S1–S12) and of the presentation (P1–P4).
