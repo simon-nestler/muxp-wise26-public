@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 851" role="img" aria-labelledby="t d">
-  <title id="t">The semester at a glance: 13 topics, one 90-minute lecture each, two anchors, five exercise double sessions U1 to U5 plus backup date U6, three seminar-paper milestones, week 14 as illness makeup date</title>
-  <desc id="d">Highlighted (yellow frame, tag TODAY): field 0. Thirteen numbered topic cells in three rows, read left to right: 1 Claims and their sources; 2 Patterns as a language; 3 Severity, formula and rubric; 4 The fidelity decision; 5 Building with the machine; 6 Anchor I, the audit lab; 7 Friction by design; 8 Notifications, designing against the filter; 9 Offline states and sync conflicts, droppable first; 10 Dark patterns, naming and judging; 11 Anchor II, the Brussels hearing; 12 Defending your design, droppable second; 13 Apps and the agent thesis. Topics 6 and 11 are dark anchors. Blue tags below the rows mark the exercise double sessions, each merging two topics: U1 topics 1 and 2, U2 3 and 4, U3 5 and 6, U4 7 and 8, U5 9 and 10, U6 11 and 12 as backup date. A dashed cell marks week 14, the illness makeup date for the final presentation. Yellow tags mark the milestones: exposé in week 5, interim state in week 10, final presentation (Parts A to C, staged from October to January).</desc>
+  <title id="t">The semester at a glance: 13 topics, one 90-minute lecture each, two anchors, five exercise double sessions U1 to U5, three seminar-paper milestones, week 14 as illness makeup date</title>
+  <desc id="d">Highlighted (yellow frame, tag TODAY): field 0. Thirteen numbered topic cells in three rows, read left to right: 1 Claims and their sources; 2 Patterns as a language; 3 Severity, formula and rubric; 4 The fidelity decision; 5 Building with the machine; 6 Anchor I, the audit lab; 7 Friction by design; 8 Notifications, designing against the filter; 9 Offline states and sync conflicts, droppable first; 10 Dark patterns, naming and judging; 11 Anchor II, the Brussels hearing; 12 Defending your design, droppable second; 13 Apps and the agent thesis. Topics 6 and 11 are dark anchors. Blue tags below the rows mark the exercise double sessions, each merging two topics: U1 topics 1 and 2, U2 3 and 4, U3 5 and 6, U4 7 and 8, U5 9 and 10. A dashed cell marks week 14, the illness makeup date for the final presentation. Yellow tags mark the milestones: exposé in week 5, interim state in week 10, final presentation (Parts A to C, staged from October to January).</desc>
   <style>
     text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill: #031121; }
     .num { font-size: 24px; font-weight: 700; }
@@ -90,8 +90,6 @@
   <text class="utag" x="222" y="489" text-anchor="middle">U4 · Exercise 4</text>
   <rect x="416" y="467" width="364" height="32" rx="6" fill="#7fb6f6"/>
   <text class="utag" x="598" y="489" text-anchor="middle">U5 · Exercise 5</text>
-  <rect x="792" y="467" width="364" height="32" rx="6" fill="#7fb6f6"/>
-  <text class="utag" x="974" y="489" text-anchor="middle">U6 · Backup date</text>
   <rect x="792" y="48" width="200" height="34" rx="6" fill="#fcd430"/>
   <text class="mtag" x="810" y="71">Exposé · week 5</text>
   <rect x="604" y="282" width="260" height="34" rx="6" fill="#fcd430"/>

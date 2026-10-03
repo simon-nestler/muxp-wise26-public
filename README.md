@@ -28,7 +28,6 @@ Videos are not included; the lecture notes link to the original source instead.
 - [Exercise Sheet 03 · Building with the machine · Anchor I: The audit lab](blaetter/u03-machine-audit.pdf)
 - [Exercise Sheet 04 · Friction by design · Notifications: designing against the filter](blaetter/u04-friction-notifications.pdf)
 - [Exercise Sheet 05 · Offline states and sync conflicts · Dark patterns: naming and judging](blaetter/u05-offline-darkpatterns.pdf)
-- [Exercise Sheet 06 · The Brussels hearing · Defending your design](blaetter/u06-hearing-defense.pdf)
 
 ## Mock exam
 
