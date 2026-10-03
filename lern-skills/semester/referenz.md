@@ -31,8 +31,8 @@ Semester plan: 14 weeks are planned, and two topics are droppable. This term bot
 No written exam. The module is examined by a **seminar paper plus a presentation**, the presentation staged in three graded parts:
 
 - **Part A** and **Part B:** two 15-minute checkpoints, in your team with the lecturer, not in front of the class – 20 points each. Part A runs within Exercise U2, Part B within Exercise U4.
-- **Part C**, the final presentation: 15 to 20 minutes per team in front of the whole exercise group, plus a discussion the team moderates – about 30 minutes per team, 30 points.
-- **Part D**, the seminar paper: about 5,000 words that record your decisions – 30 points.
+- **Part C**, the final presentation: 15 to 20 minutes per team in front of the whole exercise group, plus a discussion the team moderates – about 30 minutes per team, 30 points. Week 14 (13 January) is only the make-up date for Part C in case of illness.
+- **Part D**, the seminar paper: about 5,000 words that record your decisions – 30 points; the deadline is announced in the learning platform.
 - **Uploads**, same rule for A, B and C: Friday, 23 October (A) · Friday, 20 November (B) · Friday, 18 December (C) – both exercise groups, regardless of their own presentation date.
 
 Milestones of the project: design question from Topic 4 · **exposé** at the end of week 5, after Topic 5 (half a page: design question, rung, justification, blind spot, plus declaration line) · **interim state** at the end of the Topic 10 week, including the mandatory section *Discarded alternatives*. The **question pool** for the final presentation is open in the learning platform and grows until its freeze date; the **anchor sheet** (trace visible · anatomy complete · moderation active · hardest objection handled) is there too. There is **no rehearsal session** in the timetable: teams rehearse on their own, outside lectures and exercises, with the mock final presentation and the self-assessment sheet from the learning platform.
