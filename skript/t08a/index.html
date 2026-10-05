@@ -534,7 +534,7 @@ strong { color: var(--ink); }
   
   <h2 class="chunk-heading">Where we are in the semester</h2>
   <p><figure class="figure-img" data-fig-id="semester-map"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 851" aria-labelledby="t d" id="psi-fig-1-root" role="img">
-  <title id="psi-fig-1-t">The semester at a glance: 13 topics, one 90-minute lecture each, two anchors, five exercise double sessions U1 to U5, three seminar-paper milestones, week 14 as illness makeup date</title>
+  <title id="psi-fig-1-t">The semester at a glance: 13 topics, one 90-minute lecture each, two anchors, five exercise double sessions U1 to U5, graded parts A to C and the seminar paper, week 14 as illness makeup date</title>
   <desc id="psi-fig-1-d">Highlighted (yellow frame, tag TODAY): field 7. Thirteen numbered topic cells in three rows, read left to right: 1 Claims and their sources; 2 Patterns as a language; 3 Severity, formula and rubric; 4 The fidelity decision; 5 Building with the machine; 6 Anchor I, the audit lab; 7 Friction by design; 8 Notifications, designing against the filter; 9 Offline states and sync conflicts, droppable first; 10 Dark patterns, naming and judging; 11 Anchor II, the Brussels hearing; 12 Defending your design, droppable second; 13 Apps and the agent thesis. Topics 6 and 11 are dark anchors. Blue tags below the rows mark the exercise double sessions, each merging two topics: U1 topics 1 and 2, U2 3 and 4, U3 5 and 6, U4 7 and 8, U5 9 and 10. A dashed cell marks week 14, the illness makeup date for the final presentation. Yellow tags mark the milestones: exposé in week 5, interim state in week 10, final presentation (Parts A to C, staged from October to January).</desc>
   <style>@scope (svg#psi-fig-1-root) {
 text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill: #031121; }
@@ -625,12 +625,14 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
   <text class="utag" x="222" y="489" text-anchor="middle">U4 · Exercise 4</text>
   <rect x="416" y="467" width="364" height="32" rx="6" fill="#7fb6f6"/>
   <text class="utag" x="598" y="489" text-anchor="middle">U5 · Exercise 5</text>
-  <rect x="792" y="48" width="200" height="34" rx="6" fill="#fcd430"/>
-  <text class="mtag" x="810" y="71">Exposé · week 5</text>
-  <rect x="604" y="282" width="260" height="34" rx="6" fill="#fcd430"/>
-  <text class="mtag" x="622" y="305">Interim state · week 10</text>
-  <rect x="442" y="539" width="300" height="34" rx="6" fill="#fcd430"/>
-  <text class="mtag" x="460" y="562">Presentation · Parts A–C</text>
+  <rect x="416" y="48" width="364" height="34" rx="6" fill="#fcd430"/>
+  <text class="mtag" x="598" y="71" text-anchor="middle">Part A · in U2 · upload 23 Oct</text>
+  <rect x="40" y="282" width="364" height="34" rx="6" fill="#fcd430"/>
+  <text class="mtag" x="222" y="305" text-anchor="middle">Part B · in U4 · upload 20 Nov</text>
+  <rect x="416" y="539" width="364" height="34" rx="6" fill="#fcd430"/>
+  <text class="mtag" x="598" y="562" text-anchor="middle">Part C · final presentation · 21 Dec / 11 Jan</text>
+  <rect x="416" y="583" width="364" height="34" rx="6" fill="#fcd430"/>
+  <text class="mtag" x="598" y="606" text-anchor="middle">Seminar paper · due 15 Jan</text>
   <line x1="40" y1="716" x2="1160" y2="716" stroke="#c7cdd4" stroke-width="1"/>
   <rect x="40" y="733" width="26" height="26" rx="5" fill="#e2eefc"/>
   <text class="leg" x="78" y="753">lecture topic · one 90-minute session</text>
@@ -639,13 +641,13 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
   <rect x="40" y="773" width="26" height="26" rx="5" fill="#7fb6f6"/>
   <text class="leg" x="78" y="793">exercise double session, one sheet each</text>
   <rect x="640" y="773" width="26" height="26" rx="5" fill="#fcd430"/>
-  <text class="leg" x="678" y="793">seminar-paper milestone</text>
-  <text class="foot" x="40" y="833">Schema, MUXP · 13 topics in 14 weeks, one lecture per week, 6 exercise double sessions, WS 2026/27</text>
+  <text class="leg" x="678" y="793">graded part (A 20 · B 20 · C 30 · paper 30 points)</text>
+  <text class="foot" x="40" y="833">Schema, MUXP · 13 topics in 14 weeks, one lecture per week, 5 exercise double sessions, WS 2026/27</text>
 </svg></figure></p>
 <div class="script-only">
 
 
-<p>Week 8 of 14 · Topic 8 of 13 – second station of the resistance stretch. After friction, the force working against your project is attention, and the filter that rations it. Today: the incident, four filter mechanisms, the contradiction hunt, the evidence, then a live count of your own notifications and a first draft of your own strategy. Next exercise: U4 takes friction and notifications into your prototype; bring today&#39;s draft. LO 7 · AI role: object of examination. Offline states (Topic 09), dark patterns (Topic 10) and the Brussels hearing (Topic 11) come after this. Next milestone on the map: the interim state after Topic 10. What you should already know is in the script, not on the wall: a push notification travels from your backend through a platform relay (APNs on iOS, FCM on Android) to the device; the app does not need to run. The user grants or denies notification permission per app; iOS additionally distinguishes delivery styles (banner, badge, list, none) and offers scheduled summaries. A notification carries a payload (title, body, category, attachments) and can be silent. Do-not-disturb and focus modes mute apps by context. Any language model explains all of this correctly on request, so it gets no classroom minute.</p>
+<p>Week 8 of 14 · Topic 8 of 13 – second station of the resistance stretch. After friction, the force working against your project is attention, and the filter that rations it. Today: the incident, four filter mechanisms, the contradiction hunt, the evidence, then a live count of your own notifications and a first draft of your own strategy. Next exercise: U4 takes friction and notifications into your prototype; bring today&#39;s draft. LO 7 · AI role: object of examination. Offline states (Topic 09), dark patterns (Topic 10) and the Brussels hearing (Topic 11) come after this. Next graded part on the map: Part B in Exercise U4 (upload Friday, 20 November). What you should already know is in the script, not on the wall: a push notification travels from your backend through a platform relay (APNs on iOS, FCM on Android) to the device; the app does not need to run. The user grants or denies notification permission per app; iOS additionally distinguishes delivery styles (banner, badge, list, none) and offers scheduled summaries. A notification carries a payload (title, body, category, attachments) and can be silent. Do-not-disturb and focus modes mute apps by context. Any language model explains all of this correctly on request, so it gets no classroom minute.</p>
 </div>
   
   
@@ -1234,12 +1236,12 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
 <article class="chunk chunk-exercise width-wide" id="challenge-exercise-7" data-chunk-num="33">
   <span class="chunk-num" aria-hidden="true"><i>3</i><i>3</i></span>
   <span class="chunk-label">exercise</span>
-  <h2 class="chunk-heading has-sub"><span class="hd-main">Next exercise: U4 – Friction and notifications</span> <span class="hd-sub">one upload per person</span></h2>
+  <h2 class="chunk-heading has-sub"><span class="hd-main">Next exercise: U4 – Friction and notifications</span> <span class="hd-sub">Exercise Sheet 04 with Part B</span></h2>
   <p><strong>Sheet:</strong> Exercise Sheet 04, <em>Friction by design · Notifications: designing against the filter</em> (Moodle, u04-friction-notifications)</p>
 <p><strong>Bring:</strong> your prototype or its central flow as sketches · your 24-hour notification protocol, if you kept one · today&#39;s draft. Without a protocol, count the last 24 hours from your notification history at the start of the session – task 3 works from that too</p>
-<p><strong>In the session:</strong> friction audit and one defended friction decision per prototype (Topic 7), then your notification concept with all five elements, tested against the filter</p>
-<p><strong>Upload:</strong> one PDF within 48 h after the U4 session, by each team member: the team&#39;s friction decisions plus your individual concept</p>
-<p><strong>AI role: sparring partner, declared,</strong> for the notification concept; excluded during the friction audit. &quot;No AI used.&quot; is also a declaration.</p>
+<p><strong>In the session:</strong> friction audit and one defended friction decision per prototype (Topic 7), then your notification concept with all four elements, tested against the filter</p>
+<p><strong>Part B:</strong> in the same exercise session, 15 minutes in your team with me – the state of your prototype with its discarded alternatives (upload Friday, 20 November); the sheet itself has no upload</p>
+<p><strong>AI role: sparring partner</strong> for the notification concept; excluded during the friction audit.</p>
 
   
   
@@ -1249,13 +1251,13 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
   <span class="chunk-num" aria-hidden="true"><i>3</i><i>4</i></span>
   
   <h2 class="chunk-heading">What survives the filter</h2>
-  <p><strong>Exam-relevant today (LO 7): the four filter mechanisms, the four strategy blocks that must survive them, and a silence you can defend.</strong></p>
+  <p><strong>Graded today (LO 7): the four filter mechanisms, the four strategy blocks that must survive them, and a silence you can defend.</strong></p>
 <ul>
 <li><strong>Filter mechanisms:</strong> summaries, cooldown, bundling, focus modes, each with its design consequences</li>
 <li>The strategy blocks: occasion classes, channel choice, <strong>frequency budget</strong>, opt-in honesty</li>
 <li><strong>Final-presentation question, verbatim in the pool:</strong> <em>&quot;Your app stays silent when …? Defend the silence.&quot;</em> The defense has to name <strong>the price</strong> of that silence</li>
-<li>Pool question on a real notification: &quot;Will the iOS filter summarize, batch, or suppress this – and what survives?&quot; The <strong>declaration line</strong> stays a rule for any AI-assisted step in your seminar paper</li>
-<li>Outside the exam but part of the course: the <strong>ethics of attention</strong> beyond your own app, from the Castelo discussion</li>
+<li>Pool question on a real notification: &quot;Will the iOS filter summarize, batch, or suppress this – and what survives?&quot;</li>
+<li>Outside the assessment but part of the course: the <strong>ethics of attention</strong> beyond your own app, from the Castelo discussion</li>
 </ul>
 <div class="script-only">
 
@@ -1318,7 +1320,7 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
   <h2 class="chunk-heading">Thank you</h2>
   <p>Prof. Dr. Simon Nestler</p>
 <p><a href="mailto:simon.nestler@thi.de">simon.nestler@thi.de</a></p>
-<p>Exercise U4: bring today&#39;s draft, and your protocol if you kept one · one upload within 48 h after the U4 session · Padlet Topic 9: your airplane-mode break · Padlet Topic 10: your borderline case · script and sheet in Moodle · © Technische Hochschule Ingolstadt – Faculty of Computer Science. All rights reserved.</p>
+<p>Exercise U4 with Part B: bring today&#39;s draft, and your protocol if you kept one · Padlet Topic 9: your airplane-mode break · Padlet Topic 10: your borderline case · script and sheet in Moodle · © Technische Hochschule Ingolstadt – Faculty of Computer Science. All rights reserved.</p>
 
   
   

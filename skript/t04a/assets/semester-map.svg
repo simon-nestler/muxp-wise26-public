@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 851" role="img" aria-labelledby="t d">
-  <title id="t">The semester at a glance: 13 topics, one 90-minute lecture each, two anchors, five exercise double sessions U1 to U5, three seminar-paper milestones, week 14 as illness makeup date</title>
+  <title id="t">The semester at a glance: 13 topics, one 90-minute lecture each, two anchors, five exercise double sessions U1 to U5, graded parts A to C and the seminar paper, week 14 as illness makeup date</title>
   <desc id="d">Highlighted (yellow frame, tag TODAY): field 3. Thirteen numbered topic cells in three rows, read left to right: 1 Claims and their sources; 2 Patterns as a language; 3 Severity, formula and rubric; 4 The fidelity decision; 5 Building with the machine; 6 Anchor I, the audit lab; 7 Friction by design; 8 Notifications, designing against the filter; 9 Offline states and sync conflicts, droppable first; 10 Dark patterns, naming and judging; 11 Anchor II, the Brussels hearing; 12 Defending your design, droppable second; 13 Apps and the agent thesis. Topics 6 and 11 are dark anchors. Blue tags below the rows mark the exercise double sessions, each merging two topics: U1 topics 1 and 2, U2 3 and 4, U3 5 and 6, U4 7 and 8, U5 9 and 10. A dashed cell marks week 14, the illness makeup date for the final presentation. Yellow tags mark the milestones: exposé in week 5, interim state in week 10, final presentation (Parts A to C, staged from October to January).</desc>
   <style>
     text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill: #031121; }
@@ -90,12 +90,14 @@
   <text class="utag" x="222" y="489" text-anchor="middle">U4 · Exercise 4</text>
   <rect x="416" y="467" width="364" height="32" rx="6" fill="#7fb6f6"/>
   <text class="utag" x="598" y="489" text-anchor="middle">U5 · Exercise 5</text>
-  <rect x="792" y="48" width="200" height="34" rx="6" fill="#fcd430"/>
-  <text class="mtag" x="810" y="71">Exposé · week 5</text>
-  <rect x="604" y="282" width="260" height="34" rx="6" fill="#fcd430"/>
-  <text class="mtag" x="622" y="305">Interim state · week 10</text>
-  <rect x="442" y="539" width="300" height="34" rx="6" fill="#fcd430"/>
-  <text class="mtag" x="460" y="562">Presentation · Parts A–C</text>
+  <rect x="416" y="48" width="364" height="34" rx="6" fill="#fcd430"/>
+  <text class="mtag" x="598" y="71" text-anchor="middle">Part A · in U2 · upload 23 Oct</text>
+  <rect x="40" y="282" width="364" height="34" rx="6" fill="#fcd430"/>
+  <text class="mtag" x="222" y="305" text-anchor="middle">Part B · in U4 · upload 20 Nov</text>
+  <rect x="416" y="539" width="364" height="34" rx="6" fill="#fcd430"/>
+  <text class="mtag" x="598" y="562" text-anchor="middle">Part C · final presentation · 21 Dec / 11 Jan</text>
+  <rect x="416" y="583" width="364" height="34" rx="6" fill="#fcd430"/>
+  <text class="mtag" x="598" y="606" text-anchor="middle">Seminar paper · due 15 Jan</text>
   <line x1="40" y1="716" x2="1160" y2="716" stroke="#c7cdd4" stroke-width="1"/>
   <rect x="40" y="733" width="26" height="26" rx="5" fill="#e2eefc"/>
   <text class="leg" x="78" y="753">lecture topic · one 90-minute session</text>
@@ -104,6 +106,6 @@
   <rect x="40" y="773" width="26" height="26" rx="5" fill="#7fb6f6"/>
   <text class="leg" x="78" y="793">exercise double session, one sheet each</text>
   <rect x="640" y="773" width="26" height="26" rx="5" fill="#fcd430"/>
-  <text class="leg" x="678" y="793">seminar-paper milestone</text>
-  <text class="foot" x="40" y="833">Schema, MUXP · 13 topics in 14 weeks, one lecture per week, 6 exercise double sessions, WS 2026/27</text>
+  <text class="leg" x="678" y="793">graded part (A 20 · B 20 · C 30 · paper 30 points)</text>
+  <text class="foot" x="40" y="833">Schema, MUXP · 13 topics in 14 weeks, one lecture per week, 5 exercise double sessions, WS 2026/27</text>
 </svg>

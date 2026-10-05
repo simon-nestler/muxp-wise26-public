@@ -8,7 +8,7 @@
 - **Custom assistants with an instruction field** (custom GPTs, Gems and similar): paste the *body* of `SKILL.md` (everything below the second `---`) into the instruction field – it fits the usual limit – and upload `referenz.md` as a knowledge file.
 - **Plain chat, any provider:** attach both files at the start of a conversation and write: "Act according to SKILL.md; referenz.md contains the module's definitions."
 
-**What to expect.** The partner will ask what you already have before explaining, will point at errors instead of fixing them, and will refuse finished solutions for exercise sheets, slides and exam questions – by design. If that annoys you at 23:40 before a deadline: that is the annoyance working as intended.
+**What to expect.** The partner will ask what you already have before explaining, will point at errors instead of fixing them, and will refuse finished solutions for exercise sheets, slides and presentation questions – by design. If that annoys you at 23:40 before a deadline: that is the annoyance working as intended.
 
 **Two honest notes.** First: no setup guarantees compliance – if the assistant slips into answer-machine mode, remind it of its role or restart. Second: whatever it says, the course script is the binding source; where they disagree, the script wins.
 

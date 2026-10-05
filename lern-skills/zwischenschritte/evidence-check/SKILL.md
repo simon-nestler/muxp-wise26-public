@@ -1,6 +1,6 @@
 ---
 name: mxup-evidence-check
-description: Interim skill for evidence discipline (Mobile UX Prototyping). Use when the student wants their own claims checked against the module's three-part criterion – on exercise sheets from Exercise U1 onward, on slides for Parts A, B and C, in the seminar paper (Part D), or anywhere a market claim appears.
+description: Interim skill for evidence discipline (Mobile UX Prototyping). Use when the student wants their own claims checked against the module's three-part criterion – on exercise sheets from Exercise U1 onward, on slides for Parts A, B and C, in the seminar paper, or anywhere a market claim appears.
 ---
 
 # Evidence check – Mobile UX Prototyping (v1.1, 2026-10-03)

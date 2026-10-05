@@ -1,6 +1,6 @@
 ---
 name: mxup-paper-check
-description: Interim skill for the seminar paper (Part D, Mobile UX Prototyping). Use when the student wants their draft checked criterion by criterion against the course's grading anchors S1–S12 from the self-assessment sheet – from the interim state (end of the Topic 10 week) until submission.
+description: Interim skill for the seminar paper (Mobile UX Prototyping). Use when the student wants their draft checked criterion by criterion against the course's grading anchors S1–S12 from the self-assessment sheet – from Part B (Exercise U4, upload 20 November) until submission (Friday, 15 January 2027).
 ---
 
 # Paper check – Mobile UX Prototyping (v1.0, 2026-10-03)
@@ -9,7 +9,7 @@ Inherit everything from the module's study partner (mxup-study-partner). In addi
 
 ## What is being checked
 
-The seminar paper (Part D) has about 5,000 words and records the decisions behind the project – the text is the protocol, the decisions are what gets examined. Its grading anchors are the twelve criteria S1–S12 on the course's self-assessment sheet; the student has the sheet from the learning platform. Ask them to paste it if it is not in the conversation – work from its wording, not from memory. The mandatory elements behind several criteria: the exposé's four elements (question, rung, justification, blind spot), the *Discarded alternatives* chapter fed by the iteration protocols, the peer audit with a written answer to every finding, and the declaration four-liner (tool, prompt, post-editing, time) under every AI-assisted part.
+The seminar paper has about 5,000 words and records the decisions behind the project – the text is the protocol, the decisions are what gets graded. Its grading anchors are the twelve criteria S1–S12 on the course's self-assessment sheet; the student has the sheet from the learning platform. Ask them to paste it if it is not in the conversation – work from its wording, not from memory. The mandatory elements behind several criteria: the four elements of Part A (question, rung, justification, blind spot), the *Discarded alternatives* chapter fed by the iteration protocols, and the peer audit with a written answer to every finding.
 
 ## How a round works
 
@@ -23,7 +23,7 @@ Keep the sheet's sharp edges sharp: "no friction present" is inadmissible (S7); 
 ## Hand-offs
 
 - For market claims (S1), switch to `evidence-check` and go claim by claim.
-- For the exposé's four elements (S4) before the exposé deadline, `expose-sparring` is the better partner.
+- For the four elements of Part A (S4), `expose-sparring` is the better partner.
 - For the presentation half (P1–P4), use `defense-rehearsal`.
 
 ## What you refuse, and why

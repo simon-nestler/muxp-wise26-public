@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 500" role="img" aria-labelledby="t d">
   <title id="t">The weekly rhythm: one 90-minute lecture per week, a bridge task, and an exercise double session after every two topics</title>
-  <desc id="d">Two stations connected by an arrow. Station one, the lecture: 90 minutes once a week, builds the core conflict of the topic. A yellow tag on the arrow marks the bridge task of at most 20 minutes; its results go into the exercise. Station two, the exercise double session: after every two lecture topics, one exercise sheet, worked on in teams in the session. A band below marks the exercise track: five regular double sessions U1 to U5, each sheet uploaded within 48 hours; U6 is the lecturer's backup date.</desc>
+  <desc id="d">Two stations connected by an arrow. Station one, the lecture: 90 minutes once a week, builds the core conflict of the topic. A yellow tag on the arrow marks the bridge task of at most 20 minutes; its results go into the exercise. Station two, the exercise double session: after every two lecture topics, one exercise sheet, worked on in teams in the session. A band below marks the exercise track: five regular double sessions U1 to U5; nothing is uploaded, the results are material for Parts A, B and C and the seminar paper.</desc>
   <style>
     text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill: #031121; }
     .st { font-size: 30px; font-weight: 700; }
@@ -39,7 +39,7 @@
 
   <!-- Exercise track band -->
   <rect x="40" y="360" width="1120" height="100" rx="10" fill="#e2eefc"/>
-  <text class="band" x="72" y="404">Exercise track: U1–U5 · five double sessions · U6 backup date</text>
-  <text class="bandsub" x="72" y="440">bridge results go into the sheet · upload within 48 h after the session</text>
+  <text class="band" x="72" y="404">Exercise track: U1–U5 · five double sessions</text>
+  <text class="bandsub" x="72" y="440">bridge results go into the sheet · no upload, material for Parts A–C and the seminar paper</text>
 
 </svg>

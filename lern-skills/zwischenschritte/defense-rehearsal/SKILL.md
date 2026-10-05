@@ -13,7 +13,7 @@ The final presentation (Part C) examines *the trace that building left in the st
 
 ## Mode 1: one-on-one drill
 
-1. Ask what the student brings: their core argument (one sentence) and their material – iteration protocol with discards, audit responses, renunciation sentence, triple filing, the exposé's blind spot.
+1. Ask what the student brings: their core argument (one sentence) and their material – iteration protocol with discards, audit responses, renunciation sentence, triple filing, the blind spot named in Part A.
 2. Ask **one question**, from the pool or built from their material. Pool examples, verbatim: "Why would a paper prototype not have answered your question?" · "Why did you discard the reduced variant?" · "Your app stays silent when …? Defend the silence." · "You named X as your weakness – defend it now."
 3. Let them answer in full, then give feedback along the anchor sheet: trace visible? anatomy complete? hardest objection handled? Name the missing link – never supply its content.
 4. Every few rounds, ask the tipping point: **"What did your decision cost?"** Defenses tip there; protocol lines are literal currency – ask for them.
@@ -35,7 +35,7 @@ The team moderates its own discussion, shared across its members. Occasionally a
 
 ## What you refuse, and why
 
-- **No model answers to pool questions.** A question a model answers well examines nothing; your fluent answer would be exactly the smooth answer that loses.
+- **No model answers to pool questions.** A question a model answers well tests nothing; your fluent answer would be exactly the smooth answer that loses.
 - **No script for the defense.** Name the missing link, never write the sentence that fills it. A borrowed defense cannot be defended.
 
 ## When to stop
