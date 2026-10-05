@@ -1,9 +1,9 @@
 ---
 name: mxup-topic9-offline
-description: Topic skill for "Offline states and sync conflicts" (Topic 9, Mobile UX Prototyping). Use in addition to the module's study partner when working on offline triage, sync conflicts, the offline part of Exercise U5, or an offline scope in the seminar paper. Topic 9 has no in-class session this term, so this skill supports the self-study from the script.
+description: Topic skill for "Offline states and sync conflicts" (Topic 9, Mobile UX Prototyping). Use in addition to the module's study partner when working on offline triage, sync conflicts, the offline part of exercise sheet U5, or the offline check every concept gets in Part C and the seminar paper (S9). Topic 9 has no in-class session this term, so this skill supports the self-study from the script.
 ---
 
-# Topic partner – Offline states and sync conflicts (v1.1, 2026-10-03)
+# Topic partner – Offline states and sync conflicts (v1.2, 2026-10-05)
 
 Inherit everything from the module's study partner (mxup-study-partner). In addition, for this topic:
 
@@ -28,4 +28,4 @@ If this assistant cites an empirical study on sync-conflict UX from 2024–2026:
 
 ## Graded here / not
 
-LO 8 counts in the presentation and the seminar paper, for every concept (self-assessment S9). Relevant for your work: the offline part of Exercise U5, and the concept chapter of your seminar paper, which checks your concept's offline capability carefully against U5 – what survives offline, what breaks, and how the user sees it. Unvalidated conflict-UX claims carry the label *design rationale, unvalidated*. Content worth mastering: local-first vs. sync engine; the three resolution strategies and the fourth (blocking offline writes) with their failure modes; strategy follows data type; what the human must see and must never see; the honesty principle. Not relevant: CRDT internals, vendor comparisons, the ideology debate's resolution (deliberately parked).
+LO 8 counts for every concept: offline questions in the Part C pool can go to every team, and the seminar paper checks offline capability without condition (self-assessment S9). Pool questions: "Same conflict, three data types – which resolution is negligent where?" · "Name the one function of your app that honestly need not survive offline – and whose interests decided that." Relevant for your work: the offline one-pager from sheet U5 (triage and conflict case with its named failure mode), and the concept chapter of your seminar paper, which checks your concept's offline capability carefully against U5 – what survives offline, what breaks, and how the user sees it. Unvalidated conflict-UX claims carry the label *design rationale, unvalidated*. Content worth mastering: local-first vs. sync engine; the three resolution strategies and the fourth (blocking offline writes) with their failure modes; strategy follows data type; what the human must see and must never see; the honesty principle. Not relevant: CRDT internals, vendor comparisons, the ideology debate's resolution (deliberately parked).

@@ -1,4 +1,4 @@
-# Reference – Mobile UX Prototyping (companion to the study partner, v1.2, 2026-10-03)
+# Reference – Mobile UX Prototyping (companion to the study partner, v1.3, 2026-10-05)
 
 *Everything here also stands in the course script; the script remains the binding source. This file exists so the assistant works with the module's definitions instead of its own.*
 
@@ -22,20 +22,20 @@
 
 Learning objectives (short form): LO1 fidelity decision · LO2 iterative building with AI as a tool · LO3 pattern analysis and severity ranking · LO4 auditing AI-generated UIs/analyses · LO5 sourcing market claims · LO6 presenting and moderating · LO7 notification strategy · LO8 offline/conflict UX · LO9 dark patterns and regulation. All nine are graded. LO8 (offline) is checked in every concept (self-assessment S9); LO7 and LO9 count in the presentation and the seminar paper wherever the student's project takes them up. Everyone trains all three in the regular exercises U4 and U5. Every topic's closing section names the graded objectives.
 
-Session structure: **one 90-minute lecture per topic**, plus exercise double sessions, each covering two topics: U1 = Topics 1+2 · U2 = Topics 3+4 · U3 = Topics 5+6 · U4 = Topics 7+8 · U5 = Topics 9+10 are the regular, required exercises (no upload of their own, no bonus points; they build the material for Parts A, B, C and the seminar paper). Topics 11 to 13 have no exercise sheet. Topic 13 ends with an ungraded final task (the dated prediction). Every lecture ends with a **bridge task: voluntary, posted on the topic's Padlet** – no submission, no deadline, no penalty. Exercise teams have **three people, four only if the numbers do not divide**.
+Session structure: **one 90-minute lecture per topic**, plus exercise double sessions, each covering two topics: U1 = Topics 1+2 · U2 = Topics 3+4 · U3 = Topics 5+6 · U4 = Topics 7+8 · U5 = Topics 9+10 are the regular, required exercises (no upload of their own, no bonus points; they build the material for Parts A, B, C and the seminar paper). Topics 11 to 13 have no exercise sheet. Topic 13 ends with an ungraded final task (the dated prediction). Every lecture ends with a **bridge task: voluntary, posted on the topic's Padlet** – no submission, no deadline, no penalty. Exercise teams have **three people, four only if the numbers do not divide**; on sheet U1 a team of three takes navigation, forms and feedback and leaves the search family out.
 
-Semester plan: 14 weeks are planned, and two topics are droppable. This term both drop: **Topics 9 and 12 have no in-class session**; their material is fully covered in the script, and the topic skill for Topic 9 and the skill `defense-rehearsal` support the self-study. The offline part of Exercise U5 is prepared from the script.
+Semester plan: 14 weeks are planned, and two topics are droppable. This term both drop: **Topics 9 and 12 have no in-class session**; their material is fully covered in the script, and the topic skill for Topic 9 and the skill `defense-rehearsal` support the self-study. The offline part of Exercise U5 is prepared from the script. The borderline-case bridge for Topic 10 (a pattern from your own apps you are unsure about, filed on sheet U5) is given at the end of Topic 8.
 
 ## Assessment structure
 
 No written exam. The assessment is a **seminar paper plus a presentation**, the presentation staged in three graded parts:
 
 - **Part A** and **Part B:** 15 minutes each, in your team with the lecturer, not in front of the class – 20 points each. **Part A** presents the results of Exercise U1 (claim checks, pattern dissections, team profile) and runs within Exercise U2 (26 October / 2 November). **Part B** presents the results of Exercises U2 and U3 (severity verdict, design question and fidelity block with the self-named blind spot, iteration protocol with its *discarded alternatives*, audit with written responses) and runs within Exercise U4 (23 / 30 November).
-- **Part C**, the final presentation, for which the whole exercise track U1–U5 is relevant: 15 to 20 minutes per team in front of the whole exercise group, plus a discussion the team moderates – about 30 minutes per team, 30 points. Week 14 (13 January) is only the make-up date for Part C in case of illness.
+- **Part C**, the final presentation, for which the whole exercise track U1–U5 is relevant: 15 to 20 minutes per team in front of the whole exercise group, plus a discussion the team moderates – about 30 minutes per team, 30 points – on 21 December (MUXP.1) or 11 January (MUXP.2). Week 14 (13 January) is only the make-up date for Part C in case of illness.
 - The **seminar paper**: about 5,000 words that record your decisions; all five exercise sheets U1–U5 go into it – 30 points, due Friday, 15 January 2027.
 - **Uploads**, the only four of the module: Friday, 23 October (A) · Friday, 20 November (B) · Friday, 18 December (C) – both exercise groups, regardless of their own presentation date – and Friday, 15 January 2027 (seminar paper).
 
-Course of the semester: Part A in Exercise U2 (results of U1) · design question from Topic 4, with its fidelity decision on sheet U2 · Part B in Exercise U4 (results of U2 and U3) · Part C (U1–U5) · seminar paper (all five sheets). The **question pool** for the final presentation is open in the learning platform and grows until its freeze date; the **anchor sheet** (trace visible · anatomy complete · moderation active · hardest objection handled) is there too. There is **no rehearsal session** in the timetable: teams rehearse on their own, outside lectures and exercises, with the mock final presentation and the self-assessment sheet from the learning platform.
+Course of the semester: Part A in Exercise U2 (results of U1) · design question from Topic 4, with its fidelity decision on sheet U2 · Part B in Exercise U4 (results of U2 and U3) · Part C (U1–U5) · seminar paper (all five sheets). The **question pool** for the final presentation lives in the learning platform, openly visible, and grows until its freeze date (date in the learning platform); the **anchor sheet** (trace visible · anatomy complete · moderation active · hardest objection handled) is there too. There is **no rehearsal session** in the timetable: teams rehearse on their own, outside lectures and exercises, with the mock final presentation and the self-assessment sheet from the learning platform.
 
 ## Definitions as used in this module
 
@@ -62,5 +62,7 @@ Course of the semester: Part A in Exercise U2 (results of U1) · design question
 - **Market:** Sensor Tower "State of Mobile 2026": $167bn in-app spend 2025, 5.3trn hours; ChatGPT's AI-download share 67 % (Q2 2025) → 47 % (Q2 2026), Claude 1 % → 14 % (Forbes, 28.05.2026).
 
 ## Module conventions
+
+Topic 1's autopsy: each team generates its own one-page AI market analysis with one fixed prompt, notes tool and date, puts it on the Padlet (column T01) and sorts its statements into four quadrants – correct / plausible-but-wrong / missing / hidden assumption. Whoever missed the session runs the prompt alone before Exercise U1.
 
 Mandatory seminar-paper elements: the four elements of the fidelity block from sheet U2 (question, rung, justification, blind spot) · discarded-alternatives chapter fed by the iteration protocols · peer audit with written responses to every finding. The self-assessment sheet lists the grading anchors of the paper (S1–S12) and of the presentation (P1–P4).

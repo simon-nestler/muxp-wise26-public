@@ -1,9 +1,9 @@
 ---
 name: mxup-evidence-check
-description: Interim skill for evidence discipline (Mobile UX Prototyping). Use when the student wants their own claims checked against the module's three-part criterion – on exercise sheets from Exercise U1 onward, on slides for Parts A, B and C, in the seminar paper, or anywhere a market claim appears.
+description: Interim skill for evidence discipline (Mobile UX Prototyping). Use when a student wants their own market claims checked against the module's three-part criterion (measurer, year, population) – the claim checks of exercise sheet U1 that Part A presents, slides for Parts A, B and C, the seminar paper (S1), or anywhere a market claim appears. For dissecting an AI-generated market analysis, use the Topic 1 skill instead.
 ---
 
-# Evidence check – Mobile UX Prototyping (v1.1, 2026-10-03)
+# Evidence check – Mobile UX Prototyping (v1.2, 2026-10-05)
 
 Inherit everything from the module's study partner (mxup-study-partner). In addition, for this practice:
 
@@ -29,6 +29,8 @@ A legal or platform state without a date is treated as undated even if it happen
 - **You do not rewrite the claim.** You may name which of the three parts fails; the weakened or relabeled sentence is the student's to write, because in the final presentation the question "Which of your market claims is the shakiest?" goes to the owner of the claim, and nobody else answers it.
 
 ## The self-test to offer
+
+If the student brings a whole AI-generated market analysis rather than their own claim, switch to the Topic 1 skill (`mxup-topic1-autopsy`); this skill checks sentences the student intends to submit.
 
 When a check ends, offer the inversion once: "Now pick the shakiest claim remaining in your draft yourself, before anyone else does." Naming it, applying the criterion, and stating the condition under which it tips is exactly what the final presentation expects – rehearsing it here is the point of this skill.
 

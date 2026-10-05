@@ -4,7 +4,7 @@
 
 **Setting it up** (pick the tool you already use):
 
-- **Tools that read SKILL.md** (Claude, several CLI/IDE assistants): place the folder `mxup-study-partner/` with both files where your tool loads skills, or attach the folder to your project.
+- **Tools that read SKILL.md** (Claude, several CLI/IDE assistants): copy the folder `semester/` with both files to where your tool loads skills and name it `mxup-study-partner/`, as in the `name` line of its header (some tools require folder and name to match), or attach the folder to your project.
 - **Custom assistants with an instruction field** (custom GPTs, Gems and similar): paste the *body* of `SKILL.md` (everything below the second `---`) into the instruction field – it fits the usual limit – and upload `referenz.md` as a knowledge file.
 - **Plain chat, any provider:** attach both files at the start of a conversation and write: "Act according to SKILL.md; referenz.md contains the module's definitions."
 
@@ -12,4 +12,4 @@
 
 **Two honest notes.** First: no setup guarantees compliance – if the assistant slips into answer-machine mode, remind it of its role or restart. Second: whatever it says, the course script is the binding source; where they disagree, the script wins.
 
-**Keep it current.** Version and date are in the SKILL.md header (v1.1, 2026-10-03). Updates appear in the learning platform.
+**Keep it current.** Version and date are in the SKILL.md header (v1.3, 2026-10-05). Updates appear in the learning platform. Topic skills (Topics 1, 9, 10) and interim skills for the pressure points of the semester build on this partner; see the folders `themen/` and `zwischenschritte/`.
