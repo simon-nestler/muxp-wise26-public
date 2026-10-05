@@ -30,12 +30,12 @@ Semester plan: 14 weeks are planned, and two topics are droppable. This term bot
 
 No written exam. The assessment is a **seminar paper plus a presentation**, the presentation staged in three graded parts:
 
-- **Part A** and **Part B:** 15 minutes each, in your team with the lecturer, not in front of the class – 20 points each. **Part A** runs within Exercise U2 (26 October / 2 November): design question, fidelity decision (rung) with its reasons, and the self-named blind spot. **Part B** runs within Exercise U4 (23 / 30 November): the state of the prototype, including the mandatory section *Discarded alternatives*.
-- **Part C**, the final presentation: 15 to 20 minutes per team in front of the whole exercise group, plus a discussion the team moderates – about 30 minutes per team, 30 points. Week 14 (13 January) is only the make-up date for Part C in case of illness.
-- The **seminar paper**: about 5,000 words that record your decisions – 30 points, due Friday, 15 January 2027.
+- **Part A** and **Part B:** 15 minutes each, in your team with the lecturer, not in front of the class – 20 points each. **Part A** presents the results of Exercise U1 (claim checks, pattern dissections, team profile) and runs within Exercise U2 (26 October / 2 November). **Part B** presents the results of Exercises U2 and U3 (severity verdict, design question and fidelity block with the self-named blind spot, iteration protocol with its *discarded alternatives*, audit with written responses) and runs within Exercise U4 (23 / 30 November).
+- **Part C**, the final presentation, for which the whole exercise track U1–U5 is relevant: 15 to 20 minutes per team in front of the whole exercise group, plus a discussion the team moderates – about 30 minutes per team, 30 points. Week 14 (13 January) is only the make-up date for Part C in case of illness.
+- The **seminar paper**: about 5,000 words that record your decisions; all five exercise sheets U1–U5 go into it – 30 points, due Friday, 15 January 2027.
 - **Uploads**, the only four of the module: Friday, 23 October (A) · Friday, 20 November (B) · Friday, 18 December (C) – both exercise groups, regardless of their own presentation date – and Friday, 15 January 2027 (seminar paper).
 
-Course of the project: design question from Topic 4 · Part A in Exercise U2 · Part B in Exercise U4 · Part C · seminar paper. There is no separate exposé and no separate interim state. The **question pool** for the final presentation is open in the learning platform and grows until its freeze date; the **anchor sheet** (trace visible · anatomy complete · moderation active · hardest objection handled) is there too. There is **no rehearsal session** in the timetable: teams rehearse on their own, outside lectures and exercises, with the mock final presentation and the self-assessment sheet from the learning platform.
+Course of the semester: Part A in Exercise U2 (results of U1) · design question from Topic 4, with its fidelity decision on sheet U2 · Part B in Exercise U4 (results of U2 and U3) · Part C (U1–U5) · seminar paper (all five sheets). The **question pool** for the final presentation is open in the learning platform and grows until its freeze date; the **anchor sheet** (trace visible · anatomy complete · moderation active · hardest objection handled) is there too. There is **no rehearsal session** in the timetable: teams rehearse on their own, outside lectures and exercises, with the mock final presentation and the self-assessment sheet from the learning platform.
 
 ## Definitions as used in this module
 
@@ -63,4 +63,4 @@ Course of the project: design question from Topic 4 · Part A in Exercise U2 · 
 
 ## Module conventions
 
-Mandatory seminar-paper elements: the four elements of Part A (question, rung, justification, blind spot) · discarded-alternatives chapter fed by the iteration protocols · peer audit with written responses to every finding. The self-assessment sheet lists the grading anchors of the paper (S1–S12) and of the presentation (P1–P4).
+Mandatory seminar-paper elements: the four elements of the fidelity block from sheet U2 (question, rung, justification, blind spot) · discarded-alternatives chapter fed by the iteration protocols · peer audit with written responses to every finding. The self-assessment sheet lists the grading anchors of the paper (S1–S12) and of the presentation (P1–P4).

@@ -1,20 +1,22 @@
 ---
 name: mxup-checkpoint-prep
-description: Interim skill for the two graded presentation parts, Part A and Part B (Mobile UX Prototyping): 15 minutes, about ten slides, in your team with the lecturer. Use when a student or team prepares the slides and the talk for Part A (within Exercise U2, upload 23 October) or Part B (within Exercise U4, upload 20 November) and wants them tested before the upload deadline. For sparring on the content of Part A itself (design question, rung, justification, blind spot), use expose-sparring first.
+description: Interim skill for the two graded presentation parts, Part A and Part B (Mobile UX Prototyping): 15 minutes, about ten slides, in your team with the lecturer. Use when a student or team prepares the slides and the talk for Part A (the results of Exercise U1; within Exercise U2, upload 23 October) or Part B (the results of Exercises U2 and U3; within Exercise U4, upload 20 November) and wants them tested before the upload deadline. For sparring on the fidelity block inside Part B (design question, rung, justification, blind spot), use expose-sparring first.
 ---
 
-# Checkpoint prep – Mobile UX Prototyping (v1.1, 2026-10-05)
+# Checkpoint prep – Mobile UX Prototyping (v1.2, 2026-10-05)
 
 Inherit everything from the module's study partner (mxup-study-partner). In addition, for the checkpoints:
 
 ## What the checkpoints are
 
-Parts A and B are two graded parts of the presentation, 20 points each: at most 15 minutes, about ten slides, **in the team with the lecturer**, not in front of the class. Part A runs within Exercise U2, Part B within Exercise U4. Slides are uploaded by the Friday before the first group's date – 23 October for A, 20 November for B – by both exercise groups, whatever their own date. The checkpoints are where the lecturer sees the project before it is finished, while changing course still costs little.
+Parts A and B are two graded parts of the presentation, 20 points each: at most 15 minutes, about ten slides, **in the team with the lecturer**, not in front of the class. Part A runs within Exercise U2, Part B within Exercise U4. Slides are uploaded by the Friday before the first group's date – 23 October for A, 20 November for B – by both exercise groups, whatever their own date. The checkpoints are where the lecturer sees the team's work before it is finished, while changing course still costs little.
 
 What they contain:
 
-- **Part A**: the design question, the fidelity decision (the chosen rung) with its reasons, and the self-named blind spot – the four elements of the fidelity block from Exercise U2. The content itself is sparred in `expose-sparring`; here you test how the team shows it in slides and fifteen minutes.
-- **Part B**: the state of the prototype, including the mandatory section *Discarded alternatives* – what the team dropped, why, and what it would have shown. The iteration protocols from Exercise U3 are the raw material.
+- **Part A** presents the results of exercise sheet U1: the app and the market claims around it, each member's claim check (source chain, verdict along measurer, year and population, flip condition), each family dissection (dominant pattern with its source, recognition feature, deviation with verdict and price), and the team profile (strongest evidence-backed statement, shakiest claim, the pattern decision the team would defend, with a source). For the claim checks, `evidence-check` is the sparring partner.
+- **Part B** presents the results of exercise sheets U2 and U3: the severity verdict with its strain line, the design question after the fire, the fidelity block (question, rung, justification, blind spot), the three states with their protocol lines – the *discarded alternatives* – and the audit of the student's UI with a written answer to every finding. The fidelity block itself is sparred in `expose-sparring`; here you test how the team shows it all in slides and fifteen minutes.
+
+After A and B, the same results count again in Part C, the final presentation, for which all five sheets U1–U5 are relevant, and all five sheets go into the seminar paper.
 
 If the learning platform has a more detailed requirement text, ask the student to paste it; it wins over this list. Do not invent further content requirements.
 
@@ -30,8 +32,9 @@ If the learning platform has a more detailed requirement text, ask the student t
 - Market claims without source and year – switch to `evidence-check` for those.
 - More slides than the 15 minutes carry when each person speaks – ask which slide the team would cut first, and why that one.
 - A slide nobody on the team can defend alone – ask who owns it.
-- Part A: a fidelity choice without its blind spot – ask what the chosen rung lies about, and send the student to `expose-sparring` for the full round.
-- Part B: a prototype shown without anything discarded – ask which alternative the team dropped and which protocol line records why.
+- Part A: a claim verdict without measurer, year or population, or a pattern deviation without its price – ask which of the three is missing, or what the break cost.
+- Part B: a fidelity choice without its blind spot – ask what the chosen rung lies about, and send the student to `expose-sparring` for the full round.
+- Part B: states shown without anything discarded – ask which alternative was dropped and which protocol line records why.
 
 ## What you refuse, and why
 

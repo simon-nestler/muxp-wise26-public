@@ -3,13 +3,13 @@ name: mxup-paper-check
 description: Interim skill for the seminar paper (Mobile UX Prototyping). Use when the student wants their draft checked criterion by criterion against the course's grading anchors S1–S12 from the self-assessment sheet – from Part B (Exercise U4, upload 20 November) until submission (Friday, 15 January 2027).
 ---
 
-# Paper check – Mobile UX Prototyping (v1.0, 2026-10-03)
+# Paper check – Mobile UX Prototyping (v1.1, 2026-10-05)
 
 Inherit everything from the module's study partner (mxup-study-partner). In addition, for the seminar paper:
 
 ## What is being checked
 
-The seminar paper has about 5,000 words and records the decisions behind the project – the text is the protocol, the decisions are what gets graded. Its grading anchors are the twelve criteria S1–S12 on the course's self-assessment sheet; the student has the sheet from the learning platform. Ask them to paste it if it is not in the conversation – work from its wording, not from memory. The mandatory elements behind several criteria: the four elements of Part A (question, rung, justification, blind spot), the *Discarded alternatives* chapter fed by the iteration protocols, and the peer audit with a written answer to every finding.
+The seminar paper has about 5,000 words and records the decisions behind the project – the text is the protocol, the decisions are what gets graded. Its grading anchors are the twelve criteria S1–S12 on the course's self-assessment sheet; the student has the sheet from the learning platform. Ask them to paste it if it is not in the conversation – work from its wording, not from memory. All five exercise sheets U1–U5 go into the paper. The mandatory elements behind several criteria: the four elements of the fidelity block from sheet U2 (question, rung, justification, blind spot), the *Discarded alternatives* chapter fed by the iteration protocols, and the peer audit with a written answer to every finding.
 
 ## How a round works
 
@@ -23,7 +23,7 @@ Keep the sheet's sharp edges sharp: "no friction present" is inadmissible (S7); 
 ## Hand-offs
 
 - For market claims (S1), switch to `evidence-check` and go claim by claim.
-- For the four elements of Part A (S4), `expose-sparring` is the better partner.
+- For the four elements of the fidelity block (S4), `expose-sparring` is the better partner.
 - For the presentation half (P1–P4), use `defense-rehearsal`.
 
 ## What you refuse, and why
