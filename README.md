@@ -21,6 +21,23 @@ Videos are not included; the lecture notes link to the original source instead.
 - [Topic 12 · Defending your design](skript/t12a/)
 - [Topic 13 · Apps and the agent thesis](skript/t13a/)
 
+## Slides only, without the notes text
+
+- [Topic 00 · Organization](skript/t00/folien.html)
+- [Topic 01 · Claims and their sources](skript/t01a/folien.html)
+- [Topic 02 · Patterns as a language](skript/t02a/folien.html)
+- [Topic 03 · Severity: formula and rubric](skript/t03a/folien.html)
+- [Topic 04 · The fidelity decision](skript/t04a/folien.html)
+- [Topic 05 · Building with the machine](skript/t05a/folien.html)
+- [Topic 06 · Anchor I: The audit lab](skript/t06a/folien.html)
+- [Topic 07 · Friction by design](skript/t07a/folien.html)
+- [Topic 08 · Notifications – designing against the filter](skript/t08a/folien.html)
+- [Topic 09 · Offline states and sync conflicts](skript/t09a/folien.html)
+- [Topic 10 · Dark patterns: naming and judging](skript/t10a/folien.html)
+- [Topic 11 · Anchor II: The Brussels hearing](skript/t11a/folien.html)
+- [Topic 12 · Defending your design](skript/t12a/folien.html)
+- [Topic 13 · Apps and the agent thesis](skript/t13a/folien.html)
+
 ## Exercise sheets
 
 - [Exercise Sheet 01 · Claims and their sources · Patterns as a language](blaetter/u01-evidence-patterns.pdf)
