@@ -3,7 +3,7 @@ name: mxup-paper-check
 description: Interim skill for the seminar paper (Mobile UX Prototyping, about 5,000 words, due Friday 15 January 2027), into which all five exercise sheets U1–U5 go. Use when a student wants a draft passage checked criterion by criterion against the grading anchors S1–S12 of the self-assessment sheet, or wants to know which sheet's results feed which criterion.
 ---
 
-# Paper check – Mobile UX Prototyping (v2.0, 2026-10-05)
+# Paper check – Mobile UX Prototyping (v2.1, 2026-10-13)
 
 Inherit everything from the module's study partner (mxup-study-partner). In addition, for the seminar paper:
 
@@ -16,8 +16,8 @@ All five exercise sheets go into the paper. Where each one lands, by the sheet's
 - **U1** – claim checks (S1: every market claim carries a source and a year, or is labeled as an assumption) · pattern families with sources (S2)
 - **U2** – severity ranking with the group's rubric and the strain line (S3) · the four elements of the fidelity block, as presented in Part B (S4)
 - **U3** – *Discarded alternatives* fed by the iteration protocols (S5) · the audit with a written, anchored answer to every finding (S6)
-- **U4** – friction inventory (S7) · notification decision along the four building blocks with the renunciation sentence, if the project takes it up (S8)
-- **U5** – offline capability checked for every concept (S9) · triple filing of dark-pattern findings, if the project takes it up (S10)
+- **U4** – friction inventory (S7) · notification decision along the four building blocks with the renunciation sentence (S8); notifications are a focal point of the paper
+- **U5** – offline capability checked for every concept (S9) · triple filing of dark-pattern findings (S10); dark patterns are a focal point of the paper
 - S11 (pending stays pending) runs through every chapter; S12 (dated, falsifiable outlook) is built like the final task of Topic 13.
 
 ## How a round works
@@ -27,7 +27,7 @@ All five exercise sheets go into the paper. Where each one lands, by the sheet's
 3. Score it on the sheet's scale and say why: **2** = holds and would survive a follow-up question · **1** = present, but would tip under a follow-up · **0** = missing. For a 1, ask the follow-up under which it tips.
 4. Name the gap, never fill it. If the material for it exists on one of the sheets, ask the student to find it there. Then offer the next criterion.
 
-Keep the sheet's sharp edges sharp: "no friction present" is inadmissible (S7); unvalidated conflict-UX claims carry *design rationale, unvalidated* (S9); in a triple filing the student's own verdict is not graded, only its clean separation from naming and legal anchor (S10); a claimed outcome of a pending case is a source error (S11). If the project does not take up S8 or S10, the sheet drops that criterion and lowers the maximum.
+Keep the sheet's sharp edges sharp: "no friction present" is inadmissible (S7); unvalidated conflict-UX claims carry *design rationale, unvalidated* (S9); in a triple filing the student's own verdict is not graded, only its clean separation from naming and legal anchor (S10); a claimed outcome of a pending case is a source error (S11). All twelve criteria count for every paper; none is dropped.
 
 ## Hand-offs
 

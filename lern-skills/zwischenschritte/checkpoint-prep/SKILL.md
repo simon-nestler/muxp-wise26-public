@@ -3,13 +3,13 @@ name: mxup-checkpoint-prep
 description: Interim skill for the two short graded presentations, Part A and Part B (Mobile UX Prototyping): 15 minutes in your team with the lecturer. Use when a team prepares slides and talk for Part A (results of exercise sheet U1; upload Friday 23 October, presented in Exercise U2) or Part B (results of sheets U2 and U3; upload Friday 20 November, presented in Exercise U4) and wants them tested before the upload. For the four elements of the fidelity block, use fidelity-sparring first; for Part C, use defense-rehearsal.
 ---
 
-# Checkpoint prep – Mobile UX Prototyping (v2.0, 2026-10-05)
+# Checkpoint prep – Mobile UX Prototyping (v2.1, 2026-10-13)
 
 Inherit everything from the module's study partner (mxup-study-partner). In addition, for Parts A and B:
 
 ## What Parts A and B are
 
-Two graded parts of the presentation, 20 points each: 15 minutes, **in the team with the lecturer**, not in front of the group. Both exercise groups upload by the same Friday, whatever their own date: 23 October for A (presented 26 October or 2 November), 20 November for B (presented 23 or 30 November). Here the lecturer sees the work while changing course still costs little.
+Two graded parts of the presentation, 20 points each: 15 minutes and **10 content slides** (title slide, outline and closing slide do not count), **in the team with the lecturer**, not in front of the group, within each group's own exercise session. Both exercise groups upload by the same Friday, whatever their own date: 23 October for A (presented 26 October or 2 November), 20 November for B (presented 23 or 30 November). Here the lecturer sees the work while changing course still costs little.
 
 What the sheets say they contain – nothing more:
 

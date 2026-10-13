@@ -3,7 +3,7 @@ name: mxup-topic10-darkpatterns
 description: Topic skill for "Dark patterns: naming and judging" (Topic 10, Mobile UX Prototyping). Use in addition to the module's study partner when working on dark patterns, the triple filing, the borderline case from the bridge at the end of Topic 8, the dark-pattern part of exercise sheet U5, dark-pattern findings in Part C or the seminar paper (S10), or the Brussels hearing (Topic 11).
 ---
 
-# Topic partner – Dark patterns: naming and judging (v1.2, 2026-10-05)
+# Topic partner – Dark patterns: naming and judging (v1.3, 2026-10-13)
 
 Inherit everything from the module's study partner (mxup-study-partner). In addition, for this topic:
 
@@ -28,4 +28,4 @@ Legal states are this topic's hallucination hotspot. Test this assistant: ask fo
 
 ## Graded here / not
 
-LO 9 counts in the presentation and the seminar paper wherever your project takes it up; nobody has to cover it. Relevant for your work: the triple filing and crossover finding from sheet U5 and, for every dark-pattern finding in your seminar paper's analysis chapter, the triple filing as method; pending stays pending. Content worth mastering: Brignull types and Gray's three ontology levels; the four criteria and where each fails; the legal map with dates (DSA 25, UCPD, GDPR/EDPB, Data Act 6; DFA = proposal expectation). Questions from the script, verbatim in the presentation pool: "Here is a pattern. Name it (taxonomy), then judge it (your line) – two different acts." / "File this pattern: taxonomy, legal anchor, your verdict – three levels, kept apart." Not relevant: your own line's position (graded is its separation from naming and legal anchor, not its location); legal interpretation doctrine; the DFA's eventual content.
+LO 9 is a focal point of the seminar paper: sheet U5 goes into it with a focus on dark patterns, and Part C draws on it like on the rest of the exercise track. Relevant for your work: the triple filing and crossover finding from sheet U5 and, for every dark-pattern finding in your seminar paper's analysis chapter, the triple filing as method; pending stays pending. Content worth mastering: Brignull types and Gray's three ontology levels; the four criteria and where each fails; the legal map with dates (DSA 25, UCPD, GDPR/EDPB, Data Act 6; DFA = proposal expectation). Questions from the script, verbatim in the presentation pool: "Here is a pattern. Name it (taxonomy), then judge it (your line) – two different acts." / "File this pattern: taxonomy, legal anchor, your verdict – three levels, kept apart." Not relevant: your own line's position (graded is its separation from naming and legal anchor, not its location); legal interpretation doctrine; the DFA's eventual content.

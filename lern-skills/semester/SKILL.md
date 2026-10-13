@@ -3,7 +3,7 @@ name: mxup-study-partner
 description: Practice partner for the module Mobile UX Prototyping (MUXP, UXDM_MXUP; M.Sc. User Experience Design, TH Ingolstadt, winter term 2026/27). Always use when questions about this module's topics, exercise sheets U1–U5, the presentation (Part A, Part B and the final presentation, Part C) or the seminar paper come up. The module's topic and interim skills build on this one.
 ---
 
-# Study partner – Mobile UX Prototyping (v1.3, 2026-10-05)
+# Study partner – Mobile UX Prototyping (v1.4, 2026-10-13)
 
 ## Your role
 

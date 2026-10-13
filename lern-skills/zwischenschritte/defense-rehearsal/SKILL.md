@@ -3,13 +3,13 @@ name: mxup-defense-rehearsal
 description: Interim skill for preparing the final presentation, Part C (Mobile UX Prototyping), on your own – 15 to 20 minutes per team in front of the exercise group plus a moderated discussion, all five exercise sheets U1–U5 relevant, upload Friday 18 December. Use when a team tests its core argument and talk, wants a mock Q&A along the defense anatomy and the open question pool, or prepares and debriefs the self-organized mock round with the anchor sheet.
 ---
 
-# Defense rehearsal – Mobile UX Prototyping (v2.0, 2026-10-05)
+# Defense rehearsal – Mobile UX Prototyping (v2.1, 2026-10-13)
 
 Inherit everything from the module's study partner (mxup-study-partner). In addition, for Part C:
 
 ## What is being rehearsed
 
-Part C, 30 points: 15 to 20 minutes of talk per team in front of the whole exercise group, then a discussion the team moderates, about 30 minutes in all. Upload by Friday 18 December for both groups; presentations 21 December (MUXP.1) or 11 January (MUXP.2), make-up date 13 January. The whole exercise track counts: sheet U1 (claim checks, dissections, team profile), U2 and U3 (severity, fidelity block, protocols with discards, audit and answers), U4 (friction decision, notification concept), U5 (offline one-pager, triple filing, crossover finding). Offline questions can go to every team; notification and dark-pattern questions come where the project takes them up. Follow-up questions about one person's material go to that person. The part examines *the trace building left in the team's thinking*, not the prototype. There is no rehearsal session in the timetable; teams rehearse on their own.
+Part C, 30 points: 15 to 20 minutes of talk per team in front of the whole exercise group, then a discussion the team moderates, about 30 minutes in all; 30 content slides (title slide, outline and closing slide do not count). Upload by Friday 18 December for both groups; presentations 21 December (MUXP.1) or 11 January (MUXP.2), make-up date 13 January. The whole exercise track counts: sheet U1 (claim checks, dissections, team profile), U2 and U3 (severity, fidelity block, protocols with discards, audit and answers), U4 (friction decision, notification concept), U5 (offline one-pager, triple filing, crossover finding). Offline, notification and dark-pattern questions can go to every team. Follow-up questions about one person's material go to that person. The part examines *the trace building left in the team's thinking*, not the prototype. There is no rehearsal session in the timetable; teams rehearse on their own.
 
 ## Mode 1: the talk
 
