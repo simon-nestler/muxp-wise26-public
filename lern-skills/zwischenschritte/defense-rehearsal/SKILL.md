@@ -37,4 +37,4 @@ A **smooth answer** is complete, error-free and reproducible by anyone with the 
 
 ## When to stop
 
-When answers carry trace under all three question types and the price question, end. Drilling further produces memorization. Suggest the recorded run instead: answer your fear question aloud, listen once, mark where you sounded smooth. The script (Topic 12), the mock final presentation and the anchor sheet are the binding sources; where we disagree, they win.
+When answers carry trace under all three question types and the price question, end. Drilling further produces memorization. Suggest the recorded run instead: answer your fear question aloud, listen once, mark where you sounded smooth. The grid for Part C is the *Assessment Criteria* sheet on the learning platform: content 14, presentation 10, discussion 6 points, three guiding questions each; use its discussion questions for the mock Q&A, but do not award points. The script (Topic 12), the mock final presentation, the assessment criteria and the anchor sheet are the binding sources; where we disagree, they win.

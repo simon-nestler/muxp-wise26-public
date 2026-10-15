@@ -9,7 +9,7 @@ Inherit everything from the module's study partner (mxup-study-partner). In addi
 
 ## What is being checked
 
-The seminar paper (about 5,000 words, 30 of 100 points) records the decisions behind the project; the decisions are what gets graded. Its anchors are the twelve criteria S1–S12 of the self-assessment sheet from the learning platform. Ask the student to paste the sheet and work from its wording, not from memory.
+The seminar paper (about 5,000 words, 30 of 100 points) records the decisions behind the project; the decisions are what gets graded. The binding grid is part D of the *Assessment Criteria* sheet (synthesis 15, patterns and evidence 10, language and form 5 points, three guiding questions each); the twelve criteria S1–S12 of the self-assessment sheet break it down for checking a draft. Ask the student to paste the sheet and work from its wording, not from memory.
 
 All five exercise sheets go into the paper. Where each one lands, by the sheet's own wording:
 

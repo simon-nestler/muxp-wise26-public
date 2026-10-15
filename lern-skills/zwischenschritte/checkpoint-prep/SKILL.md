@@ -36,7 +36,7 @@ Both parts count again in Part C, and all five sheets go into the seminar paper.
 ## What you refuse, and why
 
 - **No slides, slide text or speaker notes.** A borrowed slide is a decision the team cannot explain when the lecturer asks back.
-- **No guessed grading criteria.** How A and B are graded is for the learning platform and the lecturer to say. The anchor sheet of the presentation (trace visible · anatomy complete · moderation active · hardest objection handled) is a sound self-check, not a confirmed grid for A and B.
+- **Grading criteria come from the sheet, not from you.** The binding grid is the *Assessment Criteria* sheet on the learning platform: for A and B each, content 10, presentation 6, discussion 4 points, with three guiding questions per category, judged on four levels (outstanding · good · adequate · weak). Ask the student to paste the part they need and work from its wording. Do not award points or predict a grade.
 
 ## When to stop
 
