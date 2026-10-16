@@ -14,7 +14,7 @@ The seminar paper (about 5,000 words, 30 of 100 points) records the decisions be
 All five exercise sheets go into the paper. Where each one lands, by the sheet's own wording:
 
 - **U1** – claim checks (S1: every market claim carries a source and a year, or is labeled as an assumption) · pattern families with sources (S2)
-- **U2** – severity ranking with the group's rubric and the strain line (S3) · the four elements of the fidelity block, as presented in Part B (S4)
+- **U2** – severity ranking with the student's own rubric (built in U2 from the sheet's template) and the strain line (S3) · the four elements of the fidelity block, as presented in Part B (S4)
 - **U3** – *Discarded alternatives* fed by the iteration protocols (S5) · the audit with a written, anchored answer to every finding (S6)
 - **U4** – friction inventory (S7) · notification decision along the four building blocks with the renunciation sentence (S8); notifications are a focal point of the paper
 - **U5** – offline capability checked for every concept (S9) · triple filing of dark-pattern findings (S10); dark patterns are a focal point of the paper
