@@ -58,10 +58,11 @@
   <polygon class="ahead" points="1016,336 1022,348 1028,336"/>
 
   <!-- result card -->
-  <rect class="card" x="902" y="356" width="240" height="94" rx="8"/>
+  <rect class="card" x="902" y="356" width="270" height="94" rx="8"/>
   <rect class="accent" x="902" y="356" width="10" height="94"/>
-  <text class="head" x="930" y="394">One recommendation card</text>
-  <text class="line" x="930" y="424">back to its author</text>
+  <text class="head" x="930" y="386">One recommendation</text>
+  <text class="head" x="930" y="410">card</text>
+  <text class="line" x="930" y="436">back to its author</text>
 
   <!-- order note -->
   <text class="cure" x="30" y="60">Three checks per question – in this order. The blind spot of the chosen rung goes on the card.</text>
