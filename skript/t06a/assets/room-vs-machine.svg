@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 560" role="img" aria-labelledby="t d">
+  <title id="t">Room against machine: three columns – only the room, both, only the machine</title>
+  <desc id="d">Comparison sheet for the audit lab. A head row holds fields for screen and source. Below, three columns: findings only the room made, findings both made, findings only the machine made. Each column asks for the grid line of every finding. A footer line asks which column holds the most expensive finding.</desc>
+  <style>
+    text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill: #031121; }
+    .h { font-size: 28px; font-weight: 700; }
+    .meta { font-size: 20px; fill: #5a6472; }
+    .colh { font-size: 22px; font-weight: 700; fill: #ffffff; }
+    .colh-dark { font-size: 22px; font-weight: 700; fill: #031121; }
+    .sub { font-size: 16px; fill: #dfe5ff; }
+    .sub-dark { font-size: 16px; fill: #4a4630; }
+    .hint { font-size: 17px; fill: #5a6472; }
+    .line { stroke: #c7cdd4; stroke-width: 1.5; }
+    .field { stroke: #5a6472; stroke-width: 1.5; fill: none; }
+  </style>
+  <rect width="1200" height="560" fill="#ffffff"/>
+
+  <text class="h" x="40" y="52">Room against machine</text>
+  <text class="meta" x="40" y="92">Screen</text>
+  <rect class="field" x="118" y="72" width="300" height="30"/>
+  <text class="meta" x="450" y="92">Source</text>
+  <rect class="field" x="530" y="72" width="420" height="30"/>
+  <text class="meta" x="980" y="92">same grid, both</text>
+
+  <rect x="40"  y="130" width="373" height="70" fill="#1a2f6e"/>
+  <rect x="413" y="130" width="374" height="70" fill="#fcd430"/>
+  <rect x="787" y="130" width="373" height="70" fill="#5a6472"/>
+  <text class="colh" x="56" y="160">Only the room</text>
+  <text class="sub"  x="56" y="186">finding · grid line 1–4 or context</text>
+  <text class="colh-dark" x="429" y="160">Both</text>
+  <text class="sub-dark"  x="429" y="186">finding · grid line 1–4</text>
+  <text class="colh" x="803" y="160">Only the machine</text>
+  <text class="sub"  x="803" y="186">finding · grid line 1–4 · true or false?</text>
+
+  <line class="line" x1="413" y1="200" x2="413" y2="480"/>
+  <line class="line" x1="787" y1="200" x2="787" y2="480"/>
+  <line class="line" x1="40" y1="270" x2="1160" y2="270"/>
+  <line class="line" x1="40" y1="340" x2="1160" y2="340"/>
+  <line class="line" x1="40" y1="410" x2="1160" y2="410"/>
+  <line class="line" x1="40" y1="480" x2="1160" y2="480"/>
+  <text class="hint" x="56" y="240">…</text>
+  <text class="hint" x="429" y="240">…</text>
+  <text class="hint" x="803" y="240">…</text>
+
+  <text class="hint" x="40" y="520">Mark every machine-only finding: true, false or untestable from a screenshot.</text>
+  <text class="hint" x="40" y="546">Then circle the most expensive finding. Which column is it in?</text>
+</svg>
