@@ -1730,6 +1730,20 @@ strong { color: var(--ink); }
   border-bottom: 0.5pt solid var(--rule);
 }
 
+/* Kästen, Quellenzeile und Textmarker aus der Projektion (Klassen aus
+   build-thi.js): im Skript ruhiger, aber erkennbar dieselben. */
+blockquote.thi-aufloesung,
+blockquote.thi-prompt {
+  margin: 0.8em 0;
+  padding: 0.5em 0.9em;
+  border-left: 3pt solid #fcd430;
+  background: #f5f3ee;
+}
+blockquote.thi-prompt { border-left-color: #3391ff; background: #e2eefc; }
+blockquote:is(.thi-aufloesung, .thi-prompt) p { margin: 0; }
+p.thi-quelle { font-size: 0.85em; color: var(--ink-soft); }
+mark { background: linear-gradient(transparent 55%, #fcd430 55%, #fcd430 92%, transparent 92%); color: inherit; }
+
 </style>
 </head>
 <body data-slide-nums="horizontal"  data-marginalia="margin" data-reader="on">
@@ -1783,8 +1797,8 @@ strong { color: var(--ink); }
 <ul>
 <li><strong>The content</strong> is sheets 02 and 03: severity verdict, design question and fidelity block, iteration protocol, audit and responses</li>
 <li><strong>In your team with me</strong>, not in front of the group – 20 points</li>
-<li><strong>Each group in its own session</strong> of Exercise U4: MUXP.1 on Thu, 26 Nov, MUXP.2 on 30 Nov</li>
-<li>The <strong>upload</strong> was due Fri 20 Nov, for both groups, whatever your own date</li>
+<li><strong>Each group in its own session</strong> of Exercise U4: MUXP.1 on Thu, 19 Nov, MUXP.2 on 30 Nov</li>
+<li>The <strong>upload</strong> was due Wed 18 Nov, for both groups, whatever your own date</li>
 <li>Today&#39;s four assignments lead into <strong>Part C</strong>, not into Part B</li>
 <li>After Part B, sheets 02 and 03 count again in <strong>Part C</strong> and go into your <strong>seminar paper</strong></li>
 </ul>

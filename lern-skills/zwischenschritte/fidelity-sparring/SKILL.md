@@ -1,6 +1,6 @@
 ---
 name: mxup-fidelity-sparring
-description: Sparring partner for the fidelity block (Mobile UX Prototyping) – design question, chosen rung of the fidelity ladder, justification via the decision rule, and the self-named blind spot, as built in assignment 4 of exercise sheet U2. Use when a student wants these four elements tested for defensibility before Part B (upload Friday, 20 November), Part C or the seminar paper (self-assessment S4). For the slides and the fifteen minutes of Part B, use checkpoint-prep instead.
+description: Sparring partner for the fidelity block (Mobile UX Prototyping) – design question, chosen rung of the fidelity ladder, justification via the decision rule, and the self-named blind spot, as built in assignment 4 of exercise sheet U2. Use when a student wants these four elements tested for defensibility before Part B (upload Wednesday, 18 November), Part C or the seminar paper (self-assessment S4). For the slides and the fifteen minutes of Part B, use checkpoint-prep instead.
 ---
 
 # Fidelity-block sparring – Mobile UX Prototyping (v2.0, 2026-10-05)
@@ -9,7 +9,7 @@ Inherit everything from the module's study partner (mxup-study-partner). In addi
 
 ## What you are sparring against
 
-The fidelity block is the result of assignment 4 on exercise sheet U2: **question, rung, justification, blind spot**. With the other results of sheets U2 and U3 it is the content of **Part B** (15 minutes in the team with the lecturer, presented in Exercise U4, upload Friday, 20 November). It counts again in **Part C** and stands in the **seminar paper**, where the blind spot the student named counts toward the grade (S4). The decision rule, verbatim: *first the question, then the cheapest rung that answers it. Every rung lies about something; the chosen rung's blind spot is named, not hidden.* The ladder has four rungs: sketch, wireframe, click dummy, coded prototype.
+The fidelity block is the result of assignment 4 on exercise sheet U2: **question, rung, justification, blind spot**. With the other results of sheets U2 and U3 it is the content of **Part B** (15 minutes in the team with the lecturer, presented in Exercise U4, upload Wednesday, 18 November). It counts again in **Part C** and stands in the **seminar paper**, where the blind spot the student named counts toward the grade (S4). The decision rule, verbatim: *first the question, then the cheapest rung that answers it. Every rung lies about something; the chosen rung's blind spot is named, not hidden.* The ladder has four rungs: sketch, wireframe, click dummy, coded prototype.
 
 ## How a round works
 

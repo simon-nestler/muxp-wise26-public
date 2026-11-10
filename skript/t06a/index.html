@@ -1730,6 +1730,20 @@ strong { color: var(--ink); }
   border-bottom: 0.5pt solid var(--rule);
 }
 
+/* Kästen, Quellenzeile und Textmarker aus der Projektion (Klassen aus
+   build-thi.js): im Skript ruhiger, aber erkennbar dieselben. */
+blockquote.thi-aufloesung,
+blockquote.thi-prompt {
+  margin: 0.8em 0;
+  padding: 0.5em 0.9em;
+  border-left: 3pt solid #fcd430;
+  background: #f5f3ee;
+}
+blockquote.thi-prompt { border-left-color: #3391ff; background: #e2eefc; }
+blockquote:is(.thi-aufloesung, .thi-prompt) p { margin: 0; }
+p.thi-quelle { font-size: 0.85em; color: var(--ink-soft); }
+mark { background: linear-gradient(transparent 55%, #fcd430 55%, #fcd430 92%, transparent 92%); color: inherit; }
+
 </style>
 </head>
 <body data-slide-nums="horizontal"  data-marginalia="margin" data-reader="on">
@@ -2615,7 +2629,7 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
 <li>Teams of three (four only if the numbers do not divide), <strong>nobody audits their own UI</strong></li>
 <li><strong>No upload:</strong> each of you keeps your own iteration protocol, audit and written responses</li>
 </ul>
-<p><strong>After the session:</strong> no upload for the sheet – with sheet 02 it becomes <strong>Part B</strong> (presented in Exercise U4, upload 20 November); it counts again in Part C and goes into your seminar paper, the audit and your responses as its audit element.</p>
+<p><strong>After the session:</strong> no upload for the sheet – with sheet 02 it becomes <strong>Part B</strong> (presented in Exercise U4, upload 18 November); it counts again in Part C and goes into your seminar paper, the audit and your responses as its audit element.</p>
 <p><strong>AI role: tool</strong> while iterating (four-liner per tool run in your protocol); <strong>excluded</strong> in the audit.</p>
 
   

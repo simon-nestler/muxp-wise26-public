@@ -1730,6 +1730,20 @@ strong { color: var(--ink); }
   border-bottom: 0.5pt solid var(--rule);
 }
 
+/* Kästen, Quellenzeile und Textmarker aus der Projektion (Klassen aus
+   build-thi.js): im Skript ruhiger, aber erkennbar dieselben. */
+blockquote.thi-aufloesung,
+blockquote.thi-prompt {
+  margin: 0.8em 0;
+  padding: 0.5em 0.9em;
+  border-left: 3pt solid #fcd430;
+  background: #f5f3ee;
+}
+blockquote.thi-prompt { border-left-color: #3391ff; background: #e2eefc; }
+blockquote:is(.thi-aufloesung, .thi-prompt) p { margin: 0; }
+p.thi-quelle { font-size: 0.85em; color: var(--ink-soft); }
+mark { background: linear-gradient(transparent 55%, #fcd430 55%, #fcd430 92%, transparent 92%); color: inherit; }
+
 </style>
 </head>
 <body data-slide-nums="horizontal"  data-marginalia="margin" data-reader="on">
@@ -1931,7 +1945,7 @@ strong { color: var(--ink); }
   <span class="chunk-num" aria-hidden="true"><i>1</i><i>0</i></span>
   
   <h2 class="chunk-heading">Part B · Sheets 02 and 03 in 15 minutes</h2>
-  <p><strong>The results of sheets 02 and 03 are Part B: 15 minutes in your team with me, uploaded by Fri 20 Nov and presented in your own session of Exercise U4.</strong></p>
+  <p><strong>The results of sheets 02 and 03 are Part B: 15 minutes in your team with me, uploaded by Wed 18 Nov and presented in your own session of Exercise U4.</strong></p>
 <ul>
 <li>From sheet 02, your <strong>severity verdict</strong> with the strain line, and your design question after the fire</li>
 <li>The <strong>fidelity block</strong>: question, rung, justification via the decision rule, blind spot with its later cost</li>

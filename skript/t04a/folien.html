@@ -1730,6 +1730,20 @@ strong { color: var(--ink); }
   border-bottom: 0.5pt solid var(--rule);
 }
 
+/* Kästen, Quellenzeile und Textmarker aus der Projektion (Klassen aus
+   build-thi.js): im Skript ruhiger, aber erkennbar dieselben. */
+blockquote.thi-aufloesung,
+blockquote.thi-prompt {
+  margin: 0.8em 0;
+  padding: 0.5em 0.9em;
+  border-left: 3pt solid #fcd430;
+  background: #f5f3ee;
+}
+blockquote.thi-prompt { border-left-color: #3391ff; background: #e2eefc; }
+blockquote:is(.thi-aufloesung, .thi-prompt) p { margin: 0; }
+p.thi-quelle { font-size: 0.85em; color: var(--ink-soft); }
+mark { background: linear-gradient(transparent 55%, #fcd430 55%, #fcd430 92%, transparent 92%); color: inherit; }
+
 </style>
 <style>.script-only,.annot-box,.annot-add{display:none!important}</style></head>
 <body data-slide-nums="horizontal"  data-marginalia="margin" data-reader="on">
@@ -1901,7 +1915,7 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
 <div class="script-only">
 
 
-<p>Topic 4 of 13, week 4 of 14, and your project starts here. From today on, every one of you owns a design question; Part B presents it with its fidelity decision, in Exercise U4 (upload Friday, 20 November). Behind you: evidence (Topic 01), patterns (Topic 02), severity (Topic 03), the sharpened eye. Ahead: building with the machine (Topic 05), the audit lab (Topic 06, anchor I), the resistance stretch (Topic 07–Topic 10), the Brussels hearing (Topic 11, anchor II). The next exercise, U2, pairs your severity verdict with the fidelity decision; in the same session you present Part A, the results of Exercise U1. Graded parts: Part A in Exercise U2 (upload 23 October) · Part B in Exercise U4 (upload 20 November) · the final presentation, Part C · the seminar paper. What you should already know: the <em>fidelity ladder</em> – sketch, wireframe, click dummy, coded prototype – and the classical trade-off (speed vs. realism) are Bachelor material. <em>Fidelity</em> has dimensions (visual, functional, content, interaction) that can be mixed: a visually rough but functionally deep prototype is a legitimate and often superior combination. A <em>design question</em> is the question a prototype is built to answer; if you cannot state it in one sentence, no artifact can answer it. Any model explains these basics well; the session assumes them.</p>
+<p>Topic 4 of 13, week 4 of 14, and your project starts here. From today on, every one of you owns a design question; Part B presents it with its fidelity decision, in Exercise U4 (upload Wednesday, 18 November). Behind you: evidence (Topic 01), patterns (Topic 02), severity (Topic 03), the sharpened eye. Ahead: building with the machine (Topic 05), the audit lab (Topic 06, anchor I), the resistance stretch (Topic 07–Topic 10), the Brussels hearing (Topic 11, anchor II). The next exercise, U2, pairs your severity verdict with the fidelity decision; in the same session you present Part A, the results of Exercise U1. Graded parts: Part A in Exercise U2 (upload 23 October) · Part B in Exercise U4 (upload 18 November) · the final presentation, Part C · the seminar paper. What you should already know: the <em>fidelity ladder</em> – sketch, wireframe, click dummy, coded prototype – and the classical trade-off (speed vs. realism) are Bachelor material. <em>Fidelity</em> has dimensions (visual, functional, content, interaction) that can be mixed: a visually rough but functionally deep prototype is a legitimate and often superior combination. A <em>design question</em> is the question a prototype is built to answer; if you cannot state it in one sentence, no artifact can answer it. Any model explains these basics well; the session assumes them.</p>
 </div>
   
   
@@ -2584,7 +2598,7 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
 <li>The <strong>chosen rung</strong> of the fidelity ladder</li>
 <li>The <strong>justification</strong> via the decision rule</li>
 <li>The <strong>blind spot</strong>, named, together with what it will cost later</li>
-<li><strong>Part B</strong> presents the results of sheets U2 and U3 in Exercise U4: 15 minutes in your team with me, upload by <strong>Friday, 20 November</strong>, 20 points</li>
+<li><strong>Part B</strong> presents the results of sheets U2 and U3 in Exercise U4: 15 minutes in your team with me, upload by <strong>Wednesday, 18 November</strong>, 20 points</li>
 </ul>
 <div class="script-only">
 
@@ -2847,7 +2861,7 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
   <span class="chunk-num" aria-hidden="true"><i>4</i><i>4</i></span>
   
   <h2 class="chunk-heading">Reserve · Discarded alternatives – a preview</h2>
-  <p><strong>Part B (in Exercise U4, upload 20 November) has a mandatory section: <em>Discarded alternatives</em>.</strong></p>
+  <p><strong>Part B (in Exercise U4, upload 18 November) has a mandatory section: <em>Discarded alternatives</em>.</strong></p>
 <ul>
 <li>A discarded rung with a named reason is exactly such an alternative. <strong>Collect them from today on.</strong></li>
 <li><strong>Cheapest storage:</strong> one line per discard (rung, reason, what it would have cost); the section is later assembled from these lines</li>

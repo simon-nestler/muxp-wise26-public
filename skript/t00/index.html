@@ -1730,6 +1730,20 @@ strong { color: var(--ink); }
   border-bottom: 0.5pt solid var(--rule);
 }
 
+/* Kästen, Quellenzeile und Textmarker aus der Projektion (Klassen aus
+   build-thi.js): im Skript ruhiger, aber erkennbar dieselben. */
+blockquote.thi-aufloesung,
+blockquote.thi-prompt {
+  margin: 0.8em 0;
+  padding: 0.5em 0.9em;
+  border-left: 3pt solid #fcd430;
+  background: #f5f3ee;
+}
+blockquote.thi-prompt { border-left-color: #3391ff; background: #e2eefc; }
+blockquote:is(.thi-aufloesung, .thi-prompt) p { margin: 0; }
+p.thi-quelle { font-size: 0.85em; color: var(--ink-soft); }
+mark { background: linear-gradient(transparent 55%, #fcd430 55%, #fcd430 92%, transparent 92%); color: inherit; }
+
 </style>
 </head>
 <body data-slide-nums="horizontal"  data-marginalia="margin" data-reader="on">
@@ -2073,7 +2087,7 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
 <ol>
 <li><strong>Part A</strong> in Exercise U2 (upload 23 Oct): the results of Exercise U1 – 20 points.</li>
 <li><strong>Design question</strong> from Topic 4, with its fidelity decision on sheet U2.</li>
-<li><strong>Part B</strong> in Exercise U4 (upload 20 Nov): the results of U2 and U3 – 20 points.</li>
+<li><strong>Part B</strong> in Exercise U4 (upload 18 Nov): the results of U2 and U3 – 20 points.</li>
 <li><strong>Part C</strong>: final presentation, the whole track U1–U5 (21 Dec / 11 Jan) – 30 points.</li>
 <li><strong>Seminar paper</strong>, due 15 Jan: all five sheets go into it – 30 points.</li>
 </ol>
@@ -2103,7 +2117,7 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
 <li><strong>Part B</strong> in Exercise U4, 15 minutes and 10 content slides in your team with me: the results of Exercises <strong>U2 and U3</strong> – 20 points</li>
 <li><strong>Part C</strong>, the final presentation, draws on <strong>all of U1–U5</strong>: 15 to 20 minutes and 30 content slides per team in front of the whole exercise group, plus a discussion you moderate – 30 points</li>
 <li>The <strong>seminar paper</strong>, about 5,000 words, takes up <strong>all five sheets</strong> – 30 points, due Friday, 15 January 2027</li>
-<li><strong>Uploads, same Friday for both groups</strong>: 23 October (A) · 20 November (B) · 18 December (C), regardless of your own presentation date</li>
+<li><strong>Uploads, same deadline for both groups</strong>: Fri 23 October (A) · Wed 18 November (B) · Fri 18 December (C), regardless of your own presentation date</li>
 <li><strong>No bonus points</strong>; the exercises build the material A, B and C are made of</li>
 </ul>
 <div class="script-only">
@@ -2114,7 +2128,7 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
 <p>Part C is the public one: fifteen to twenty minutes per team in front of the whole exercise group, plus the discussion you moderate — together about the thirty minutes the module handbook describes. Thirty content slides, again without title slide, outline and closing slide. Thirty points. Here the whole exercise track counts, U1 to U5.</p>
 <p>The seminar paper carries thirty points and documents the decisions behind what you presented. All five exercise sheets go into it. It is due on Friday, 15 January 2027.</p>
 <p>How each part is graded is on one sheet in Moodle, the assessment criteria: every part has three categories – for A, B and C content, presentation and discussion – and each category has three guiding questions. Those are exactly the questions I ask myself while grading, so use them while you prepare.</p>
-<p>There is no bonus this term. The exercises still matter – they are where A, B and C get built – but they are not compensated separately. And one fairness rule, for all three parts: both groups upload their materials by the same Friday – 23 October for A, 20 November for B, 18 December for C – no matter which group presents first. Nobody gets to adjust after watching the other.</p>
+<p>There is no bonus this term. The exercises still matter – they are where A, B and C get built – but they are not compensated separately. And one fairness rule, for all three parts: both groups upload their materials by the same deadline – Friday 23 October for A, Wednesday 18 November for B, Friday 18 December for C – no matter which group presents first. Nobody gets to adjust after watching the other.</p>
 </div>
   
   
@@ -2300,7 +2314,7 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
 <ul>
 <li><strong>Slides and script</strong> for each topic, online before the session</li>
 <li>The <strong>exercise sheets</strong> for U1–U5</li>
-<li>All <strong>upload deadlines</strong>: 23 Oct (A), 20 Nov (B), 18 Dec (C) and 15 Jan (seminar paper)</li>
+<li>All <strong>upload deadlines</strong>: 23 Oct (A), 18 Nov (B), 18 Dec (C) and 15 Jan (seminar paper)</li>
 <li>The <strong>forum</strong> for organizational questions, so every answer reaches everyone</li>
 <li>The <strong>Padlet link</strong> of each topic, where the bridge tasks land – voluntary, never a submission</li>
 <li><strong>Enrolment key: MUXP##WS26</strong> – please enrol this week, everything else follows from it</li>

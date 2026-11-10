@@ -1730,6 +1730,20 @@ strong { color: var(--ink); }
   border-bottom: 0.5pt solid var(--rule);
 }
 
+/* Kästen, Quellenzeile und Textmarker aus der Projektion (Klassen aus
+   build-thi.js): im Skript ruhiger, aber erkennbar dieselben. */
+blockquote.thi-aufloesung,
+blockquote.thi-prompt {
+  margin: 0.8em 0;
+  padding: 0.5em 0.9em;
+  border-left: 3pt solid #fcd430;
+  background: #f5f3ee;
+}
+blockquote.thi-prompt { border-left-color: #3391ff; background: #e2eefc; }
+blockquote:is(.thi-aufloesung, .thi-prompt) p { margin: 0; }
+p.thi-quelle { font-size: 0.85em; color: var(--ink-soft); }
+mark { background: linear-gradient(transparent 55%, #fcd430 55%, #fcd430 92%, transparent 92%); color: inherit; }
+
 </style>
 <style>.script-only,.annot-box,.annot-add{display:none!important}</style></head>
 <body data-slide-nums="horizontal"  data-marginalia="margin" data-reader="on">
@@ -1899,7 +1913,7 @@ text { font-family: Inter, "Neue Haas Unica", Helvetica, Arial, sans-serif; fill
 <div class="script-only">
 
 
-<p>Week 7 of 14 · Topic 7 of 13 – the resistance stretch opens. Back to the lecture rhythm after the Topic 06 workshop. Today friction shows up twice: as expense and as care. Topics 7 to 10 share one construction: each puts a force that works against your project in front of you – friction, attention, the dead zone, manipulation. Bloom 3–6 for learning objective 3, with a preview of LO 9. First you hunt groundless friction in one real checkout, then your group sketches a checkout that harms its customers without a single extra tap. Next exercise: U4 after Topic 8 takes friction and notifications into your own prototype. Next graded part on the map: Part B in Exercise U4 (upload Friday, 20 November), the results of Exercises U2 and U3, with the discarded alternatives from your iteration protocol.</p>
+<p>Week 7 of 14 · Topic 7 of 13 – the resistance stretch opens. Back to the lecture rhythm after the Topic 06 workshop. Today friction shows up twice: as expense and as care. Topics 7 to 10 share one construction: each puts a force that works against your project in front of you – friction, attention, the dead zone, manipulation. Bloom 3–6 for learning objective 3, with a preview of LO 9. First you hunt groundless friction in one real checkout, then your group sketches a checkout that harms its customers without a single extra tap. Next exercise: U4 after Topic 8 takes friction and notifications into your own prototype. Next graded part on the map: Part B in Exercise U4 (upload Wednesday, 18 November), the results of Exercises U2 and U3, with the discarded alternatives from your iteration protocol.</p>
 <p>What you should already know. <em>Conversion funnels</em> and <em>drop-off</em>: each step in a flow loses a fraction of users; small per-step losses compound. The <em>checkout</em> and <em>form</em> pattern families from Topic 2 (every field is a question; questions cost). The <em>DMA context</em> of the Epic case: the EU&#39;s Digital Markets Act forced alternative app stores onto iOS; Apple&#39;s original install flow for them was multi-step and warning-heavy; the 2025 simplification is the natural experiment. <em>Cooling-off</em> and <em>undo</em> as interaction concepts. A model explains all of this well; the session assumes it.</p>
 </div>
   
