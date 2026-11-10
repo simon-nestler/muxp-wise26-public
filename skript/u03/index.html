@@ -1701,6 +1701,50 @@ code:not(pre code):not(.chunk-heading code) { font-size: 0.885em; }
 </style>
 
 
+<style id="thi-theme">
+/* THI-TMI-Theme für die Druckansichten (Skript und Skript mit Notizen).
+   Markenrichtlinie Juni 2026: Neue Haas Unica / Inter, Dunkelblau #031121,
+   keine Kursiven, Links in Blau (#1A2F6E, 12,5:1 auf Weiß). */
+
+:root {
+  --ink: #031121;
+  --ink-soft: #5a6472;
+  --paper: #ffffff;
+  --rule: #c7cdd4;
+  --emph: #031121;
+  --serif: 'Neue Haas Unica', 'Neue Haas Unica W1G', 'Inter', 'Inter Tight', system-ui, sans-serif;
+  --sans: 'Neue Haas Unica', 'Neue Haas Unica W1G', 'Inter', 'Inter Tight', system-ui, sans-serif;
+}
+
+html { background: #ffffff; }
+
+em, i { font-style: normal; font-weight: 500; }
+
+a { color: #1a2f6e; text-decoration-color: #3391ff; }
+
+strong { color: var(--ink); }
+
+/* Spaltenüberschriften tragen die THI-Marke statt der schwarzen Linie. */
+.column-heading {
+  border-top: 4px solid #fcd430;
+  border-bottom: 0.5pt solid var(--rule);
+}
+
+/* Kästen, Quellenzeile und Textmarker aus der Projektion (Klassen aus
+   build-thi.js): im Skript ruhiger, aber erkennbar dieselben. */
+blockquote.thi-aufloesung,
+blockquote.thi-prompt {
+  margin: 0.8em 0;
+  padding: 0.5em 0.9em;
+  border-left: 3pt solid #fcd430;
+  background: #f5f3ee;
+}
+blockquote.thi-prompt { border-left-color: #3391ff; background: #e2eefc; }
+blockquote:is(.thi-aufloesung, .thi-prompt) p { margin: 0; }
+p.thi-quelle { font-size: 0.85em; color: var(--ink-soft); }
+mark { background: linear-gradient(transparent 55%, #fcd430 55%, #fcd430 92%, transparent 92%); color: inherit; }
+
+</style>
 </head>
 <body data-slide-nums="horizontal"  data-marginalia="margin" data-reader="on">
 <button type="button" class="rd-toggle" aria-controls="psiINT-reader-contents" aria-expanded="false" hidden>Contents</button>
@@ -1719,7 +1763,7 @@ code:not(pre code):not(.chunk-heading code) { font-size: 0.885em; }
 <article class="chunk chunk-title" data-cover="classic" data-chunk-num="1" id="title">
   
   <span class="chunk-num" aria-hidden="true"><i>1</i></span>
-  <h1 class="title-main">Exercise 3 · Building and auditing</h1>
+  <div class="thi-etappe">U03 · Exercise</div><h1 class="title-main">Exercise 3 · Building and auditing</h1>
     
     
     <p class="title-presenter">Prof. Dr. Simon Nestler</p>
